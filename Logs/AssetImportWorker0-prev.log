@@ -1,0 +1,1053 @@
+Using pre-set license
+Built from '2020.2/release' branch; Version is '2020.2.2f1 (068178b99f32) revision 426360'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 19042.867; Version 2009; 64bit' Language: 'en' Physical Memory: 65467 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\2020.2.2f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/_Unity/Yacht-VR
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+64593
+Successfully changed project path to: C:/_Unity/Yacht-VR
+C:/_Unity/Yacht-VR
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 76.49 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.63 ms.
+Initialize engine version: 2020.2.2f1 (068178b99f32)
+[Subsystems] Discovering subsystems at path C:/Program Files/2020.2.2f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/_Unity/Yacht-VR/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2080 Ti (ID=0x1e07)
+    Vendor:   
+    VRAM:     11048 MB
+    Driver:   27.21.14.5671
+Initialize mono
+Mono path[0] = 'C:/Program Files/2020.2.2f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/2020.2.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/2020.2.2f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56136
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/2020.2.2f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/2020.2.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001525 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 71.61 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.277 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.002994 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 77.13 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.09 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+[XR] OculusXRPlugin: registering subsystems
+[XR] Unable to register display lifecyle provider: [1]
+[XR] Oculus Input lifecycle provider registered.
+[XR] Unable to register input lifecyle provider: [1]
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\_Unity\Yacht-VR\Library\PackageCache\com.unity.xr.oculus@1.6.1\Runtime\OculusLoader.cs:242 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\_Unity\Yacht-VR\Library\PackageCache\com.unity.xr.oculus@1.6.1\Runtime\OculusLoader.cs:227 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.6.1/Runtime/OculusLoader.cs Line: 242)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.158 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.74 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.09 ms.
+Unloading 4225 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 196.4 MB.
+System memory in use after: 193.9 MB.
+
+Unloading 53 unused Assets to reduce memory usage. Loaded Objects now: 4649.
+Total: 4.194500 ms (FindLiveObjects: 0.354000 ms CreateObjectMapping: 0.185500 ms MarkObjects: 1.950900 ms  DeleteObjects: 1.702800 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Photon/PhotonUnityNetworking/Resources/PhotonServerSettings.asset
+  artifactKey: Guid(f2b18edacc3e42a4c85d254e5dc243d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonUnityNetworking/Resources/PhotonServerSettings.asset using Guid(f2b18edacc3e42a4c85d254e5dc243d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ecc60b79b77380195ac909aa0aa3d03') in 0.023510 seconds
+  Import took 0.028894 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 69.700202 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Resources/PhotonServerSettings.asset
+  artifactKey: Guid(f2b18edacc3e42a4c85d254e5dc243d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonUnityNetworking/Resources/PhotonServerSettings.asset using Guid(f2b18edacc3e42a4c85d254e5dc243d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '679428ac3dd4a3f465633fa5cee11624') in 0.005503 seconds
+  Import took 0.011388 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004031 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.98 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+[ScriptCompilation] NOT recompiling all scripts because this is an import worker process. Reason to compile was: Define symbols changed
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\_Unity\Yacht-VR\Library\PackageCache\com.unity.xr.oculus@1.6.1\Runtime\OculusLoader.cs:242 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\_Unity\Yacht-VR\Library\PackageCache\com.unity.xr.oculus@1.6.1\Runtime\OculusLoader.cs:227 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.6.1/Runtime/OculusLoader.cs Line: 242)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.937 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.98 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+Unloading 4122 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 191.3 MB.
+System memory in use after: 188.7 MB.
+
+Unloading 74 unused Assets to reduce memory usage. Loaded Objects now: 4781.
+Total: 4.613500 ms (FindLiveObjects: 0.381100 ms CreateObjectMapping: 0.245700 ms MarkObjects: 2.107600 ms  DeleteObjects: 1.877600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 698.193255 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Resources/PhotonServerSettings.asset
+  artifactKey: Guid(f2b18edacc3e42a4c85d254e5dc243d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonUnityNetworking/Resources/PhotonServerSettings.asset using Guid(f2b18edacc3e42a4c85d254e5dc243d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcd96a52b245bf2303e7dd2f3d4c4cb5') in 0.020504 seconds
+  Import took 0.028019 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004005 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.02 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\_Unity\Yacht-VR\Library\PackageCache\com.unity.xr.oculus@1.6.1\Runtime\OculusLoader.cs:242 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\_Unity\Yacht-VR\Library\PackageCache\com.unity.xr.oculus@1.6.1\Runtime\OculusLoader.cs:227 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.6.1/Runtime/OculusLoader.cs Line: 242)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.929 seconds
+Platform modules already initialized, skipping
+Shader 'TextMeshPro/Distance Field Overlay': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+Refreshing native plugins compatible for Editor in 1.00 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+Unloading 4174 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 194.0 MB.
+System memory in use after: 191.0 MB.
+
+Unloading 85 unused Assets to reduce memory usage. Loaded Objects now: 4825.
+Total: 4.843500 ms (FindLiveObjects: 0.411600 ms CreateObjectMapping: 0.239100 ms MarkObjects: 2.087200 ms  DeleteObjects: 2.104900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 133.369950 seconds.
+  path: Assets/IRONHEAD Games/Scenes
+  artifactKey: Guid(d2f161c53dbdbbd46997eba0a0da121c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Scenes using Guid(d2f161c53dbdbbd46997eba0a0da121c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fee5cf21ab9f6c44df07660e2f8f1aa') in 0.024115 seconds
+  Import took 0.036786 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.816780 seconds.
+  path: Assets/IRONHEAD Games/Scenes/LoginScene.unity
+  artifactKey: Guid(b3049d4882a276f4dbae81c84962e9ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Scenes/LoginScene.unity using Guid(b3049d4882a276f4dbae81c84962e9ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25ba0f870cb72ea02ae52dcb7bddaa61') in 0.011230 seconds
+  Import took 0.017118 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 44.328565 seconds.
+  path: Assets/Scenes/HomeScene.unity
+  artifactKey: Guid(66249e54836b48a42acadcc57da3e448) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/HomeScene.unity using Guid(66249e54836b48a42acadcc57da3e448) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d7a58e046db26a7f681a7c92a785751') in 0.006330 seconds
+  Import took 0.012962 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003848 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.02 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\_Unity\Yacht-VR\Library\PackageCache\com.unity.xr.oculus@1.6.1\Runtime\OculusLoader.cs:242 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\_Unity\Yacht-VR\Library\PackageCache\com.unity.xr.oculus@1.6.1\Runtime\OculusLoader.cs:227 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.6.1/Runtime/OculusLoader.cs Line: 242)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.911 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.12 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+Unloading 4174 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 194.1 MB.
+System memory in use after: 191.0 MB.
+
+Unloading 85 unused Assets to reduce memory usage. Loaded Objects now: 4828.
+Total: 4.936900 ms (FindLiveObjects: 0.373600 ms CreateObjectMapping: 0.218300 ms MarkObjects: 2.174300 ms  DeleteObjects: 2.170200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 270.004119 seconds.
+  path: Assets/Photon/PhotonVoice/Demos/DemoVoiceUI/Media/barsHorizontal.png
+  artifactKey: Guid(055458b32c82031478126740cfeff8b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonVoice/Demos/DemoVoiceUI/Media/barsHorizontal.png using Guid(055458b32c82031478126740cfeff8b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f34298e4596a587753047ce00da9a457') in 0.094301 seconds
+  Import took 0.101333 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/IRONHEAD Games/UI/Button/But1.jpg
+  artifactKey: Guid(a9cbef4414d81a4468b7218cb6b37653) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/UI/Button/But1.jpg using Guid(a9cbef4414d81a4468b7218cb6b37653) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4dd03ba86b03293d0680ba926f2e2ae7') in 0.020674 seconds
+  Import took 0.026602 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/IRONHEAD Games/UI/Panel/SocialUI-21.jpg
+  artifactKey: Guid(546b9fced6fff9443880acccc70a1348) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/UI/Panel/SocialUI-21.jpg using Guid(546b9fced6fff9443880acccc70a1348) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e00ac67b7daf31e4ab135a79ca0fdf22') in 0.043139 seconds
+  Import took 0.050083 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000146 seconds.
+  path: Assets/IRONHEAD Games/UI/Button/But1.jpg
+  artifactKey: Guid(a9cbef4414d81a4468b7218cb6b37653) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/UI/Button/But1.jpg using Guid(a9cbef4414d81a4468b7218cb6b37653) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4dd03ba86b03293d0680ba926f2e2ae7') in 0.024171 seconds
+  Import took 0.030832 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/IRONHEAD Games/UI/Button/ButBlu3.jpg
+  artifactKey: Guid(a247b75ce9bb94242a79e15fc113ff4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/UI/Button/ButBlu3.jpg using Guid(a247b75ce9bb94242a79e15fc113ff4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e388006bca6157aca510491f6f8915c') in 0.018329 seconds
+  Import took 0.026469 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Standard Assets/CrossPlatformInput/Sprites/ButtonThumbstickOverSprite.png
+  artifactKey: Guid(5485e2f56028a3c4cb54f5caa167377e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Standard Assets/CrossPlatformInput/Sprites/ButtonThumbstickOverSprite.png using Guid(5485e2f56028a3c4cb54f5caa167377e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73ab00c2ae600a2e1906421b6a84277f') in 0.015378 seconds
+  Import took 0.021413 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Icons/PunIconApp512.png
+  artifactKey: Guid(7377013011b4c3348809ff574abe799e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonUnityNetworking/Icons/PunIconApp512.png using Guid(7377013011b4c3348809ff574abe799e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c530e4b8bd96d7ad57b5b23eedbe1d0a') in 0.017126 seconds
+  Import took 0.022767 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Icons/PunIconApp32.png
+  artifactKey: Guid(436c5e63723127948af8857e903f658a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonUnityNetworking/Icons/PunIconApp32.png using Guid(436c5e63723127948af8857e903f658a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f47d7c0fe6ce100b2acc3f51b1b6dcb') in 0.016812 seconds
+  Import took 0.022770 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000133 seconds.
+  path: Assets/IRONHEAD Games/UI/Button/ButGre1.jpg
+  artifactKey: Guid(e92e6ab008b0cf644a423909ba469e95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/UI/Button/ButGre1.jpg using Guid(e92e6ab008b0cf644a423909ba469e95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24a816803ba7f886265c1f4e876189ed') in 0.013170 seconds
+  Import took 0.018504 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Icons/PunIconApp48.png
+  artifactKey: Guid(44ebd8e6f42cae445ab4b22f0a9b48a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonUnityNetworking/Icons/PunIconApp48.png using Guid(44ebd8e6f42cae445ab4b22f0a9b48a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d1244ccc4ee4ba862893ca8839a9bf8') in 0.013563 seconds
+  Import took 0.018820 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/IRONHEAD Games/UI/Panel/SocialUI-20.jpg
+  artifactKey: Guid(827367fe771257544892d9ca211f0468) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/UI/Panel/SocialUI-20.jpg using Guid(827367fe771257544892d9ca211f0468) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4f66b80eede2e69acbd547c685910f4') in 0.013457 seconds
+  Import took 0.018780 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/IRONHEAD Games/Textures/SchoolPicture.png
+  artifactKey: Guid(18ee31a95265bf3409bf97a779be8798) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Textures/SchoolPicture.png using Guid(18ee31a95265bf3409bf97a779be8798) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '751388814ae0cb308fdc9e504ab0e523') in 0.018581 seconds
+  Import took 0.024102 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/IRONHEAD Games/UI/Button/ButOr1.jpg
+  artifactKey: Guid(f9192b56fc10a6148b3ad24a6fc9d53d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/UI/Button/ButOr1.jpg using Guid(f9192b56fc10a6148b3ad24a6fc9d53d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c1755fe6fd510eb10a17c2f9d156491') in 0.017296 seconds
+  Import took 0.023076 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Demos/DemoHub/Sprites/PunIcon-White-129.png
+  artifactKey: Guid(56bbc6b42271d4177ac313247f47ac1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonUnityNetworking/Demos/DemoHub/Sprites/PunIcon-White-129.png using Guid(56bbc6b42271d4177ac313247f47ac1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a317e342449bed1880933d7bf3df898') in 0.017210 seconds
+  Import took 0.023004 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/IRONHEAD Games/UI/Button/ButOr2.jpg
+  artifactKey: Guid(dd4217f4ecda8ad4e902e47bdf9fd046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/UI/Button/ButOr2.jpg using Guid(dd4217f4ecda8ad4e902e47bdf9fd046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7e1f1622f4568d71bf4e571d9bfd4cb') in 0.016027 seconds
+  Import took 0.021749 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Demos/Shared Assets/Skin/DropDown CheckMark.png
+  artifactKey: Guid(fd47c8b4ebfbd4339858d4d23f587519) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonUnityNetworking/Demos/Shared Assets/Skin/DropDown CheckMark.png using Guid(fd47c8b4ebfbd4339858d4d23f587519) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '580e05b33e1dddef1eb4b58d93ecb704') in 0.014888 seconds
+  Import took 0.021368 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/IRONHEAD Games/Textures/OutdoorPicture.png
+  artifactKey: Guid(a8d09946967808d408d9638ba9b59526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Textures/OutdoorPicture.png using Guid(a8d09946967808d408d9638ba9b59526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d3a6a117efa689e4c55d6310f042cf4') in 0.018636 seconds
+  Import took 0.024376 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/Photon/PhotonVoice/Demos/DemoVoiceUI/Media/gizmo-speech-bubble.png
+  artifactKey: Guid(58086affa71851c4b81d7fba4c08e0b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonVoice/Demos/DemoVoiceUI/Media/gizmo-speech-bubble.png using Guid(58086affa71851c4b81d7fba4c08e0b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '412d4ad39ac26f235ba4def95cdbad7c') in 0.014568 seconds
+  Import took 0.019747 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/IRONHEAD Games/UI/Button/ButOr3.jpg
+  artifactKey: Guid(554f6193e6e237d4ab6f6738d629a3f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/UI/Button/ButOr3.jpg using Guid(554f6193e6e237d4ab6f6738d629a3f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7da2ecfadc9e8aae91cf2a01c17d8798') in 0.014771 seconds
+  Import took 0.020310 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/Photon/PhotonVoice/Demos/DemoVoiceUI/Media/barsHorizontal.png
+  artifactKey: Guid(055458b32c82031478126740cfeff8b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonVoice/Demos/DemoVoiceUI/Media/barsHorizontal.png using Guid(055458b32c82031478126740cfeff8b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f34298e4596a587753047ce00da9a457') in 0.006808 seconds
+  Import took 0.012495 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Icons/PunIcon-128.png
+  artifactKey: Guid(bd293dc32f4aaf94e8274f2fac2cdf89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonUnityNetworking/Icons/PunIcon-128.png using Guid(bd293dc32f4aaf94e8274f2fac2cdf89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a20490ba334194598181ad1be4885df8') in 0.016625 seconds
+  Import took 0.022315 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Demos/DemoHub/Sprites/Gradient.png
+  artifactKey: Guid(66efb24ed46044ab8a039599cbc47d7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonUnityNetworking/Demos/DemoHub/Sprites/Gradient.png using Guid(66efb24ed46044ab8a039599cbc47d7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a7f985816bd02a38907763afb8b3748') in 0.014806 seconds
+  Import took 0.020700 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/IRONHEAD Games/UI/Panel/SocialUI-19.jpg
+  artifactKey: Guid(dd78dc93efe70b842a23c6e5286cdc73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/UI/Panel/SocialUI-19.jpg using Guid(dd78dc93efe70b842a23c6e5286cdc73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b223086d99c3f83cafe88388aedfe43b') in 0.013946 seconds
+  Import took 0.019641 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Textures/gizmo-speaker.png
+  artifactKey: Guid(c47e398a757a26944afdfef9c300a9e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Textures/gizmo-speaker.png using Guid(c47e398a757a26944afdfef9c300a9e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '890eeeb3e521640d4744a62b9d12f1ea') in 0.013987 seconds
+  Import took 0.019445 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Standard Assets/CrossPlatformInput/Sprites/TouchpadSprite.png
+  artifactKey: Guid(e4f1fee3de32377429fd1348fae62b10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Standard Assets/CrossPlatformInput/Sprites/TouchpadSprite.png using Guid(e4f1fee3de32377429fd1348fae62b10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '316ace0a67f324006a03d913de746e13') in 0.013652 seconds
+  Import took 0.019587 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/IRONHEAD Games/Textures/NextPreviousButtonTexture.jpeg
+  artifactKey: Guid(d51c32228cb5ab641947f38e017abb5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Textures/NextPreviousButtonTexture.jpeg using Guid(d51c32228cb5ab641947f38e017abb5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a675026ed130ce506e8e655c9b5df10') in 0.017771 seconds
+  Import took 0.023688 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/IRONHEAD Games/UI/Button/ButWhi3.jpg
+  artifactKey: Guid(adc8494ba27ae26418307ad28cd38ecf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/UI/Button/ButWhi3.jpg using Guid(adc8494ba27ae26418307ad28cd38ecf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '005b310d30329392de574c0633da750a') in 0.013641 seconds
+  Import took 0.019168 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Demos/DemoHub/Sprites/toHub.png
+  artifactKey: Guid(9587663c4d27e47b19a118aabaac4a08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonUnityNetworking/Demos/DemoHub/Sprites/toHub.png using Guid(9587663c4d27e47b19a118aabaac4a08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '075b5384ac155d966eafc58e60928c5a') in 0.013952 seconds
+  Import took 0.019919 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000135 seconds.
+  path: Assets/Photon/PhotonVoice/Demos/DemoVoiceUI/Media/Gradient.png
+  artifactKey: Guid(6c4246dd80904b747bd0f2b32a4b5bef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonVoice/Demos/DemoVoiceUI/Media/Gradient.png using Guid(6c4246dd80904b747bd0f2b32a4b5bef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbd060d97831138ccfe2b9cc57dcabb0') in 0.015368 seconds
+  Import took 0.020927 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Icons/PunIconApp128.png
+  artifactKey: Guid(f00feafcf0675cd47a48f83ae42b06d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonUnityNetworking/Icons/PunIconApp128.png using Guid(f00feafcf0675cd47a48f83ae42b06d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e032917de65048c3f98a87d24221085') in 0.024760 seconds
+  Import took 0.030736 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/IRONHEAD Games/UI/Button/ButGre2.jpg
+  artifactKey: Guid(9eb626e4030748d40a542a9142747d65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/UI/Button/ButGre2.jpg using Guid(9eb626e4030748d40a542a9142747d65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64422d152e0f0ff426e897678bfe7c42') in 0.016432 seconds
+  Import took 0.022298 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Textures/gizmo-speech-bubble.png
+  artifactKey: Guid(7f03ad306684b814691c894ce28dc105) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Textures/gizmo-speech-bubble.png using Guid(7f03ad306684b814691c894ce28dc105) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bef898a5ffa2637bd3d808022e629e6d') in 0.010270 seconds
+  Import took 0.015991 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/IRONHEAD Games/UI/Button/ButGre3.jpg
+  artifactKey: Guid(70838252fdedf9e46bb3857eb386de84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/UI/Button/ButGre3.jpg using Guid(70838252fdedf9e46bb3857eb386de84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '222e4287e42645e4eb15ec8ae1c87c59') in 0.017434 seconds
+  Import took 0.023573 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/Photon/PhotonVoice/Demos/DemoVoiceUI/Media/gizmo-microphone.png
+  artifactKey: Guid(464883c791528804496b8c8ef7126e52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonVoice/Demos/DemoVoiceUI/Media/gizmo-microphone.png using Guid(464883c791528804496b8c8ef7126e52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30cfd7cd83a98a7f4a4767929bf4945d') in 0.014365 seconds
+  Import took 0.020568 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Demos/DemoHub/Sprites/OutlinedSquaredBox.png
+  artifactKey: Guid(c222cd02c447941edb09ecb6433229ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonUnityNetworking/Demos/DemoHub/Sprites/OutlinedSquaredBox.png using Guid(c222cd02c447941edb09ecb6433229ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce31e64071385cbcd8b32dc6eea6b56d') in 0.012541 seconds
+  Import took 0.017963 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/IRONHEAD Games/UI/Panel/SocialUI-18.jpg
+  artifactKey: Guid(bf9c3ee644ec04a499cd70a5834b155e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/UI/Panel/SocialUI-18.jpg using Guid(bf9c3ee644ec04a499cd70a5834b155e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b0a0ee57286861c689943d30ebcc573') in 0.014185 seconds
+  Import took 0.019918 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/IRONHEAD Games/Textures/PlatformButtonAlbedo.png
+  artifactKey: Guid(e4585e5651ccbfd49b5f971440bda3e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Textures/PlatformButtonAlbedo.png using Guid(e4585e5651ccbfd49b5f971440bda3e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83b87bbf967e45ccbcf89860cbd129f1') in 0.012874 seconds
+  Import took 0.018487 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Standard Assets/CrossPlatformInput/Sprites/ButtonThumbstickUpSprite.png
+  artifactKey: Guid(9866a92691696b346901281f2b329034) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Standard Assets/CrossPlatformInput/Sprites/ButtonThumbstickUpSprite.png using Guid(9866a92691696b346901281f2b329034) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4425ac0bf285f04b27d4241bab02825e') in 0.013631 seconds
+  Import took 0.019137 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/IRONHEAD Games/UI/Button/But2.jpg
+  artifactKey: Guid(1d72ad9d9f1a3cb42bf7be52d2dcb1df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/UI/Button/But2.jpg using Guid(1d72ad9d9f1a3cb42bf7be52d2dcb1df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfb727408dc876f5475ddeb908977161') in 0.015079 seconds
+  Import took 0.020507 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/IRONHEAD Games/Textures/MicImage.jpeg
+  artifactKey: Guid(3b696d42e955a1b4f828949711e4bb66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Textures/MicImage.jpeg using Guid(3b696d42e955a1b4f828949711e4bb66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b7821289df68bbb8bd564d14933f864') in 0.030569 seconds
+  Import took 0.035677 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/IRONHEAD Games/UI/Panel/SocialUI-22.jpg
+  artifactKey: Guid(1c8381af29b799041baa90def2abfd6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/UI/Panel/SocialUI-22.jpg using Guid(1c8381af29b799041baa90def2abfd6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c3eddbaf74b9ed6b8d39c529eb4e064') in 0.016919 seconds
+  Import took 0.022280 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000303 seconds.
+  path: Assets/Photon/PhotonVoice/Demos/DemoVoiceUI/Media/gizmo-microphone-off.png
+  artifactKey: Guid(89c869f76d8c0474a8da08e71510f0f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonVoice/Demos/DemoVoiceUI/Media/gizmo-microphone-off.png using Guid(89c869f76d8c0474a8da08e71510f0f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db86c647f5dcc0e0f21bc6e31bd60d49') in 0.012802 seconds
+  Import took 0.018605 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/Photon/PhotonVoice/Demos/DemoVoiceUI/Media/gizmo-speaker.png
+  artifactKey: Guid(78b736601df34e145b113200f637e37f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonVoice/Demos/DemoVoiceUI/Media/gizmo-speaker.png using Guid(78b736601df34e145b113200f637e37f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1365cacea36f89da92307c62c268a95') in 0.010531 seconds
+  Import took 0.016149 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/IRONHEAD Games/UI/Panel/SocialUI-23.jpg
+  artifactKey: Guid(d3560b1117bbb6748b0bdfa6e6618bef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/UI/Panel/SocialUI-23.jpg using Guid(d3560b1117bbb6748b0bdfa6e6618bef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93c4493b73734dfeedd8840bc1403d8b') in 0.017424 seconds
+  Import took 0.023191 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Textures/UIPanel.png
+  artifactKey: Guid(a5a780e4a881ea44f88afed421a63c3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Textures/UIPanel.png using Guid(a5a780e4a881ea44f88afed421a63c3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e8944dbd3f4c07a873b573b4af63481') in 0.017146 seconds
+  Import took 0.022652 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/IRONHEAD Games/Textures/SpeakerImage.jpeg
+  artifactKey: Guid(44fdbdb5cac82b04f90e16085675ef7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Textures/SpeakerImage.jpeg using Guid(44fdbdb5cac82b04f90e16085675ef7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afde41914b4467a133c602c40c96ce07') in 0.013486 seconds
+  Import took 0.019548 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/IRONHEAD Games/UI/Button/ButWhi2.jpg
+  artifactKey: Guid(5d1e8d8186be72647bc4494be3bc2280) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/UI/Button/ButWhi2.jpg using Guid(5d1e8d8186be72647bc4494be3bc2280) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '721549d7c04ab80670648c2c5fcf7d8d') in 0.016615 seconds
+  Import took 0.022409 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/IRONHEAD Games/UI/Button/ButWhi1.jpg
+  artifactKey: Guid(823a9880e21b10545ac7b16d82c2007e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/UI/Button/ButWhi1.jpg using Guid(823a9880e21b10545ac7b16d82c2007e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '729edb58f4f9149266bf5c0fda58a128') in 0.013229 seconds
+  Import took 0.018777 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Demos/Shared Assets/Skin/DropDown Arrow.png
+  artifactKey: Guid(936345f7fc3934efa8119a8700d904c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonUnityNetworking/Demos/Shared Assets/Skin/DropDown Arrow.png using Guid(936345f7fc3934efa8119a8700d904c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '007b9dc9648aa18aa02e19c74d186e10') in 0.013754 seconds
+  Import took 0.019309 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.014975 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Demos/Shared Assets/Skin/DropDown Arrow.png
+  artifactKey: Guid(936345f7fc3934efa8119a8700d904c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonUnityNetworking/Demos/Shared Assets/Skin/DropDown Arrow.png using Guid(936345f7fc3934efa8119a8700d904c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '007b9dc9648aa18aa02e19c74d186e10') in 0.006429 seconds
+  Import took 0.012264 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1530.004647 seconds.
+  path: Assets/IRONHEAD Games/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF - Drop Shadow.mat
+  artifactKey: Guid(f2dcf029949142e28b974630369c8b4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF - Drop Shadow.mat using Guid(f2dcf029949142e28b974630369c8b4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbf87c4b2aa7571f742ab3b833825204') in 0.594256 seconds
+  Import took 0.605379 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/IRONHEAD Games/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/LiberationSans SDF - Overlay.mat
+  artifactKey: Guid(9ad269c99dcf42b7aedefd83dd5a7b9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/LiberationSans SDF - Overlay.mat using Guid(9ad269c99dcf42b7aedefd83dd5a7b9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d616712982b2d9cc5c08a4e862ffea3') in 0.046083 seconds
+  Import took 0.053337 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/IRONHEAD Games/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF.asset
+  artifactKey: Guid(125cb55b44b24c4393181402bc6200e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF.asset using Guid(125cb55b44b24c4393181402bc6200e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bf7179462524f818c391096be267143') in 0.062608 seconds
+  Import took 0.071446 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/IRONHEAD Games/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF Glow.mat
+  artifactKey: Guid(d75b8f41e959450c84ac6e967084d3e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF Glow.mat using Guid(d75b8f41e959450c84ac6e967084d3e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16e54cf11c2c6c0672e851c5a8dd2b64') in 0.104875 seconds
+  Import took 0.113655 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/IRONHEAD Games/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Roboto-Bold SDF.asset
+  artifactKey: Guid(5302535af1044152a457ed104f1f4b91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Roboto-Bold SDF.asset using Guid(5302535af1044152a457ed104f1f4b91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27915521059f2cc4db61ce97eff2f57b') in 0.044527 seconds
+  Import took 0.051620 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/IRONHEAD Games/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Roboto-Bold SDF - Surface.mat
+  artifactKey: Guid(e6b276ec991f467aa14ef1f3cc665993) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Roboto-Bold SDF - Surface.mat using Guid(e6b276ec991f467aa14ef1f3cc665993) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eff844e58e7db7b39deb71ba4ccbc6c5') in 0.040165 seconds
+  Import took 0.048131 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/IRONHEAD Games/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Electronic Highway Sign SDF.asset
+  artifactKey: Guid(dc36b3fdc14f47ebb36fd484a67e268a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Electronic Highway Sign SDF.asset using Guid(dc36b3fdc14f47ebb36fd484a67e268a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a19011c83992b5b71f544e4ac2583c1a') in 0.043684 seconds
+  Import took 0.051328 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/IRONHEAD Games/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Roboto-Bold SDF - Drop Shadow.mat
+  artifactKey: Guid(b246c4190f4e46ec9352fe15a7b09ce0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Roboto-Bold SDF - Drop Shadow.mat using Guid(b246c4190f4e46ec9352fe15a7b09ce0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbb142efcbb16a864b18a028e25c4d40') in 0.038841 seconds
+  Import took 0.045848 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/IRONHEAD Games/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF - Outline.mat
+  artifactKey: Guid(f629c6e43dba4bf38cb74d8860150664) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF - Outline.mat using Guid(f629c6e43dba4bf38cb74d8860150664) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5a4fb2a29af3694355ae6dd83f6fe34') in 0.084866 seconds
+  Import took 0.092094 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/IRONHEAD Games/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF Logo.mat
+  artifactKey: Guid(f4e195ac1e204eff960149d1cb34e18c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF Logo.mat using Guid(f4e195ac1e204eff960149d1cb34e18c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d87e67d42b3e8de04845e3cd735476f') in 0.037560 seconds
+  Import took 0.044291 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/IRONHEAD Games/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Oswald Bold SDF.asset
+  artifactKey: Guid(0161d805a3764c089bef00bfe00793f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Oswald Bold SDF.asset using Guid(0161d805a3764c089bef00bfe00793f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '728a74260ac0a19d282689c9f7232db7') in 0.042977 seconds
+  Import took 0.050970 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Assets/IRONHEAD Games/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/LiberationSans SDF - Metalic Green.mat
+  artifactKey: Guid(8b29aaa3eec7468097ff07adfcf29ac9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/LiberationSans SDF - Metalic Green.mat using Guid(8b29aaa3eec7468097ff07adfcf29ac9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05397b7863eef684150cdcea140dad92') in 0.132938 seconds
+  Import took 0.140271 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000307 seconds.
+  path: Assets/IRONHEAD Games/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/LiberationSans SDF - Soft Mask.mat
+  artifactKey: Guid(42df1c7856584b6b8db9a509b6b10074) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/LiberationSans SDF - Soft Mask.mat using Guid(42df1c7856584b6b8db9a509b6b10074) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a46a476af460aa04cf28f2b54c2307fe') in 0.040304 seconds
+  Import took 0.047422 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 180.297833 seconds.
+  path: Assets/IRONHEAD Games/Scripts/Avatar Selection Scripts
+  artifactKey: Guid(a4a926c76dce31f43ab9f2c730e99350) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Scripts/Avatar Selection Scripts using Guid(a4a926c76dce31f43ab9f2c730e99350) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86e5703ee5f11c4d834e132f697b8fa7') in 0.005348 seconds
+  Import took 0.012372 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000424 seconds.
+  path: Assets/IRONHEAD Games/Scripts/Avatar Selection Scripts
+  artifactKey: Guid(a4a926c76dce31f43ab9f2c730e99350) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Scripts/Avatar Selection Scripts using Guid(a4a926c76dce31f43ab9f2c730e99350) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86e5703ee5f11c4d834e132f697b8fa7') in 0.002402 seconds
+  Import took 0.008913 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.404559 seconds.
+  path: Assets/IRONHEAD Games/Scripts/Editor
+  artifactKey: Guid(36a4e565643ccab4eac523d90ea024d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Scripts/Editor using Guid(36a4e565643ccab4eac523d90ea024d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '127df7da0711c09e224e3650516df643') in 0.005963 seconds
+  Import took 0.012752 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000447 seconds.
+  path: Assets/IRONHEAD Games/Scripts/Editor
+  artifactKey: Guid(36a4e565643ccab4eac523d90ea024d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Scripts/Editor using Guid(36a4e565643ccab4eac523d90ea024d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '127df7da0711c09e224e3650516df643') in 0.002250 seconds
+  Import took 0.009145 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.903294 seconds.
+  path: Assets/IRONHEAD Games/Scripts/Editor/LoginManagerEditorScript.cs
+  artifactKey: Guid(3f5e732bf52310647a93cf66b6db99bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Scripts/Editor/LoginManagerEditorScript.cs using Guid(3f5e732bf52310647a93cf66b6db99bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a47e0790366326b13180c43c9c4505c') in 0.009467 seconds
+  Import took 0.015637 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000480 seconds.
+  path: Assets/IRONHEAD Games/Scripts/Editor/LoginManagerEditorScript.cs
+  artifactKey: Guid(3f5e732bf52310647a93cf66b6db99bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Scripts/Editor/LoginManagerEditorScript.cs using Guid(3f5e732bf52310647a93cf66b6db99bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a47e0790366326b13180c43c9c4505c') in 0.002191 seconds
+  Import took 0.008362 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.792059 seconds.
+  path: Assets/IRONHEAD Games/Scripts/Editor/RoomManagerEditorScript.cs
+  artifactKey: Guid(0b2c0393b69396448889eb7952a5b2e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Scripts/Editor/RoomManagerEditorScript.cs using Guid(0b2c0393b69396448889eb7952a5b2e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f28925544a99f9c0042f774e476001f') in 0.005730 seconds
+  Import took 0.013655 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.019445 seconds.
+  path: Assets/IRONHEAD Games/Scripts/Editor/RoomManagerEditorScript.cs
+  artifactKey: Guid(0b2c0393b69396448889eb7952a5b2e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Scripts/Editor/RoomManagerEditorScript.cs using Guid(0b2c0393b69396448889eb7952a5b2e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f28925544a99f9c0042f774e476001f') in 0.002189 seconds
+  Import took 0.010833 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004282 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.03 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\_Unity\Yacht-VR\Library\PackageCache\com.unity.xr.oculus@1.6.1\Runtime\OculusLoader.cs:242 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\_Unity\Yacht-VR\Library\PackageCache\com.unity.xr.oculus@1.6.1\Runtime\OculusLoader.cs:227 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.6.1/Runtime/OculusLoader.cs Line: 242)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.068 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.04 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+Unloading 4185 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 206.0 MB.
+System memory in use after: 203.6 MB.
+
+Unloading 74 unused Assets to reduce memory usage. Loaded Objects now: 5029.
+Total: 4.780200 ms (FindLiveObjects: 0.454000 ms CreateObjectMapping: 0.257600 ms MarkObjects: 2.330000 ms  DeleteObjects: 1.737900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.173416 seconds.
+  path: Assets/IRONHEAD Games/Scripts/Editor/LoginManagerEditorScript.cs
+  artifactKey: Guid(3f5e732bf52310647a93cf66b6db99bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Scripts/Editor/LoginManagerEditorScript.cs using Guid(3f5e732bf52310647a93cf66b6db99bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66086391bb7102b0fec49becbf5be107') in 0.005794 seconds
+  Import took 0.011708 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004244 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.10 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.09 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\_Unity\Yacht-VR\Library\PackageCache\com.unity.xr.oculus@1.6.1\Runtime\OculusLoader.cs:242 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\_Unity\Yacht-VR\Library\PackageCache\com.unity.xr.oculus@1.6.1\Runtime\OculusLoader.cs:227 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.6.1/Runtime/OculusLoader.cs Line: 242)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.966 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.01 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
+Unloading 4163 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 204.6 MB.
+System memory in use after: 202.2 MB.
+
+Unloading 74 unused Assets to reduce memory usage. Loaded Objects now: 5032.
+Total: 5.366000 ms (FindLiveObjects: 0.433900 ms CreateObjectMapping: 0.266200 ms MarkObjects: 2.493800 ms  DeleteObjects: 2.170700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 2200.815388 seconds.
+  path: Assets/IRONHEAD Games/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset
+  artifactKey: Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset using Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32e9c3e0bcf97fdcffde9a33c9daa9a0') in 0.458526 seconds
+  Import took 0.467062 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/IRONHEAD Games/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat
+  artifactKey: Guid(79459efec17a4d00a321bdcc27bbc385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat using Guid(79459efec17a4d00a321bdcc27bbc385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65aecee71bf5a49a22b9a7d39937211c') in 0.039732 seconds
+  Import took 0.046254 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/IRONHEAD Games/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset
+  artifactKey: Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset using Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32e9c3e0bcf97fdcffde9a33c9daa9a0') in 0.027230 seconds
+  Import took 0.033829 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/IRONHEAD Games/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat
+  artifactKey: Guid(79459efec17a4d00a321bdcc27bbc385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat using Guid(79459efec17a4d00a321bdcc27bbc385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65aecee71bf5a49a22b9a7d39937211c') in 0.036360 seconds
+  Import took 0.042597 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/IRONHEAD Games/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
+  artifactKey: Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset using Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fc0f6707abf76c9f7b9a129e1ed1e9d') in 0.045995 seconds
+  Import took 0.052113 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004044 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.03 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\_Unity\Yacht-VR\Library\PackageCache\com.unity.xr.oculus@1.6.1\Runtime\OculusLoader.cs:242 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\_Unity\Yacht-VR\Library\PackageCache\com.unity.xr.oculus@1.6.1\Runtime\OculusLoader.cs:227 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.6.1/Runtime/OculusLoader.cs Line: 242)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.974 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.00 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+Unloading 4163 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 205.4 MB.
+System memory in use after: 203.0 MB.
+
+Unloading 74 unused Assets to reduce memory usage. Loaded Objects now: 5138.
+Total: 4.975600 ms (FindLiveObjects: 0.438000 ms CreateObjectMapping: 0.269200 ms MarkObjects: 2.331600 ms  DeleteObjects: 1.935900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 418.873528 seconds.
+  path: Assets/Materials/Skybox
+  artifactKey: Guid(32370cd0b131bf74189d5c282714e657) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Skybox using Guid(32370cd0b131bf74189d5c282714e657) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ea91b45cf205542023d76fe5590ebbc') in 0.009122 seconds
+  Import took 0.015709 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.515532 seconds.
+  path: Assets/Materials/Skybox/New Material.mat
+  artifactKey: Guid(df3a1cb10fddaf947ae9e0da5f9af6bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Skybox/New Material.mat using Guid(df3a1cb10fddaf947ae9e0da5f9af6bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f93e4f871b8a470a1ab58a8dc85eb328') in 0.419315 seconds
+  Import took 0.425672 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 250.227184 seconds.
+  path: Assets/Materials/Skybox/New Material.mat
+  artifactKey: Guid(df3a1cb10fddaf947ae9e0da5f9af6bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Skybox/New Material.mat using Guid(df3a1cb10fddaf947ae9e0da5f9af6bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0ca23e3f12f760c7fb83b3b99da0f14') in 0.027170 seconds
+  Import took 0.034542 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 481.801815 seconds.
+  path: Assets/Materials/Skybox/kloppenheim_02_8k.hdr
+  artifactKey: Guid(c61d3e8b5bec7a5409aff22355d7d7a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Skybox/kloppenheim_02_8k.hdr using Guid(c61d3e8b5bec7a5409aff22355d7d7a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff7c7f1eab3597a8a4b439828f8314b4') in 0.023439 seconds
+  Import took 0.031225 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 260.774054 seconds.
+  path: Assets/HDRPDefaultResources/DefaultHDRISky.exr
+  artifactKey: Guid(54a3a0570aebe8949bec4966f1376581) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HDRPDefaultResources/DefaultHDRISky.exr using Guid(54a3a0570aebe8949bec4966f1376581) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d185cdbedd94b12ebf2c621175f75f6') in 0.024570 seconds
+  Import took 0.031662 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/HDRPDefaultResources/HDRPDefaultSettings.asset
+  artifactKey: Guid(582adbd84082fdb4faf7cd4beb1ccd14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HDRPDefaultResources/HDRPDefaultSettings.asset using Guid(582adbd84082fdb4faf7cd4beb1ccd14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '921d784d3ea424e531b4ff059c33261f') in 0.006550 seconds
+  Import took 0.013077 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000315 seconds.
+  path: Assets/HDRPDefaultResources/SkyFogSettingsProfile.asset
+  artifactKey: Guid(ea5c25297f0c0a04da0eabb1c26a7509) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HDRPDefaultResources/SkyFogSettingsProfile.asset using Guid(ea5c25297f0c0a04da0eabb1c26a7509) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93fa86b6f773ff5810035c3bc6ed8c30') in 0.006152 seconds
+  Import took 0.013590 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/HDRPDefaultResources/DefaultSceneRoot.prefab
+  artifactKey: Guid(2bfa7b9d63fa79e4abdc033f54a868d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HDRPDefaultResources/DefaultSceneRoot.prefab using Guid(2bfa7b9d63fa79e4abdc033f54a868d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7efbc13197aeea54ea477d0f98282f67') in 0.020370 seconds
+  Import took 0.026614 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 54.836236 seconds.
+  path: Assets/HDRPDefaultResources/HDRPDefaultSettings.asset
+  artifactKey: Guid(582adbd84082fdb4faf7cd4beb1ccd14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HDRPDefaultResources/HDRPDefaultSettings.asset using Guid(582adbd84082fdb4faf7cd4beb1ccd14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f266c1b52ee8812354e58b9c9c7129f') in 0.003573 seconds
+  Import took 0.010077 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 551.461126 seconds.
+  path: Assets/Materials/Skybox/kloppenheim_02_8k.hdr
+  artifactKey: Guid(c61d3e8b5bec7a5409aff22355d7d7a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Skybox/kloppenheim_02_8k.hdr using Guid(c61d3e8b5bec7a5409aff22355d7d7a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cc329b04d6e8a3d8d6022f4d4af3819') in 0.051480 seconds
+  Import took 0.060830 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004618 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.02 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\_Unity\Yacht-VR\Library\PackageCache\com.unity.xr.oculus@1.6.1\Runtime\OculusLoader.cs:242 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\_Unity\Yacht-VR\Library\PackageCache\com.unity.xr.oculus@1.6.1\Runtime\OculusLoader.cs:227 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.6.1/Runtime/OculusLoader.cs Line: 242)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.132 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.11 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.09 ms.
+Unloading 4163 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 206.2 MB.
+System memory in use after: 203.8 MB.
+
+Unloading 74 unused Assets to reduce memory usage. Loaded Objects now: 5246.
+Total: 5.693000 ms (FindLiveObjects: 0.498100 ms CreateObjectMapping: 0.300700 ms MarkObjects: 2.644100 ms  DeleteObjects: 2.249000 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
