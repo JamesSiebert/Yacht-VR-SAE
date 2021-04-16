@@ -6,7 +6,17 @@
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="_JS_XR_CoreComponents" t="Include">
+          <e p="Avatars" t="Include">
+            <e p="AvatarHolder.cs" t="Include" />
+            <e p="AvatarInputConverter.cs" t="Include" />
+          </e>
+          <e p="HomeScene" t="Include">
+            <e p="AvatarSelectionManager.cs" t="Include" />
+          </e>
           <e p="LoginScene" t="Include">
+            <e p="Editor" t="Include">
+              <e p="LoginManagerEditorScript.cs" t="Include" />
+            </e>
             <e p="LoginManager.cs" t="Include" />
             <e p="LoginUIManager.cs" t="Include" />
           </e>
