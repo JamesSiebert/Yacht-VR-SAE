@@ -101,7 +101,7 @@ public class HomeRoomManager : MonoBehaviourPunCallbacks
                 if ((string)mapType == MultiplayerVRConstants.MAP_TYPE_TRAINING)
                 {
                     // Load scene
-                    PhotonNetwork.LoadLevel("Room_Training");
+                    PhotonNetwork.LoadLevel("Room_Tutorial");
                 }
                 else if ((string)mapType == MultiplayerVRConstants.MAP_TYPE_PERSHING_ISLAND)
                 {

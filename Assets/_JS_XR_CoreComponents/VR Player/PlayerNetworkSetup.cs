@@ -17,6 +17,10 @@ public class PlayerNetworkSetup : MonoBehaviourPunCallbacks
     //public GameObject controllerParent;
     public GameObject[] avatarModelPrefabs;
     public TextMeshProUGUI playerNameText;
+    public int localAvatarHeadLayer = 0;
+    public int localAvatarBodyLayer = 0;
+    public int localAvatarHandsLayer = 0;
+
 
     public XR_TeleportControlSwitcher xrTeleportControlSwitcher;
 
@@ -38,10 +42,10 @@ public class PlayerNetworkSetup : MonoBehaviourPunCallbacks
             }
             
             // Hide local player head and body
-            SetLayerRecursively(avatarHead, 11);
-            SetLayerRecursively(avatarBody, 12);
-            SetLayerRecursively(avatarLeftHand, 16);
-            SetLayerRecursively(avatarRightHand, 16);
+            SetLayerRecursively(avatarHead, localAvatarHeadLayer);
+            SetLayerRecursively(avatarBody, localAvatarBodyLayer);
+            SetLayerRecursively(avatarLeftHand, localAvatarHandsLayer);
+            SetLayerRecursively(avatarRightHand, localAvatarHandsLayer);
 
             // Finds object that have teleportation component
             TeleportationArea[] teleportationAreas = GameObject.FindObjectsOfType<TeleportationArea>();
