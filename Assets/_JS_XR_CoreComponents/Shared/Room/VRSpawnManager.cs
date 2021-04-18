@@ -10,17 +10,26 @@ public class VRSpawnManager : MonoBehaviour
     GameObject vrPlayerPrefab;
 
     public Transform playerSpawnPosition;
-    public Vector3 SpawnPosition;
+    public Vector3 spawnPosition;
+    public GameObject spawnParent;
 
     void Start()
     {
+        // If object provided get vector 3 from that, else use coordinates.
         if (playerSpawnPosition != null)
-            SpawnPosition = playerSpawnPosition.position;
+            spawnPosition = playerSpawnPosition.position;
         
         if(PhotonNetwork.IsConnectedAndReady)
         {
             // Instantiates a player across the network for all clients
-            PhotonNetwork.Instantiate(vrPlayerPrefab.name, SpawnPosition, Quaternion.identity);
+            GameObject player = PhotonNetwork.Instantiate(vrPlayerPrefab.name, spawnPosition, Quaternion.identity);
+            
+            // If parent assigned make player child of that object (e.g moving boat)
+            if (spawnParent != null)
+            {
+                player.transform.parent = spawnParent.transform;
+                player.transform.localPosition = playerSpawnPosition.localPosition;
+            }
         }
     }
 }
