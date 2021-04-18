@@ -43,7 +43,7 @@
           </e>
         </e>
         <e p="Credits.txt" t="Include" />
-        <e p="Oculus Integration Package" t="Include">
+        <e p="Oculus" t="Include">
           <e p="AudioManager" t="Include">
             <e p="scenes" t="Include">
               <e p="Scripts" t="Include">

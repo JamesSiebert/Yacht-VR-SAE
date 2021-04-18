@@ -55,9 +55,8 @@ public class XR_TeleportControlSwitcher : MonoBehaviour
     private void Start()
     {
         teleportationLayer = LayerMask.NameToLayer("Teleportation");
-
-        if (useDirectionalTeleporting)
-            SpawnDirectionalMarkers();
+        
+        SpawnDirectionalMarkers();
     }
 
     private void Update()
@@ -246,9 +245,13 @@ public class XR_TeleportControlSwitcher : MonoBehaviour
     
     public void RightTriggerActivated()
     {
+        Debug.Log("right tel");
+        
         // Right trigger pressed while teleport beam active
         if (teleportOnTrigger && XRInputEventTriggerRef.rightPrimaryButtonPressed)
         {
+            Debug.Log("right tel 2");
+            
             // Initiate right teleport
             InitiateRightTeleport();
         }
@@ -296,6 +299,8 @@ public class XR_TeleportControlSwitcher : MonoBehaviour
     
     public void InitiateRightTeleport()
     {
+        Debug.Log("initiate right teleport");
+        
         if (rightRayInteractor.TryGetCurrent3DRaycastHit(out RaycastHit hit) == false)
         {
             Debug.Log("teleport hit false");

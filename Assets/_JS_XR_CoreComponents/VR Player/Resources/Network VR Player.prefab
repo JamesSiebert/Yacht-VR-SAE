@@ -354,9 +354,9 @@ GameObject:
   m_Component:
   - component: {fileID: 5960572329417466940}
   - component: {fileID: 5960572329417466939}
-  - component: {fileID: 5960572329417466938}
-  - component: {fileID: 5960572329417466941}
   - component: {fileID: 9202900512086420577}
+  - component: {fileID: 1463186588733645604}
+  - component: {fileID: 3887073515063756653}
   m_Layer: 0
   m_Name: RightHand Ray Controller
   m_TagString: Untagged
@@ -395,7 +395,7 @@ MonoBehaviour:
   m_InteractionManager: {fileID: 0}
   m_InteractionLayerMask:
     serializedVersion: 2
-    m_Bits: 8992
+    m_Bits: 35872
   m_AttachTransform: {fileID: 5960572330315931275}
   m_StartingSelectedInteractable: {fileID: 0}
   m_HoverEntered:
@@ -483,7 +483,37 @@ MonoBehaviour:
   m_RotateSpeed: 180
   m_TranslateSpeed: 1
   m_AnchorRotateReferenceFrame: {fileID: 0}
---- !u!120 &5960572329417466938
+--- !u!114 &9202900512086420577
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5960572329417466943}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1ae26e19cd956134bbdf3c6f65bf393a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_UpdateTrackingType: 0
+  m_EnableInputTracking: 1
+  m_EnableInputActions: 1
+  m_ModelPrefab: {fileID: 0}
+  m_ModelTransform: {fileID: 0}
+  m_AnimateModel: 0
+  m_ModelSelectTransition: 
+  m_ModelDeSelectTransition: 
+  m_ControllerNode: 5
+  m_SelectUsage: 3
+  m_ActivateUsage: 2
+  m_UIPressUsage: 2
+  m_AxisToPressThreshold: 0.1
+  m_RotateAnchorLeft: 16
+  m_RotateAnchorRight: 17
+  m_MoveObjectIn: 14
+  m_MoveObjectOut: 15
+  m_PoseProvider: {fileID: 0}
+--- !u!120 &1463186588733645604
 LineRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -499,10 +529,10 @@ LineRenderer:
   m_ReflectionProbeUsage: 0
   m_RayTracingMode: 0
   m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
+  m_RenderingLayerMask: 257
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 0}
+  - {fileID: 10306, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -583,12 +613,12 @@ LineRenderer:
     numCornerVertices: 4
     numCapVertices: 4
     alignment: 0
-    textureMode: 1
+    textureMode: 0
     shadowBias: 0.5
     generateLightingData: 0
   m_UseWorldSpace: 1
   m_Loop: 0
---- !u!114 &5960572329417466941
+--- !u!114 &3887073515063756653
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -629,8 +659,8 @@ MonoBehaviour:
     m_RotationOrder: 4
   m_ValidColorGradient:
     serializedVersion: 2
-    key0: {r: 1, g: 0, b: 0.9645357, a: 1}
-    key1: {r: 1, g: 0.9769962, b: 0, a: 1}
+    key0: {r: 1, g: 1, b: 1, a: 1}
+    key1: {r: 1, g: 1, b: 1, a: 1}
     key2: {r: 0, g: 0, b: 0, a: 0}
     key3: {r: 0, g: 0, b: 0, a: 0}
     key4: {r: 0, g: 0, b: 0, a: 0}
@@ -690,36 +720,6 @@ MonoBehaviour:
   m_SnapThresholdDistance: 10
   m_Reticle: {fileID: 0}
   m_StopLineAtFirstRaycastHit: 1
---- !u!114 &9202900512086420577
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5960572329417466943}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1ae26e19cd956134bbdf3c6f65bf393a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_UpdateTrackingType: 0
-  m_EnableInputTracking: 1
-  m_EnableInputActions: 1
-  m_ModelPrefab: {fileID: 0}
-  m_ModelTransform: {fileID: 0}
-  m_AnimateModel: 0
-  m_ModelSelectTransition: 
-  m_ModelDeSelectTransition: 
-  m_ControllerNode: 5
-  m_SelectUsage: 3
-  m_ActivateUsage: 2
-  m_UIPressUsage: 2
-  m_AxisToPressThreshold: 0.1
-  m_RotateAnchorLeft: 16
-  m_RotateAnchorRight: 17
-  m_MoveObjectIn: 14
-  m_MoveObjectOut: 15
-  m_PoseProvider: {fileID: 0}
 --- !u!1 &5960572329526874960
 GameObject:
   m_ObjectHideFlags: 0
@@ -953,9 +953,9 @@ GameObject:
   m_Component:
   - component: {fileID: 5960572329704692841}
   - component: {fileID: 5960572329704692836}
-  - component: {fileID: 5960572329704692839}
-  - component: {fileID: 5960572329704692838}
   - component: {fileID: 2917985541488833958}
+  - component: {fileID: 7279729082316043137}
+  - component: {fileID: 2467652500433473237}
   m_Layer: 0
   m_Name: LeftHand Ray Controller
   m_TagString: Untagged
@@ -994,7 +994,7 @@ MonoBehaviour:
   m_InteractionManager: {fileID: 0}
   m_InteractionLayerMask:
     serializedVersion: 2
-    m_Bits: 8992
+    m_Bits: 35872
   m_AttachTransform: {fileID: 5960572331142563358}
   m_StartingSelectedInteractable: {fileID: 0}
   m_HoverEntered:
@@ -1082,7 +1082,37 @@ MonoBehaviour:
   m_RotateSpeed: 180
   m_TranslateSpeed: 1
   m_AnchorRotateReferenceFrame: {fileID: 0}
---- !u!120 &5960572329704692839
+--- !u!114 &2917985541488833958
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5960572329704692840}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1ae26e19cd956134bbdf3c6f65bf393a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_UpdateTrackingType: 0
+  m_EnableInputTracking: 1
+  m_EnableInputActions: 1
+  m_ModelPrefab: {fileID: 0}
+  m_ModelTransform: {fileID: 0}
+  m_AnimateModel: 0
+  m_ModelSelectTransition: 
+  m_ModelDeSelectTransition: 
+  m_ControllerNode: 4
+  m_SelectUsage: 3
+  m_ActivateUsage: 2
+  m_UIPressUsage: 2
+  m_AxisToPressThreshold: 0.1
+  m_RotateAnchorLeft: 16
+  m_RotateAnchorRight: 17
+  m_MoveObjectIn: 14
+  m_MoveObjectOut: 15
+  m_PoseProvider: {fileID: 0}
+--- !u!120 &7279729082316043137
 LineRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1098,10 +1128,10 @@ LineRenderer:
   m_ReflectionProbeUsage: 0
   m_RayTracingMode: 0
   m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
+  m_RenderingLayerMask: 257
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 0}
+  - {fileID: 10306, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1182,12 +1212,12 @@ LineRenderer:
     numCornerVertices: 4
     numCapVertices: 4
     alignment: 0
-    textureMode: 1
+    textureMode: 0
     shadowBias: 0.5
     generateLightingData: 0
   m_UseWorldSpace: 1
   m_Loop: 0
---- !u!114 &5960572329704692838
+--- !u!114 &2467652500433473237
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1228,8 +1258,8 @@ MonoBehaviour:
     m_RotationOrder: 4
   m_ValidColorGradient:
     serializedVersion: 2
-    key0: {r: 1, g: 0, b: 0.9645357, a: 1}
-    key1: {r: 1, g: 0.9769962, b: 0, a: 1}
+    key0: {r: 1, g: 1, b: 1, a: 1}
+    key1: {r: 1, g: 1, b: 1, a: 1}
     key2: {r: 0, g: 0, b: 0, a: 0}
     key3: {r: 0, g: 0, b: 0, a: 0}
     key4: {r: 0, g: 0, b: 0, a: 0}
@@ -1289,36 +1319,6 @@ MonoBehaviour:
   m_SnapThresholdDistance: 10
   m_Reticle: {fileID: 0}
   m_StopLineAtFirstRaycastHit: 1
---- !u!114 &2917985541488833958
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5960572329704692840}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1ae26e19cd956134bbdf3c6f65bf393a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_UpdateTrackingType: 0
-  m_EnableInputTracking: 1
-  m_EnableInputActions: 1
-  m_ModelPrefab: {fileID: 0}
-  m_ModelTransform: {fileID: 0}
-  m_AnimateModel: 0
-  m_ModelSelectTransition: 
-  m_ModelDeSelectTransition: 
-  m_ControllerNode: 4
-  m_SelectUsage: 3
-  m_ActivateUsage: 2
-  m_UIPressUsage: 2
-  m_AxisToPressThreshold: 0.1
-  m_RotateAnchorLeft: 16
-  m_RotateAnchorRight: 17
-  m_MoveObjectIn: 14
-  m_MoveObjectOut: 15
-  m_PoseProvider: {fileID: 0}
 --- !u!1 &5960572329742877595
 GameObject:
   m_ObjectHideFlags: 0
@@ -1589,7 +1589,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   micImage: {fileID: 6723174584710128283}
   speakerImage: {fileID: 5960572331496918193}
-  photonVoiceView: {fileID: 0}
+  photonVoiceView: {fileID: 4731497857024863001}
 --- !u!1 &5960572329939085875
 GameObject:
   m_ObjectHideFlags: 0
@@ -1777,7 +1777,7 @@ MonoBehaviour:
   teleportOnDeactivate: 0
   teleportOnTrigger: 1
   useDirectionalTeleporting: 1
-  directionalReticlePrefab: {fileID: 0}
+  directionalReticlePrefab: {fileID: 6003503005856360572, guid: c76bcd2e7c144cd4d9792509d82a1853, type: 3}
   XRInputEventTriggerRef: {fileID: 5960572330088677430}
   provider: {fileID: 5960572330329196912}
   leftTeleportActive: 0
@@ -2897,7 +2897,7 @@ MonoBehaviour:
   m_InteractionManager: {fileID: 0}
   m_InteractionLayerMask:
     serializedVersion: 2
-    m_Bits: 401696
+    m_Bits: 33824
   m_AttachTransform: {fileID: 5960572329698865773}
   m_StartingSelectedInteractable: {fileID: 0}
   m_HoverEntered:
@@ -3469,7 +3469,7 @@ MonoBehaviour:
   m_InteractionManager: {fileID: 0}
   m_InteractionLayerMask:
     serializedVersion: 2
-    m_Bits: 401696
+    m_Bits: 33824
   m_AttachTransform: {fileID: 5960572331509383224}
   m_StartingSelectedInteractable: {fileID: 0}
   m_HoverEntered:

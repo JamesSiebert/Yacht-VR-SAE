@@ -28,9 +28,16 @@ public class LoginManager : MonoBehaviourPunCallbacks
 
     #region UI Callback Methods
     public void ConnectToPhotonServer(){
+        Debug.Log("Connect to photon server called");
 
         if(PlayerName_InputField != null){
             PhotonNetwork.NickName = PlayerName_InputField.text;
+            PhotonNetwork.ConnectUsingSettings();
+        }
+
+        else
+        {
+            PhotonNetwork.NickName = "";
             PhotonNetwork.ConnectUsingSettings();
         }
         

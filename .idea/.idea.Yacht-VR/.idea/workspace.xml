@@ -22,16 +22,16 @@
     <list default="true" id="efd56fab-5c02-4431-adb6-7cf1a45832dc" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Yacht-VR/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Yacht-VR/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Yacht-VR/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Yacht-VR/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_JS_XR_CoreComponents/Shared/Editor.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_JS_XR_CoreComponents/Shared/Editor/RoomManagerEditorScript.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_JS_XR_CoreComponents/Shared/Editor/RoomManagerEditorScript.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_JS_XR_CoreComponents/Shared/RoomManager.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_JS_XR_CoreComponents/Shared/RoomManager.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_JS_XR_CoreComponents/Avatars/JS/Avatar Test 1.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_JS_XR_CoreComponents/Avatars/JS/Avatar Test 1.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_JS_XR_CoreComponents/LoginScene/LoginManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_JS_XR_CoreComponents/LoginScene/LoginManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_JS_XR_CoreComponents/Resources.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_JS_XR_CoreComponents/VR Player/Resources/Network VR Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_JS_XR_CoreComponents/VR Player/Resources/Network VR Player.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_JS_XR_CoreComponents/VR Player/Resources/TeleportReticleDirectional.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_JS_XR_CoreComponents/VR Player/Resources/TeleportReticleDirectional.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_JS_XR_CoreComponents/VR Player/XR_TeleportControlSwitcher.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_JS_XR_CoreComponents/VR Player/XR_TeleportControlSwitcher.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Scenes/HomeScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/__Scenes/HomeScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Scenes/LoginScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/__Scenes/LoginScene.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/__Scenes/Room_PershingIsland.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/__Scenes/Room_PershingIsland.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/ApiUpdaterCheck.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/ApiUpdaterCheck.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/InputManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/InputManager.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,15 +45,19 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/_JS_XR_CoreComponents/Shared/Room/NetworkedGrabbing.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_JS_XR_CoreComponents/HomeScene/Editor/HomeRoomManagerEditorScript.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/_JS_XR_CoreComponents/HomeScene/HomeRoomManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_JS_XR_CoreComponents/HomeScene/AvatarSelectionManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_JS_XR_CoreComponents/VR Player/XR_TeleportControlSwitcher.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_JS_XR_CoreComponents/LoginScene/LoginManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_JS_XR_CoreComponents/LoginScene/Editor/LoginManagerEditorScript.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.high-definition@10.2.2/Runtime/Material/Lit/Lit.shader" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/_JS_XR_CoreComponents/Shared/MultiplayerVRConstants.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/_JS_XR_CoreComponents/Shared/Room/VRSpawnManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_JS_XR_CoreComponents/Shared/Room/PhotonInWorldManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_JS_XR_CoreComponents/VR Player/HighlightVoice.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Photon/PhotonRealtime/Code/LoadBalancingClient.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_JS_XR_CoreComponents/VR Player/JS_XRInputEventTrigger.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_JS_XR_CoreComponents/HomeScene/HomeRoomManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_JS_XR_CoreComponents/Shared/MultiplayerVRConstants.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_JS_XR_CoreComponents/Shared/Room/VRSpawnManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Photon/PhotonUnityNetworking/Code/PhotonNetworkPart.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -68,10 +72,11 @@
         <option value="$PROJECT_DIR$/Assets/_JS_XR_CoreComponents/Shared/Room/VRSpawnManager.cs" />
         <option value="$PROJECT_DIR$/Assets/_JS_XR_CoreComponents/Shared/Room/NetworkedGrabbing.cs" />
         <option value="$PROJECT_DIR$/Assets/_VR Character/PlayerUIManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/_JS_XR_CoreComponents/VR Player/XR_TeleportControlSwitcher.cs" />
         <option value="$PROJECT_DIR$/Assets/_JS_XR_CoreComponents/HomeScene/HomeRoomManager.cs" />
         <option value="$PROJECT_DIR$/Assets/_JS_XR_CoreComponents/HomeScene/Editor/RoomManagerEditorScript.cs" />
         <option value="$PROJECT_DIR$/Assets/_JS_XR_CoreComponents/HomeScene/Editor/HomeRoomManagerEditorScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/_JS_XR_CoreComponents/VR Player/XR_TeleportControlSwitcher.cs" />
+        <option value="$PROJECT_DIR$/Assets/_JS_XR_CoreComponents/LoginScene/LoginManager.cs" />
       </list>
     </option>
   </component>
@@ -117,6 +122,7 @@
       <workItem from="1618550813133" duration="4250000" />
       <workItem from="1618626200322" duration="195000" />
       <workItem from="1618626423379" duration="3777000" />
+      <workItem from="1618635972626" duration="2945000" />
     </task>
     <servers />
   </component>
