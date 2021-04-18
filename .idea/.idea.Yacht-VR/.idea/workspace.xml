@@ -21,13 +21,7 @@
   <component name="ChangeListManager">
     <list default="true" id="efd56fab-5c02-4431-adb6-7cf1a45832dc" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Yacht-VR/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Yacht-VR/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_JS_XR_CoreComponents/HomeScene/HomeRoomManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_JS_XR_CoreComponents/HomeScene/HomeRoomManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_JS_XR_CoreComponents/VR Player/PlayerNetworkSetup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_JS_XR_CoreComponents/VR Player/PlayerNetworkSetup.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_JS_XR_CoreComponents/VR Player/Resources/Network VR Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_JS_XR_CoreComponents/VR Player/Resources/Network VR Player.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_VR Character.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_VR Character/Materials.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/__Scenes/Room_Tutorial.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/__Scenes/Room_Tutorial.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_JS_XR_CoreComponents/Shared/Room/VRSpawnManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_JS_XR_CoreComponents/Shared/Room/VRSpawnManager.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +35,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/_JS_XR_CoreComponents/Shared/Room/NetworkedGrabbing.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_JS_XR_CoreComponents/HomeScene/Editor/HomeRoomManagerEditorScript.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_JS_XR_CoreComponents/HomeScene/AvatarSelectionManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.inputsystem@1.0.2/InputSystem/Actions/InputActionState.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_JS_XR_CoreComponents/VR Player/XR_TeleportControlSwitcher.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_JS_XR_CoreComponents/LoginScene/LoginManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_JS_XR_CoreComponents/LoginScene/Editor/LoginManagerEditorScript.cs" root0="FORCE_HIGHLIGHTING" />
@@ -66,7 +61,6 @@
         <option value="$PROJECT_DIR$/Assets/_JS_XR_CoreComponents/Shared/Editor/RoomManagerEditorScript.cs" />
         <option value="$PROJECT_DIR$/Assets/_JS_XR_CoreComponents/HomeScene/AvatarSelectionManager.cs" />
         <option value="$PROJECT_DIR$/Assets/_JS_XR_CoreComponents/Shared/Room/PhotonInWorldManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/_JS_XR_CoreComponents/Shared/Room/VRSpawnManager.cs" />
         <option value="$PROJECT_DIR$/Assets/_JS_XR_CoreComponents/Shared/Room/NetworkedGrabbing.cs" />
         <option value="$PROJECT_DIR$/Assets/_VR Character/PlayerUIManager.cs" />
         <option value="$PROJECT_DIR$/Assets/_JS_XR_CoreComponents/HomeScene/Editor/RoomManagerEditorScript.cs" />
@@ -75,6 +69,7 @@
         <option value="$PROJECT_DIR$/Assets/_JS_XR_CoreComponents/LoginScene/LoginManager.cs" />
         <option value="$PROJECT_DIR$/Assets/_JS_XR_CoreComponents/HomeScene/HomeRoomManager.cs" />
         <option value="$PROJECT_DIR$/Assets/_JS_XR_CoreComponents/VR Player/PlayerNetworkSetup.cs" />
+        <option value="$PROJECT_DIR$/Assets/_JS_XR_CoreComponents/Shared/Room/VRSpawnManager.cs" />
       </list>
     </option>
   </component>
@@ -121,7 +116,8 @@
       <workItem from="1618626200322" duration="195000" />
       <workItem from="1618626423379" duration="3777000" />
       <workItem from="1618635972626" duration="2945000" />
-      <workItem from="1618711948246" duration="1061000" />
+      <workItem from="1618711948246" duration="1427000" />
+      <workItem from="1618713497161" duration="100000" />
     </task>
     <servers />
   </component>
