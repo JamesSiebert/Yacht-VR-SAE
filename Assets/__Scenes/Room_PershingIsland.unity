@@ -29238,7 +29238,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _viewpoint: {fileID: 969000289}
-  _camera: {fileID: 0}
+  _camera: {fileID: 495796555}
   _timeProvider: {fileID: 0}
   _primaryLight: {fileID: 5936606778546170587}
   _searchForPrimaryLightOnStartup: 1

@@ -1302,7 +1302,7 @@ MonoBehaviour:
   _dragInWaterUp: 3
   _dragInWaterRight: 4
   _dragInWaterForward: 0.5
-  _enginePower: 15
+  _enginePower: 1.25
   _turnPower: 0
   _playerControlled: 0
   _engineBias: 1
@@ -25211,7 +25211,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _viewpoint: {fileID: 1118833193}
-  _camera: {fileID: 0}
+  _camera: {fileID: 665837946}
   _timeProvider: {fileID: 0}
   _primaryLight: {fileID: 2124883933820729940}
   _searchForPrimaryLightOnStartup: 1
