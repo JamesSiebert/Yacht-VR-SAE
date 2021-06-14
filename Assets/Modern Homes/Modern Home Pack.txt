@@ -1,0 +1,40 @@
+Modern House Pack contains the following folder
+- Exterior
+- Home 1
+- Home 2
+- Home 3
+- Prefabs
+- Scene
+
+The Exterior folder consists of the following folders
+- Materials 	- Consists of all the material for the base exterior used in the pack
+- Mesh 		- Consists of the FBXs used for Exterior in the pack
+- Textures 		- Consists of all the texture maps used for the exterior base
+
+
+The Home 1 folder consists of the following folders
+- Materials 	- Consists of all the material for Home 1 used in the pack
+- Mesh 		- Consists of all the FBXs for Home 1 used in the pack
+- Textures 		- Consists of all the texture maps for the Home 1 used in the pack
+- PNG Textures	- Consists of all the PNG texture maps for the Home 1 used in the pack
+
+The Home 2 folder consists of the following folders
+- Materials 	- Consists of all the material for Home 2 used in the pack
+- Mesh 		- Consists of all the FBXs for Home 2 used in the pack
+- Textures 		- Consists of all the texture maps for the Home 2 used in the pack
+- PNG Textures	- Consists of all the PNG texture maps for the Home 2 used in the pack
+
+The Home 3 folder consists of the following folders
+- Materials 	- Consists of all the material for Home 3 used in the pack
+- Mesh 		- Consists of all the FBXs for Home 3 used in the pack
+- Textures 		- Consists of all the texture maps for the Home 3 used in the pack
+- PNG Textures	- Consists of all the PNG texture maps for the Home 3 used in the pack
+
+The Prefabs folder consists of the following
+- Includes prefabs assets of Modern Home 1, 2, & 3
+
+The Scenes folder consists of the following
+- W358_ReflectionProbes  folder - Consists of all the Reflection Probes/Cubemaps for Home 1 used in the pack
+- W266_ReflectionProbes  folder - Consists of all the Reflection Probes/Cubemaps for Home 2 used in the pack
+- W450_ReflectionProbes  folder - Consists of all the Reflection Probes/Cubemaps for Home 3 used in the pack
+- includes a Scene file of Modern Homes

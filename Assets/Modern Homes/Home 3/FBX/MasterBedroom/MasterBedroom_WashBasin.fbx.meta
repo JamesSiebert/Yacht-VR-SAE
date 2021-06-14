@@ -1,0 +1,113 @@
+fileFormatVersion: 2
+guid: 9ac287ce03ba72340b1ef4f3698e9a7d
+timeCreated: 1477380102
+licenseType: Store
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Bathroom1_GlassShelf
+    100002: Bathroom_Mirror
+    100004: MasterBedroom_BathroomDrawerMetal
+    100006: MasterBedroom_BathroomDrawers
+    100008: MasterBedroom_GlassMetal
+    100010: MasterBedroom_MirrorMetal
+    100012: MasterBedroom_TapMetal
+    100014: //RootNode
+    100016: MasterBedroom_WashBasin 1
+    400000: Bathroom1_GlassShelf
+    400002: Bathroom_Mirror
+    400004: MasterBedroom_BathroomDrawerMetal
+    400006: MasterBedroom_BathroomDrawers
+    400008: MasterBedroom_GlassMetal
+    400010: MasterBedroom_MirrorMetal
+    400012: MasterBedroom_TapMetal
+    400014: //RootNode
+    400016: MasterBedroom_WashBasin 1
+    2300000: Bathroom1_GlassShelf
+    2300002: Bathroom_Mirror
+    2300004: MasterBedroom_BathroomDrawerMetal
+    2300006: MasterBedroom_BathroomDrawers
+    2300008: MasterBedroom_GlassMetal
+    2300010: MasterBedroom_MirrorMetal
+    2300012: MasterBedroom_TapMetal
+    2300014: MasterBedroom_WashBasin 1
+    3300000: Bathroom1_GlassShelf
+    3300002: Bathroom_Mirror
+    3300004: MasterBedroom_BathroomDrawerMetal
+    3300006: MasterBedroom_BathroomDrawers
+    3300008: MasterBedroom_GlassMetal
+    3300010: MasterBedroom_MirrorMetal
+    3300012: MasterBedroom_TapMetal
+    3300014: MasterBedroom_WashBasin 1
+    4300000: Bathroom_Mirror
+    4300002: Bathroom1_GlassShelf
+    4300004: MasterBedroom_BathroomDrawers
+    4300006: MasterBedroom_WashBasin
+    4300008: MasterBedroom_MirrorMetal
+    4300010: MasterBedroom_TapMetal
+    4300012: MasterBedroom_BathroomDrawerMetal
+    4300014: MasterBedroom_GlassMetal
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

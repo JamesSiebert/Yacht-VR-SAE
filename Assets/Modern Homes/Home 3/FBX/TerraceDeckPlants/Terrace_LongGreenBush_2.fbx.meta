@@ -1,0 +1,108 @@
+fileFormatVersion: 2
+guid: eec2b84609729b747b943398bd8cb148
+timeCreated: 1477380140
+licenseType: Store
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Terrace_BushWhitebase4
+    100002: Terrace_LongGreenbush10
+    100004: Terrace_LongGreenbush5
+    100006: Terrace_LongGreenbush6
+    100008: Terrace_LongGreenbush7
+    100010: Terrace_LongGreenbush8
+    100012: Terrace_LongGreenbush9
+    100014: //RootNode
+    400000: Terrace_BushWhitebase4
+    400002: Terrace_LongGreenbush10
+    400004: Terrace_LongGreenbush5
+    400006: Terrace_LongGreenbush6
+    400008: Terrace_LongGreenbush7
+    400010: Terrace_LongGreenbush8
+    400012: Terrace_LongGreenbush9
+    400014: //RootNode
+    2300000: Terrace_BushWhitebase4
+    2300002: Terrace_LongGreenbush10
+    2300004: Terrace_LongGreenbush5
+    2300006: Terrace_LongGreenbush6
+    2300008: Terrace_LongGreenbush7
+    2300010: Terrace_LongGreenbush8
+    2300012: Terrace_LongGreenbush9
+    3300000: Terrace_BushWhitebase4
+    3300002: Terrace_LongGreenbush10
+    3300004: Terrace_LongGreenbush5
+    3300006: Terrace_LongGreenbush6
+    3300008: Terrace_LongGreenbush7
+    3300010: Terrace_LongGreenbush8
+    3300012: Terrace_LongGreenbush9
+    4300000: Terrace_LongGreenbush5
+    4300002: Terrace_LongGreenbush6
+    4300004: Terrace_LongGreenbush7
+    4300006: Terrace_LongGreenbush8
+    4300008: Terrace_LongGreenbush9
+    4300010: Terrace_LongGreenbush10
+    4300012: Terrace_BushWhitebase4
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
