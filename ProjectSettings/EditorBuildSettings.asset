@@ -6,22 +6,22 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/__Scenes/LoginScene.unity
+    path: Assets/__Scenes/LoginScene/LoginScene.unity
     guid: b3049d4882a276f4dbae81c84962e9ed
   - enabled: 1
-    path: Assets/__Scenes/HomeScene.unity
+    path: Assets/__Scenes/HomeScene/HomeScene.unity
     guid: 66249e54836b48a42acadcc57da3e448
   - enabled: 1
-    path: Assets/__Scenes/Room_Tutorial.unity
+    path: Assets/__Scenes/Tutorial/Room_Tutorial.unity
     guid: 8efb39635c696644896b395102b2fdd3
   - enabled: 1
-    path: Assets/__Scenes/Room_PershingIsland.unity
+    path: Assets/__Scenes/Pershing Island/Room_PershingIsland.unity
     guid: a7d95ffcaffd755448932631dbed5364
   - enabled: 1
-    path: Assets/__Scenes/Room_PershingIslandNight.unity
+    path: Assets/__Scenes/Pershing Island/Room_PershingIslandNight.unity
     guid: d42826f67dc4b994c9b88329b2af20e3
   - enabled: 1
-    path: Assets/__Scenes/Room_PershingOcean.unity
+    path: Assets/__Scenes/Pershing Ocean/Room_PershingOcean.unity
     guid: 8d9eb33677508e9488302e3fcb8218e7
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 58b78d5829d34254aaae7b8a65e2768d, type: 2}
