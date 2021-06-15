@@ -884,6 +884,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Network VR Player - Login Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 5005719980932217566, guid: b45b8ff274cf19641b4351f8045f96d1, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b45b8ff274cf19641b4351f8045f96d1, type: 3}
 --- !u!4 &982937335

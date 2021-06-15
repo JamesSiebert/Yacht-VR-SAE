@@ -293,6 +293,20 @@
           </e>
         </e>
         <e p="Credits.txt" t="Include" />
+        <e p="Modern Homes" t="Include">
+          <e p="Home 1" t="Include">
+            <e p="Textures" t="Include">
+              <e p="Modern Home 1 Pack Contents.txt" t="Include" />
+            </e>
+          </e>
+          <e p="Modern Home Pack.txt" t="Include" />
+          <e p="readme.txt" t="Include" />
+        </e>
+        <e p="ModernArchViz_SeaView" t="Include">
+          <e p="SeaViewArchViz" t="Include">
+            <e p="readme.txt" t="Include" />
+          </e>
+        </e>
         <e p="Oculus" t="Include">
           <e p="AudioManager" t="Include">
             <e p="scenes" t="Include">
@@ -1671,6 +1685,11 @@
               <e p="ReadmeEditor.cs" t="Include" />
             </e>
             <e p="Readme.cs" t="Include" />
+          </e>
+        </e>
+        <e p="Yacht Model" t="Include">
+          <e p="Reference Images" t="Include">
+            <e p="virtual tour.txt" t="Include" />
           </e>
         </e>
       </e>

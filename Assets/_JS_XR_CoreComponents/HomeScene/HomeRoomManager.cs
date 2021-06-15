@@ -19,6 +19,9 @@ public class HomeRoomManager : MonoBehaviourPunCallbacks
     [SerializeField]
     TextMeshProUGUI OccupancyRateText_ForPershingOcean;
     
+    [SerializeField]
+    TextMeshProUGUI OccupancyRateText_ForPershingLowerDeck;
+    
     string mapType;
 
     void Start()
@@ -76,6 +79,13 @@ public class HomeRoomManager : MonoBehaviourPunCallbacks
         ExitGames.Client.Photon.Hashtable expectedCustomRoomProperties = new ExitGames.Client.Photon.Hashtable() { {MultiplayerVRConstants.MAP_TYPE_KEY, mapType} };
         PhotonNetwork.JoinRandomRoom(expectedCustomRoomProperties, 0);
     }
+    
+    public void OnEnterRoomButtonClicked_PershingLowerDeck()
+    {
+        mapType = MultiplayerVRConstants.MAP_TYPE_PERSHING_LOWER_DECK;
+        ExitGames.Client.Photon.Hashtable expectedCustomRoomProperties = new ExitGames.Client.Photon.Hashtable() { {MultiplayerVRConstants.MAP_TYPE_KEY, mapType} };
+        PhotonNetwork.JoinRandomRoom(expectedCustomRoomProperties, 0);
+    }
     #endregion
     
     
@@ -128,6 +138,11 @@ public class HomeRoomManager : MonoBehaviourPunCallbacks
                     // Load scene
                     PhotonNetwork.LoadLevel("Room_PershingOcean");
                 }
+                else if ((string)mapType == MultiplayerVRConstants.MAP_TYPE_PERSHING_LOWER_DECK)
+                {
+                    // Load scene
+                    PhotonNetwork.LoadLevel("Room_PershingLowerDeck");
+                }
             }
         }
     }
@@ -148,6 +163,7 @@ public class HomeRoomManager : MonoBehaviourPunCallbacks
             OccupancyRateText_ForPershingIsland.text = 0 + " / " + 20;
             OccupancyRateText_ForPershingIslandNight.text = 0 + " / " + 20;
             OccupancyRateText_ForPershingOcean.text = 0 + " / " + 20;
+            OccupancyRateText_ForPershingLowerDeck.text = 0 + " / " + 20;
         }
 
         foreach(RoomInfo room in roomList)
@@ -173,6 +189,11 @@ public class HomeRoomManager : MonoBehaviourPunCallbacks
             {
                 Debug.Log("Room is a PERSHING OCEAN map. Player count is: " + room.PlayerCount);
                 OccupancyRateText_ForPershingOcean.text = room.PlayerCount + " / " + 20;
+            }
+            else if (room.Name.Contains(MultiplayerVRConstants.MAP_TYPE_PERSHING_LOWER_DECK))
+            {
+                Debug.Log("Room is a PERSHING LOWER DECK map. Player count is: " + room.PlayerCount);
+                OccupancyRateText_ForPershingLowerDeck.text = room.PlayerCount + " / " + 20;
             }
             else
             {
