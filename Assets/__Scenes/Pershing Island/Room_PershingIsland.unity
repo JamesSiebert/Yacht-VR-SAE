@@ -3121,7 +3121,7 @@ GameObject:
   - component: {fileID: 727774112}
   - component: {fileID: 727774111}
   m_Layer: 0
-  m_Name: Audio Source
+  m_Name: Audio_ENV_Island Day
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
