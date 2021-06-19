@@ -7806,6 +7806,7 @@ GameObject:
   m_Component:
   - component: {fileID: 590900237}
   - component: {fileID: 590900238}
+  - component: {fileID: 590900239}
   m_Layer: 0
   m_Name: Audio_ENV_Island Night
   m_TagString: Untagged
@@ -7837,7 +7838,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 4158098644666389908, guid: 1dd706bb85d8aef4e83a6229dbd62c36, type: 2}
-  m_audioClip: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 24a7c98d0c529f142a8635dcd24fe87d, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -7923,6 +7924,18 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &590900239
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 590900236}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb001ad917b86f148a2c85acdd0d5c6a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &593317974
 GameObject:
   m_ObjectHideFlags: 0
