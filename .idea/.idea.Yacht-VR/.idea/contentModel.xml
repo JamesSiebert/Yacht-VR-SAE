@@ -1687,6 +1687,23 @@
             <e p="Readme.cs" t="Include" />
           </e>
         </e>
+        <e p="UnityHDRI" t="Include">
+          <e p="Gareoult" t="Include">
+            <e p="Info.txt" t="Include" />
+          </e>
+          <e p="KirbyCove" t="Include">
+            <e p="Info.txt" t="Include" />
+          </e>
+          <e p="Seaside" t="Include">
+            <e p="Info.txt" t="Include" />
+          </e>
+          <e p="TreasureIsland" t="Include">
+            <e p="Info.txt" t="Include" />
+          </e>
+          <e p="Trinitatis Church" t="Include">
+            <e p="Info.txt" t="Include" />
+          </e>
+        </e>
         <e p="Yacht Model" t="Include">
           <e p="Reference Images" t="Include">
             <e p="virtual tour.txt" t="Include" />

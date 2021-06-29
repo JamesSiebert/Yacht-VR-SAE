@@ -22,14 +22,9 @@
     <list default="true" id="efd56fab-5c02-4431-adb6-7cf1a45832dc" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Yacht-VR/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Yacht-VR/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Yacht-VR/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Yacht-VR/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_JS_XR_CoreComponents/HomeScene/HomeRoomManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_JS_XR_CoreComponents/HomeScene/HomeRoomManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_JS_XR_CoreComponents/Shared/MultiplayerVRConstants.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_JS_XR_CoreComponents/Shared/MultiplayerVRConstants.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_JS_XR_CoreComponents/VR Player/Resources/TeleportReticleDirectional.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_JS_XR_CoreComponents/VR Player/Resources/TeleportReticleDirectional.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/__Scenes/HomeScene/HomeScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/__Scenes/HomeScene/HomeScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/__Scenes/LoginScene/LoginScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/__Scenes/LoginScene/LoginScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/__Scenes/Pershing Lower Deck/Lower Deck.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/__Scenes/Pershing Lower Deck/Lower Deck.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_JS_XR_CoreComponents/VR Player/PlayerNetworkSetup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_JS_XR_CoreComponents/VR Player/PlayerNetworkSetup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_JS_XR_CoreComponents/VR Player/Resources/Network VR Player - Login Variant.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_JS_XR_CoreComponents/VR Player/Resources/Network VR Player - Login Variant.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_JS_XR_CoreComponents/VR Player/Resources/Network VR Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_JS_XR_CoreComponents/VR Player/Resources/Network VR Player.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,6 +44,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/_JS_XR_CoreComponents/LoginScene/LoginManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_JS_XR_CoreComponents/LoginScene/Editor/LoginManagerEditorScript.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.high-definition@10.2.2/Runtime/Material/Lit/Lit.shader" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_JS_XR_CoreComponents/VR Player/VoiceDebugUI.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_JS_XR_CoreComponents/VR Player/PlayerNetworkSetup.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_JS_XR_CoreComponents/Shared/Room/PhotonInWorldManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@1.0.0-pre.3/Runtime/Interaction/Interactables/XRBaseInteractable.cs" root0="SKIP_HIGHLIGHTING" />
@@ -79,10 +75,10 @@
         <option value="$PROJECT_DIR$/Assets/_JS_XR_CoreComponents/HomeScene/Editor/HomeRoomManagerEditorScript.cs" />
         <option value="$PROJECT_DIR$/Assets/_JS_XR_CoreComponents/VR Player/XR_TeleportControlSwitcher.cs" />
         <option value="$PROJECT_DIR$/Assets/_JS_XR_CoreComponents/LoginScene/LoginManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/_JS_XR_CoreComponents/VR Player/PlayerNetworkSetup.cs" />
         <option value="$PROJECT_DIR$/Assets/_JS_XR_CoreComponents/Shared/Room/VRSpawnManager.cs" />
         <option value="$PROJECT_DIR$/Assets/_JS_XR_CoreComponents/Shared/MultiplayerVRConstants.cs" />
         <option value="$PROJECT_DIR$/Assets/_JS_XR_CoreComponents/HomeScene/HomeRoomManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/_JS_XR_CoreComponents/VR Player/PlayerNetworkSetup.cs" />
       </list>
     </option>
   </component>
@@ -134,6 +130,7 @@
       <workItem from="1618803858876" duration="1298000" />
       <workItem from="1623727744190" duration="1027000" />
       <workItem from="1623730835422" duration="597000" />
+      <workItem from="1624944452555" duration="662000" />
     </task>
     <servers />
   </component>

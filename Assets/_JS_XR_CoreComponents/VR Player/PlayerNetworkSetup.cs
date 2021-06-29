@@ -60,7 +60,7 @@ public class PlayerNetworkSetup : MonoBehaviourPunCallbacks
             }
 
             // Add audio listener to avatar - only 1 audio listener in scene
-            mainAvatar.AddComponent<AudioListener>();
+            //mainAvatar.AddComponent<AudioListener>();
         }
         else
         {
