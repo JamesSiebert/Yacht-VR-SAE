@@ -42,6 +42,10 @@
             <e p="XR_TeleportControlSwitcher.cs" t="Include" />
           </e>
         </e>
+        <e p="AllSkyFree" t="Include">
+          <e p="AllSkyFree_Menu.cs" t="Include" />
+          <e p="AllSkyFree_Readme.txt" t="Include" />
+        </e>
         <e p="Asset Store" t="Include">
           <e p="Crest" t="Include">
             <e p="Crest" t="Include">
@@ -1644,6 +1648,9 @@
           </e>
         </e>
         <e p="Scripts" t="Include">
+          <e p="Day Night" t="Include">
+            <e p="DayNightController.cs" t="Include" />
+          </e>
           <e p="LookWithMouse.cs" t="Include" />
           <e p="PlayerMovement.cs" t="Include" />
           <e p="SimpleCameraController.cs" t="Include" />

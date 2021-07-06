@@ -20,8 +20,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="efd56fab-5c02-4431-adb6-7cf1a45832dc" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/__Scenes/LoginScene/Sky and Fog Settings Profile.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/__Scenes/LoginScene/Sky and Fog Settings Profile.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Yacht-VR/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Yacht-VR/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Yacht-VR/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Yacht-VR/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Yacht-VR/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Yacht-VR/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset Store/Crest/Crest-Examples/Shared/Settings/DemoPostProcessingSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Store/Crest/Crest-Examples/Shared/Settings/DemoPostProcessingSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ModernArchViz_SeaView/SeaViewArchViz/Materials/FabricBlack_01.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ModernArchViz_SeaView/SeaViewArchViz/Materials/FabricBlack_01.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ModernArchViz_SeaView/SeaViewArchViz/Materials/FabricWhite_01.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ModernArchViz_SeaView/SeaViewArchViz/Materials/FabricWhite_01.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ModernArchViz_SeaView/SeaViewArchViz/Materials/GlassClear.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ModernArchViz_SeaView/SeaViewArchViz/Materials/GlassClear.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ModernArchViz_SeaView/SeaViewArchViz/Materials/RugBlack_01.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ModernArchViz_SeaView/SeaViewArchViz/Materials/RugBlack_01.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ModernArchViz_SeaView/SeaViewArchViz/Materials/RugWhite_01.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ModernArchViz_SeaView/SeaViewArchViz/Materials/RugWhite_01.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ModernArchViz_SeaView/SeaViewArchViz/Materials/StandardWhite.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ModernArchViz_SeaView/SeaViewArchViz/Materials/StandardWhite.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ModernArchViz_SeaView/SeaViewArchViz/Materials/TextureAtlas_PropsMirror_01.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ModernArchViz_SeaView/SeaViewArchViz/Materials/TextureAtlas_PropsMirror_01.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Scenes/HomeScene/HomeScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/__Scenes/HomeScene/HomeScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Scenes/Pershing Island/Room_PershingIsland.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/__Scenes/Pershing Island/Room_PershingIsland.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Scenes/Pershing Island/Room_PershingIsland/Sky and Fog Settings Profile.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Scenes/Pershing Island/Room_PershingIsland/Sky and Fog Settings Profile.asset.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,6 +62,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Asset Store/Crest/Crest/Scripts/Helpers/AssignLayer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Photon/PhotonRealtime/Code/LoadBalancingClient.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_JS_XR_CoreComponents/VR Player/JS_XRInputEventTrigger.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Day Night/DayNightController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_JS_XR_CoreComponents/HomeScene/HomeRoomManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.high-definition@10.2.2/Runtime/Lighting/Shadow/HDShadowManager.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_JS_XR_CoreComponents/Shared/MultiplayerVRConstants.cs" root0="FORCE_HIGHLIGHTING" />
@@ -76,6 +90,7 @@
         <option value="$PROJECT_DIR$/Assets/_JS_XR_CoreComponents/Shared/MultiplayerVRConstants.cs" />
         <option value="$PROJECT_DIR$/Assets/_JS_XR_CoreComponents/HomeScene/HomeRoomManager.cs" />
         <option value="$PROJECT_DIR$/Assets/_JS_XR_CoreComponents/VR Player/PlayerNetworkSetup.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Day Night/DayNightController.cs" />
       </list>
     </option>
   </component>
@@ -128,6 +143,8 @@
       <workItem from="1623727744190" duration="1027000" />
       <workItem from="1623730835422" duration="597000" />
       <workItem from="1624944452555" duration="1264000" />
+      <workItem from="1625526463026" duration="3000" />
+      <workItem from="1625529338833" duration="6351000" />
     </task>
     <servers />
   </component>
