@@ -297,6 +297,7 @@
           </e>
         </e>
         <e p="Credits.txt" t="Include" />
+        <e p="HandMenuManager.cs" t="Include" />
         <e p="Modern Homes" t="Include">
           <e p="Home 1" t="Include">
             <e p="Textures" t="Include">

@@ -9,11 +9,6 @@ using UnityEngine.Rendering.HighDefinition;
 
 public class DayNightController : MonoBehaviour
 {
-    // Sky
-    // public GameObject sky;
-    // public Cubemap daySkyCubemap;
-    // public Cubemap nightSkyCubemap;
-
     // Sun
     public GameObject sun;
     public Transform sunAngleDay;
@@ -44,9 +39,9 @@ public class DayNightController : MonoBehaviour
         sunLightData = sun.GetComponent<HDAdditionalLightData>();
         fillLightData = fillLight.GetComponent<HDAdditionalLightData>();
         
-        StartCoroutine(ExampleCoroutine());
+        // StartCoroutine(ExampleCoroutine());
         
-        //EnableDayLighting();
+        EnableDayLighting();
         //EnableNightLighting();
 
     }
@@ -78,17 +73,15 @@ public class DayNightController : MonoBehaviour
         fillLightData.intensity = fillLightIntensityNight;
         fillLight.colorTemperature = fillLightTempNight;
         
-        // // Sky cubemap
-        // sky.GetComponent<PhysicallyBasedSky>().spaceEmissionTexture.value = nightSkyCubemap;
     }
     
 
-    IEnumerator ExampleCoroutine()
-    {
-        EnableDayLighting();
-
-        yield return new WaitForSeconds(10);
-        
-        EnableNightLighting();
-    }
+    // IEnumerator ExampleCoroutine()
+    // {
+    //     EnableDayLighting();
+    //
+    //     yield return new WaitForSeconds(10);
+    //     
+    //     EnableNightLighting();
+    // }
 }
