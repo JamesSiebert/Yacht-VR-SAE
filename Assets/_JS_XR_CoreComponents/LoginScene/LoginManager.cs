@@ -6,7 +6,6 @@ using TMPro;
 
 public class LoginManager : MonoBehaviourPunCallbacks
 {
-
     public TMP_InputField PlayerName_InputField;
 
     #region UNITY Methods
@@ -23,7 +22,7 @@ public class LoginManager : MonoBehaviourPunCallbacks
     }
 
     #endregion
-
+    
 
 
     #region UI Callback Methods

@@ -16,6 +16,6 @@ public class LoginManagerEditorScript : Editor
             loginManager.ConnectToPhotonServer();
         }
 
-
     }
+    
 }

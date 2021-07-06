@@ -296,6 +296,8 @@
             </e>
           </e>
         </e>
+        <e p="AutoLogin.cs" t="Include" />
+        <e p="AutoNavigateToTutorial.cs" t="Include" />
         <e p="Credits.txt" t="Include" />
         <e p="HandMenuManager.cs" t="Include" />
         <e p="Modern Homes" t="Include">
@@ -1072,6 +1074,7 @@
             </e>
           </e>
         </e>
+        <e p="PersistantVariables.cs" t="Include" />
         <e p="Photon" t="Include">
           <e p="PhotonChat" t="Include">
             <e p="Code" t="Include">
