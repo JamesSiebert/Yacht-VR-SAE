@@ -12,9 +12,6 @@ public class HomeRoomManager : MonoBehaviourPunCallbacks
 
     [SerializeField]
     TextMeshProUGUI OccupancyRateText_ForPershingIsland;
-
-    [SerializeField]
-    TextMeshProUGUI OccupancyRateText_ForPershingIslandNight;
     
     [SerializeField]
     TextMeshProUGUI OccupancyRateText_ForPershingOcean;
@@ -62,13 +59,6 @@ public class HomeRoomManager : MonoBehaviourPunCallbacks
     public void OnEnterRoomButtonClicked_PershingIsland()
     {
         mapType = MultiplayerVRConstants.MAP_TYPE_PERSHING_ISLAND;
-        ExitGames.Client.Photon.Hashtable expectedCustomRoomProperties = new ExitGames.Client.Photon.Hashtable() { {MultiplayerVRConstants.MAP_TYPE_KEY, mapType} };
-        PhotonNetwork.JoinRandomRoom(expectedCustomRoomProperties, 0);
-    }
-    
-    public void OnEnterRoomButtonClicked_PershingIslandNight()
-    {
-        mapType = MultiplayerVRConstants.MAP_TYPE_PERSHING_ISLAND_NIGHT;
         ExitGames.Client.Photon.Hashtable expectedCustomRoomProperties = new ExitGames.Client.Photon.Hashtable() { {MultiplayerVRConstants.MAP_TYPE_KEY, mapType} };
         PhotonNetwork.JoinRandomRoom(expectedCustomRoomProperties, 0);
     }
@@ -128,11 +118,6 @@ public class HomeRoomManager : MonoBehaviourPunCallbacks
                     // Load scene
                     PhotonNetwork.LoadLevel("Room_PershingIsland");
                 }
-                else if ((string)mapType == MultiplayerVRConstants.MAP_TYPE_PERSHING_ISLAND_NIGHT)
-                {
-                    // Load scene
-                    PhotonNetwork.LoadLevel("Room_PershingIslandNight");
-                }
                 else if ((string)mapType == MultiplayerVRConstants.MAP_TYPE_PERSHING_OCEAN)
                 {
                     // Load scene
@@ -161,7 +146,6 @@ public class HomeRoomManager : MonoBehaviourPunCallbacks
         {
             OccupancyRateText_ForTraining.text = 0 + " / " + 20;
             OccupancyRateText_ForPershingIsland.text = 0 + " / " + 20;
-            OccupancyRateText_ForPershingIslandNight.text = 0 + " / " + 20;
             OccupancyRateText_ForPershingOcean.text = 0 + " / " + 20;
             OccupancyRateText_ForPershingLowerDeck.text = 0 + " / " + 20;
         }
@@ -179,11 +163,6 @@ public class HomeRoomManager : MonoBehaviourPunCallbacks
             {
                 Debug.Log("Room is a PERSHING ISLAND map. Player count is: " + room.PlayerCount);
                 OccupancyRateText_ForPershingIsland.text = room.PlayerCount + " / " + 20;
-            }
-            else if (room.Name.Contains(MultiplayerVRConstants.MAP_TYPE_PERSHING_ISLAND_NIGHT))
-            {
-                Debug.Log("Room is a PERSHING ISLAND NIGHT map. Player count is: " + room.PlayerCount);
-                OccupancyRateText_ForPershingIslandNight.text = room.PlayerCount + " / " + 20;
             }
             else if (room.Name.Contains(MultiplayerVRConstants.MAP_TYPE_PERSHING_OCEAN))
             {

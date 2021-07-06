@@ -20,12 +20,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="efd56fab-5c02-4431-adb6-7cf1a45832dc" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Yacht-VR/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Yacht-VR/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Yacht-VR/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Yacht-VR/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Day Night/DayNightController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Day Night/DayNightController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_JS_XR_CoreComponents/VR Player/Resources/Network VR Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_JS_XR_CoreComponents/VR Player/Resources/Network VR Player.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/__Scenes/Pershing Island/Room_PershingIsland.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/__Scenes/Pershing Island/Room_PershingIsland.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_JS_XR_CoreComponents/HomeScene/HomeRoomManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_JS_XR_CoreComponents/HomeScene/HomeRoomManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Scenes/Pershing Island/Room_PershingIslandNight.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Scenes/Pershing Island/Room_PershingIslandNight.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Scenes/Pershing_Night.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Scenes/Pershing_Night/Light.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Scenes/Pershing_Night/Light.mat.meta" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,10 +79,10 @@
         <option value="$PROJECT_DIR$/Assets/_JS_XR_CoreComponents/LoginScene/LoginManager.cs" />
         <option value="$PROJECT_DIR$/Assets/_JS_XR_CoreComponents/Shared/Room/VRSpawnManager.cs" />
         <option value="$PROJECT_DIR$/Assets/_JS_XR_CoreComponents/Shared/MultiplayerVRConstants.cs" />
-        <option value="$PROJECT_DIR$/Assets/_JS_XR_CoreComponents/HomeScene/HomeRoomManager.cs" />
         <option value="$PROJECT_DIR$/Assets/_JS_XR_CoreComponents/VR Player/PlayerNetworkSetup.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Day Night/DayNightController.cs" />
         <option value="$PROJECT_DIR$/Assets/HandMenuManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/_JS_XR_CoreComponents/HomeScene/HomeRoomManager.cs" />
       </list>
     </option>
   </component>
@@ -136,7 +136,7 @@
       <workItem from="1623730835422" duration="597000" />
       <workItem from="1624944452555" duration="1264000" />
       <workItem from="1625526463026" duration="3000" />
-      <workItem from="1625529338833" duration="8626000" />
+      <workItem from="1625529338833" duration="9131000" />
     </task>
     <servers />
   </component>
