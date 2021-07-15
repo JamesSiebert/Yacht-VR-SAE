@@ -3713,6 +3713,7 @@ GameObject:
   - component: {fileID: 5960572330329196912}
   - component: {fileID: 6655973020168667377}
   - component: {fileID: 2290698958441273111}
+  - component: {fileID: 7685940127589348403}
   m_Layer: 0
   m_Name: Locomotion System
   m_TagString: Untagged
@@ -3791,7 +3792,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5960572330329196919}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1ac6916bc3db4214dbe74106e4ad724b, type: 3}
   m_Name: 
@@ -3803,6 +3804,27 @@ MonoBehaviour:
   - {fileID: 2219058943120298826}
   m_DeadzoneMin: 0.125
   m_DeadzoneMax: 0.925
+--- !u!114 &7685940127589348403
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5960572330329196919}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc4f2c0214c9b494fa7eb5b8b2c02885, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_System: {fileID: 5960572330329196913}
+  m_TurnAmount: 45
+  m_DebounceTime: 0.5
+  m_EnableTurnLeftRight: 1
+  m_EnableTurnAround: 1
+  m_TurnUsage: 0
+  m_Controllers:
+  - {fileID: 2219058943120298826}
+  m_DeadZone: 0.75
 --- !u!1 &5960572330364093793
 GameObject:
   m_ObjectHideFlags: 0
@@ -4120,7 +4142,7 @@ MonoBehaviour:
       enableFptlForForwardOpaque: 0
       enableBigTilePrepass: 0
       isFptlEnabled: 0
-  clearColorMode: 2
+  clearColorMode: 0
   backgroundColorHDR: {r: 0.025, g: 0.07, b: 0.19, a: 0}
   clearDepth: 1
   volumeLayerMask:

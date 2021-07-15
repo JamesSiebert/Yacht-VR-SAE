@@ -20,14 +20,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="efd56fab-5c02-4431-adb6-7cf1a45832dc" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Yacht-VR/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Yacht-VR/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Yacht-VR/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Yacht-VR/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Yacht-VR/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Yacht-VR/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_JS_XR_CoreComponents/LoginScene/Editor/LoginManagerEditorScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_JS_XR_CoreComponents/LoginScene/Editor/LoginManagerEditorScript.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_JS_XR_CoreComponents/LoginScene/LoginManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_JS_XR_CoreComponents/LoginScene/LoginManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AutoLogin.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AutoLogin.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AutoNavigateToTutorial.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AutoNavigateToTutorial.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_JS_XR_CoreComponents/Shared/Room/VRSpawnManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_JS_XR_CoreComponents/Shared/Room/VRSpawnManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_JS_XR_CoreComponents/VR Player/Resources/Network VR Player - Login Variant.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_JS_XR_CoreComponents/VR Player/Resources/Network VR Player - Login Variant.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_JS_XR_CoreComponents/VR Player/Resources/Network VR Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_JS_XR_CoreComponents/VR Player/Resources/Network VR Player.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/__Scenes/HomeScene/HomeScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/__Scenes/HomeScene/HomeScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Scenes/LoginScene/Login - Sky and Fog Settings Profile.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/__Scenes/LoginScene/Login - Sky and Fog Settings Profile.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/__Scenes/LoginScene/LoginScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/__Scenes/LoginScene/LoginScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/ApiUpdaterCheck.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/ApiUpdaterCheck.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Scenes/Pershing Island/Room_PershingIsland.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/__Scenes/Pershing Island/Room_PershingIsland.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Scenes/Pershing Ocean/Room_PershingOcean.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/__Scenes/Pershing Ocean/Room_PershingOcean.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Scenes/Tutorial/Room_Tutorial.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/__Scenes/Tutorial/Room_Tutorial.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -82,7 +86,6 @@
         <option value="$PROJECT_DIR$/Assets/_JS_XR_CoreComponents/HomeScene/Editor/RoomManagerEditorScript.cs" />
         <option value="$PROJECT_DIR$/Assets/_JS_XR_CoreComponents/HomeScene/Editor/HomeRoomManagerEditorScript.cs" />
         <option value="$PROJECT_DIR$/Assets/_JS_XR_CoreComponents/VR Player/XR_TeleportControlSwitcher.cs" />
-        <option value="$PROJECT_DIR$/Assets/_JS_XR_CoreComponents/Shared/Room/VRSpawnManager.cs" />
         <option value="$PROJECT_DIR$/Assets/_JS_XR_CoreComponents/Shared/MultiplayerVRConstants.cs" />
         <option value="$PROJECT_DIR$/Assets/_JS_XR_CoreComponents/VR Player/PlayerNetworkSetup.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Day Night/DayNightController.cs" />
@@ -90,8 +93,9 @@
         <option value="$PROJECT_DIR$/Assets/_JS_XR_CoreComponents/HomeScene/HomeRoomManager.cs" />
         <option value="$PROJECT_DIR$/Assets/_JS_XR_CoreComponents/LoginScene/Editor/LoginManagerEditorScript.cs" />
         <option value="$PROJECT_DIR$/Assets/_JS_XR_CoreComponents/LoginScene/LoginManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/AutoLogin.cs" />
         <option value="$PROJECT_DIR$/Assets/PersistantVariables.cs" />
+        <option value="$PROJECT_DIR$/Assets/AutoLogin.cs" />
+        <option value="$PROJECT_DIR$/Assets/_JS_XR_CoreComponents/Shared/Room/VRSpawnManager.cs" />
         <option value="$PROJECT_DIR$/Assets/AutoNavigateToTutorial.cs" />
       </list>
     </option>
@@ -148,6 +152,7 @@
       <workItem from="1625526463026" duration="3000" />
       <workItem from="1625529338833" duration="9728000" />
       <workItem from="1625557310468" duration="4658000" />
+      <workItem from="1626324724666" duration="2802000" />
     </task>
     <servers />
   </component>

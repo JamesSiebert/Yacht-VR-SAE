@@ -4,8 +4,9 @@ using UnityEngine;
 
 public class AutoNavigateToTutorial : MonoBehaviour
 {
-    public GameObject persistantVariablesGO;
-    public PersistantVariables persistantVariables;
+    public bool enableAutoTutorial;
+    private GameObject persistantVariablesGO;
+    private PersistantVariables persistantVariables;
     public HomeRoomManager roomManager;
 
     public GameObject sceneSelectionCanvas;
@@ -13,16 +14,18 @@ public class AutoNavigateToTutorial : MonoBehaviour
 
     void Start()
     {
-        persistantVariablesGO = GameObject.Find("PersistantVariables");
-        persistantVariables = persistantVariablesGO.GetComponent<PersistantVariables>();
-        
-        if (!persistantVariables.tutorialPlayed)
+        if (enableAutoTutorial)
         {
-            sceneSelectionCanvas.SetActive(false);
-            autoLoadTutorialCanvas.SetActive(true);
-            StartCoroutine(ChangeScene());
-        }
+            persistantVariablesGO = GameObject.Find("PersistantVariables");
+            persistantVariables = persistantVariablesGO.GetComponent<PersistantVariables>();
         
+            if (!persistantVariables.tutorialPlayed)
+            {
+                sceneSelectionCanvas.SetActive(false);
+                autoLoadTutorialCanvas.SetActive(true);
+                StartCoroutine(ChangeScene());
+            }
+        }
     }
 
     IEnumerator ChangeScene()

@@ -3194,6 +3194,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Network VR Player - Home Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 1238265487276984361, guid: a7feae07dc075a94e9fb77b5efe64e1d, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1238265487312220344, guid: a7feae07dc075a94e9fb77b5efe64e1d, type: 3}
       propertyPath: m_IsActive
       value: 1
@@ -4069,8 +4073,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9f807ef71f3a7f44ba8ca5182976c90, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  persistantVariablesGO: {fileID: 0}
-  persistantVariables: {fileID: 1685496781}
+  enableAutoTutorial: 0
   roomManager: {fileID: 416914593}
   sceneSelectionCanvas: {fileID: 622065181}
   autoLoadTutorialCanvas: {fileID: 1286217985}
