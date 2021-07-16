@@ -2704,8 +2704,8 @@ MonoBehaviour:
   enableSpatialization: 1
   gain: 0
   useInvSqr: 1
-  near: 3
-  far: 80
+  near: 1
+  far: 20
   volumetricRadius: 20
   reverbSend: 0
   enableRfl: 0
@@ -2729,8 +2729,8 @@ AudioSource:
   SpatializePostEffects: 1
   Priority: 128
   DopplerLevel: 1
-  MinDistance: 3
-  MaxDistance: 80
+  MinDistance: 1
+  MaxDistance: 20
   Pan2D: 0
   rolloffMode: 0
   BypassEffects: 0

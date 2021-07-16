@@ -5200,8 +5200,8 @@ MonoBehaviour:
   gain: 0
   useInvSqr: 1
   near: 25
-  far: 100
-  volumetricRadius: 100
+  far: 80
+  volumetricRadius: 80
   reverbSend: 0
   enableRfl: 0
 --- !u!82 &864508511
@@ -5225,7 +5225,7 @@ AudioSource:
   Priority: 128
   DopplerLevel: 1
   MinDistance: 25
-  MaxDistance: 100
+  MaxDistance: 80
   Pan2D: 0
   rolloffMode: 0
   BypassEffects: 0
@@ -6606,8 +6606,8 @@ MonoBehaviour:
   gain: 0
   useInvSqr: 1
   near: 25
-  far: 100
-  volumetricRadius: 100
+  far: 80
+  volumetricRadius: 80
   reverbSend: 0
   enableRfl: 0
 --- !u!82 &1121712107
@@ -6631,7 +6631,7 @@ AudioSource:
   Priority: 128
   DopplerLevel: 1
   MinDistance: 25
-  MaxDistance: 100
+  MaxDistance: 80
   Pan2D: 0
   rolloffMode: 0
   BypassEffects: 0
@@ -7974,8 +7974,8 @@ MonoBehaviour:
   enableSpatialization: 1
   gain: 0
   useInvSqr: 1
-  near: 5
-  far: 50
+  near: 3
+  far: 80
   volumetricRadius: 50
   reverbSend: 0
   enableRfl: 0
@@ -7999,8 +7999,8 @@ AudioSource:
   SpatializePostEffects: 1
   Priority: 128
   DopplerLevel: 1
-  MinDistance: 5
-  MaxDistance: 50
+  MinDistance: 3
+  MaxDistance: 80
   Pan2D: 0
   rolloffMode: 0
   BypassEffects: 0
@@ -10200,8 +10200,8 @@ MonoBehaviour:
   enableSpatialization: 1
   gain: 0
   useInvSqr: 1
-  near: 5
-  far: 50
+  near: 3
+  far: 80
   volumetricRadius: 50
   reverbSend: 0
   enableRfl: 0
@@ -10225,8 +10225,8 @@ AudioSource:
   SpatializePostEffects: 1
   Priority: 128
   DopplerLevel: 1
-  MinDistance: 5
-  MaxDistance: 50
+  MinDistance: 3
+  MaxDistance: 80
   Pan2D: 0
   rolloffMode: 0
   BypassEffects: 0
