@@ -1401,8 +1401,8 @@ MonoBehaviour:
   enableSpatialization: 1
   gain: 2
   useInvSqr: 0
-  near: 0.8
-  far: 8
+  near: 0.25
+  far: 1.5
   volumetricRadius: 0
   reverbSend: 0
   enableRfl: 0
@@ -5178,7 +5178,7 @@ GameObject:
   - component: {fileID: 864508511}
   - component: {fileID: 864508510}
   m_Layer: 19
-  m_Name: Audio_ENV_Island Water
+  m_Name: Audio_ENV_Island Water Lap
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5198,10 +5198,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enableSpatialization: 1
   gain: 0
-  useInvSqr: 1
-  near: 25
-  far: 80
-  volumetricRadius: 80
+  useInvSqr: 0
+  near: 4
+  far: 30
+  volumetricRadius: 0
   reverbSend: 0
   enableRfl: 0
 --- !u!82 &864508511
@@ -5224,8 +5224,8 @@ AudioSource:
   SpatializePostEffects: 1
   Priority: 128
   DopplerLevel: 0
-  MinDistance: 25
-  MaxDistance: 80
+  MinDistance: 4
+  MaxDistance: 30
   Pan2D: 0
   rolloffMode: 0
   BypassEffects: 0
@@ -5308,7 +5308,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 864508509}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 31, y: -37.2, z: -42}
+  m_LocalPosition: {x: 33, y: -38, z: -47.66}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 778791649}
@@ -6606,8 +6606,8 @@ MonoBehaviour:
   gain: 0
   useInvSqr: 1
   near: 25
-  far: 80
-  volumetricRadius: 80
+  far: 200
+  volumetricRadius: 200
   reverbSend: 0
   enableRfl: 0
 --- !u!82 &1121712107
@@ -6631,7 +6631,7 @@ AudioSource:
   Priority: 128
   DopplerLevel: 0
   MinDistance: 25
-  MaxDistance: 80
+  MaxDistance: 200
   Pan2D: 0
   rolloffMode: 0
   BypassEffects: 0
@@ -7974,9 +7974,9 @@ MonoBehaviour:
   enableSpatialization: 1
   gain: 0
   useInvSqr: 1
-  near: 3
-  far: 80
-  volumetricRadius: 50
+  near: 30
+  far: 70
+  volumetricRadius: 70
   reverbSend: 0
   enableRfl: 0
 --- !u!82 &1432870794
@@ -7999,8 +7999,8 @@ AudioSource:
   SpatializePostEffects: 1
   Priority: 128
   DopplerLevel: 0
-  MinDistance: 3
-  MaxDistance: 80
+  MinDistance: 30
+  MaxDistance: 70
   Pan2D: 0
   rolloffMode: 0
   BypassEffects: 0
@@ -9521,8 +9521,8 @@ MonoBehaviour:
   enableSpatialization: 1
   gain: 7
   useInvSqr: 0
-  near: 0.8
-  far: 8
+  near: 0.25
+  far: 1.5
   volumetricRadius: 0
   reverbSend: 0
   enableRfl: 0
@@ -10389,9 +10389,9 @@ MonoBehaviour:
   enableSpatialization: 1
   gain: 0
   useInvSqr: 1
-  near: 3
-  far: 80
-  volumetricRadius: 50
+  near: 30
+  far: 70
+  volumetricRadius: 70
   reverbSend: 0
   enableRfl: 0
 --- !u!82 &1756575263
@@ -10414,8 +10414,8 @@ AudioSource:
   SpatializePostEffects: 1
   Priority: 128
   DopplerLevel: 0
-  MinDistance: 3
-  MaxDistance: 80
+  MinDistance: 30
+  MaxDistance: 70
   Pan2D: 0
   rolloffMode: 0
   BypassEffects: 0
@@ -10498,7 +10498,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1756575261}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 30, y: -25, z: -74}
+  m_LocalPosition: {x: 30, y: -29, z: -70}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 778791649}

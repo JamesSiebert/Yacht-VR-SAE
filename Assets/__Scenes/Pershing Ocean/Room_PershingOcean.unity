@@ -202,8 +202,8 @@ MonoBehaviour:
   gain: 0
   useInvSqr: 1
   near: 25
-  far: 80
-  volumetricRadius: 80
+  far: 200
+  volumetricRadius: 200
   reverbSend: 0
   enableRfl: 0
 --- !u!82 &139747965
@@ -227,7 +227,7 @@ AudioSource:
   Priority: 128
   DopplerLevel: 0
   MinDistance: 25
-  MaxDistance: 80
+  MaxDistance: 200
   Pan2D: 0
   rolloffMode: 0
   BypassEffects: 0
