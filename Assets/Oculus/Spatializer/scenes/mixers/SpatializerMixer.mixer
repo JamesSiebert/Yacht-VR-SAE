@@ -1,5 +1,19 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!244 &-8224541050920869374
+AudioMixerEffectController:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 
+  m_EffectID: 6a2bbf6c54ad6f34e9eb5cfb00a03656
+  m_EffectName: Attenuation
+  m_MixLevel: 1655a002d0ea7754abef6fc4c71b4304
+  m_Parameters: []
+  m_SendTarget: {fileID: 0}
+  m_EnableWetMix: 0
+  m_Bypass: 0
 --- !u!243 &-7175070153688536325
 AudioMixerGroupController:
   m_ObjectHideFlags: 0
@@ -33,6 +47,25 @@ AudioMixerEffectController:
   m_SendTarget: {fileID: 0}
   m_EnableWetMix: 0
   m_Bypass: 0
+--- !u!243 &-5495113584511023066
+AudioMixerGroupController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Yacht Engine High
+  m_AudioMixer: {fileID: 24100000}
+  m_GroupID: bb2ce6a673804aa4d82b1d754d7c7a70
+  m_Children: []
+  m_Volume: d00c79c648d6ea54c856cd00b3a153d2
+  m_Pitch: 044cae335babd244598920538302c967
+  m_Send: 00000000000000000000000000000000
+  m_Effects:
+  - {fileID: -8224541050920869374}
+  m_UserColorIndex: 0
+  m_Mute: 0
+  m_Solo: 0
+  m_BypassEffects: 0
 --- !u!243 &-5224821418332192850
 AudioMixerGroupController:
   m_ObjectHideFlags: 0
@@ -42,7 +75,9 @@ AudioMixerGroupController:
   m_Name: Interaction
   m_AudioMixer: {fileID: 24100000}
   m_GroupID: 2ee90be4a3f931a44a0a2f6248130dbd
-  m_Children: []
+  m_Children:
+  - {fileID: -5495113584511023066}
+  - {fileID: 1609843630571603427}
   m_Volume: 95cd443faa3585a418f9cee7f4e272f9
   m_Pitch: b3e276f87287d4a4f85f32382447d9ec
   m_Send: 00000000000000000000000000000000
@@ -231,6 +266,8 @@ AudioMixerController:
     - dcca3566c86d8c0488ee06a8116fa21b
     - 03c550b42f8688a4da1d22fa6969193f
     - 1e73c19bf9700c8408d40c213344f4f8
+    - 7facbc3032c546f4eb51172f03d5167d
+    - bb2ce6a673804aa4d82b1d754d7c7a70
     name: View
   m_CurrentViewIndex: 0
   m_TargetSnapshot: {fileID: 24500003}
@@ -318,13 +355,15 @@ AudioMixerSnapshotController:
     c3ef49e35c8e8414fa26a95d1c5cfecf: 0.5
     d2fdf2145b59fee4595a326c28abd184: 0
     de1b983492eda6c47b6ef47105b52dda: 0.97
+    e41ee244e322a6749904a2fa3097a1d8: 1
     2e7f0254e7d38fd4eb3152ed5ccbaf19: 120
     820d8864a3100854b99c649ce38e7f1c: 1
     0dbe9a74111f2b74798e51238dc10864: 3399.4395
     017e1c84d5ff649438cf7217f015a04f: 100
-    b62ae694ca2806a40b156217e023c832: -4
+    b62ae694ca2806a40b156217e023c832: -3
     f55c0bb461c06f4419674ef5c9fa9953: 1
     229fbec47d0de58408d0541ea2fa4c0e: 1.17
+    ccb510d4deb06464a92ddb41a424a573: 242
     c04dfb256afb48d499bb4540ed5265bb: 0.696
     eedb6e2560b96954f80a6216a070957a: 0.4
     238be83535ff1f847a9ce9f25378f205: 160
@@ -337,6 +376,8 @@ AudioMixerSnapshotController:
     bd33a706336bb6742960b31b56d6d312: 0
     5eb207364b67772428d785b2b16e2647: -4
     70fb34464dced4d4fa0fcbc0a9bbcb03: 104
+    9b3ac976cc19d1f4abed3fe39be39a20: 1
+    d00c79c648d6ea54c856cd00b3a153d2: 1
     fd57dbc6c9ab56441b50cb4ec452b383: 0.5
     0b9824d66b0abf64f9c881b46383bcc5: 157
     f5d601f6a1282e848b1945fd6c7c37a6: 0.512
@@ -347,6 +388,7 @@ AudioMixerSnapshotController:
     ae6a7db7773ab66468e20795efab2e3e: 43
     f7e000c7e106af548ab6040d00937f04: -30.3
     c37752d75bf132d47a7c3a93049722dc: 1
+    95dfd5f7e9274864690c153aa98ac428: 120
     74df97f7555fd2241a41f845aa8c4d21: 0.353
     3ac16218f2b65aa46b97199f6a7db088: 180
     d26a4918d633cb54fbd7a5b40efe1639: 0.045
@@ -354,6 +396,7 @@ AudioMixerSnapshotController:
     af0e5f3842351c140955b18b1b8c96a0: 0.5
     81cbae488b38fc742b1d7cd293f51e7c: 1
     0f0fba6804dba4c4cb19fd30e1223afb: 2.87
+    7903c298f288417469a697d8a25a6faf: 120
     9b9623a8c08d544458c18c0f0512b2bc: 0
     f4fa4509dbcb99d46a3b47fb214a8e04: 1
     56c841194b2fe3040b48cf98706d6e73: 0
@@ -379,7 +422,7 @@ AudioMixerSnapshotController:
     870a9aca062009d42ba4c3c1bb9dd082: -3
     cad86ecad0994a1468302748ea994d5c: 111
     a46724eabf7bb1c48bc97a01e827dfd2: 1
-    587364eaf36362a428fc03100cb0a25d: -5
+    587364eaf36362a428fc03100cb0a25d: -8
     ddb13ffa06835ba45a05d6ccf101ba05: 139
     bb163b3baa1705545a7c704ec4ac0c7b: 0
     7c75d04b0f5050a48925a908ea48051c: 0.441
@@ -390,12 +433,14 @@ AudioMixerSnapshotController:
     34546ccb2e240cd48bcca671564120ce: 0
     5cbf6ddbb7026dc45abe06cc43322e1c: 3
     cc132edbccace48469977b60edca52a5: 0.447
+    798264eb07809834c91cc264766d33c9: 250
     4cff19eb609afd84992763e1020b8181: 1
     a7077ffb091b65b4dbcb5026128b2c5e: -25
     c6cc7e2c3e902d94abdabdddc5a41800: 1
     2883db3c75b4127489b7549dabc871af: 0.67
     8998a24c4360c93478ec02f063d9b337: 0
     1033165c48652b34db906f50dde24a50: 0.571
+    157de16c9788d3e409b3f0bb46c74446: 1
     4a67b18c35650444b90dc3f572846173: 200
     917c2e9cef00f3442b1165a1fda7d72a: 0.55
     9760f1cc98e9dd54d9700864efe2f90a: 5
@@ -430,7 +475,7 @@ AudioMixerSnapshotController:
     b1ed842f163fcae4989e68a530e081fd: 0.47
     1b16bf2faec4ce249a80ce7b9f1346bd: 0.406
     96bb113f992376e479fa8b09b724413d: 0.696
-    95cd443faa3585a418f9cee7f4e272f9: 0
+    95cd443faa3585a418f9cee7f4e272f9: 5
     69356b4fd6557e646aab59b3dd56d6b0: 100
     29b9835ff985b2e4c97d9e4ee57e84b1: 0.415
     7ccabb5f18fe7824da14df39f37a68ec: 72
@@ -472,6 +517,20 @@ AudioMixerGroupController:
   m_Mute: 0
   m_Solo: 0
   m_BypassEffects: 0
+--- !u!244 &943862739453765278
+AudioMixerEffectController:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 
+  m_EffectID: 2df9319d06d948042a87879b425b43c9
+  m_EffectName: Attenuation
+  m_MixLevel: 6712efcd0d771744680a362bcd4168f8
+  m_Parameters: []
+  m_SendTarget: {fileID: 0}
+  m_EnableWetMix: 0
+  m_Bypass: 0
 --- !u!243 &1001556159897615142
 AudioMixerGroupController:
   m_ObjectHideFlags: 0
@@ -487,6 +546,25 @@ AudioMixerGroupController:
   m_Send: 00000000000000000000000000000000
   m_Effects:
   - {fileID: 4136722332344572811}
+  m_UserColorIndex: 0
+  m_Mute: 0
+  m_Solo: 0
+  m_BypassEffects: 0
+--- !u!243 &1609843630571603427
+AudioMixerGroupController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Yacht Engine Low
+  m_AudioMixer: {fileID: 24100000}
+  m_GroupID: 7facbc3032c546f4eb51172f03d5167d
+  m_Children: []
+  m_Volume: 157de16c9788d3e409b3f0bb46c74446
+  m_Pitch: 741051d70fd02394ab1cfcaddb36b04a
+  m_Send: 00000000000000000000000000000000
+  m_Effects:
+  - {fileID: 943862739453765278}
   m_UserColorIndex: 0
   m_Mute: 0
   m_Solo: 0
