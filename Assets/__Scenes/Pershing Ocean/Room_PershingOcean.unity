@@ -3210,7 +3210,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &2029723574
 Transform:
   m_ObjectHideFlags: 0
@@ -3275,8 +3275,8 @@ MonoBehaviour:
   gain: 0
   useInvSqr: 0
   near: 10
-  far: 20
-  volumetricRadius: 20
+  far: 25
+  volumetricRadius: 25
   reverbSend: 0
   enableRfl: 0
 --- !u!82 &2095863236
@@ -3300,7 +3300,7 @@ AudioSource:
   Priority: 128
   DopplerLevel: 0
   MinDistance: 10
-  MaxDistance: 20
+  MaxDistance: 25
   Pan2D: 0
   rolloffMode: 0
   BypassEffects: 0
