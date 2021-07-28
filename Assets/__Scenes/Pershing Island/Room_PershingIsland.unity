@@ -5210,7 +5210,7 @@ GameObject:
   - component: {fileID: 864508511}
   - component: {fileID: 864508510}
   m_Layer: 19
-  m_Name: Audio_ENV_Island Water Lap_FRONT
+  m_Name: ENV_Island Water Lap_FRONT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6616,7 +6616,7 @@ GameObject:
   - component: {fileID: 1121712107}
   - component: {fileID: 1121712106}
   m_Layer: 19
-  m_Name: Audio_ENV_Island Wind
+  m_Name: ENV_Island Wind
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7375,7 +7375,7 @@ GameObject:
   - component: {fileID: 1302396499}
   - component: {fileID: 1302396498}
   m_Layer: 19
-  m_Name: Audio_ENV_Island Water Lap_REAR
+  m_Name: ENV_Island Water Lap_REAR
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8133,7 +8133,7 @@ GameObject:
   - component: {fileID: 1432870794}
   - component: {fileID: 1432870793}
   m_Layer: 19
-  m_Name: Audio_ENV_Insects & Birds Night
+  m_Name: ENV_Insects & Birds Night
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10548,7 +10548,7 @@ GameObject:
   - component: {fileID: 1756575263}
   - component: {fileID: 1756575262}
   m_Layer: 19
-  m_Name: Audio_ENV_Insects & Birds Day
+  m_Name: ENV_Insects & Birds Day
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

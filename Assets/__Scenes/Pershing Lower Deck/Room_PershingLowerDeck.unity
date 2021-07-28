@@ -12439,7 +12439,7 @@ GameObject:
   - component: {fileID: 1886672680}
   - component: {fileID: 1886672681}
   m_Layer: 19
-  m_Name: Audio_ENV_LD Water
+  m_Name: ENV_LD Water Lap
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12476,7 +12476,7 @@ AudioSource:
   Loop: 1
   Mute: 0
   Spatialize: 1
-  SpatializePostEffects: 1
+  SpatializePostEffects: 0
   Priority: 128
   DopplerLevel: 0
   MinDistance: 7
@@ -13124,7 +13124,7 @@ GameObject:
   - component: {fileID: 1945801043}
   - component: {fileID: 1945801044}
   m_Layer: 19
-  m_Name: Audio_ENV_LD Room Tone
+  m_Name: ENV_LD Room Tone
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -13161,7 +13161,7 @@ AudioSource:
   Loop: 1
   Mute: 0
   Spatialize: 1
-  SpatializePostEffects: 1
+  SpatializePostEffects: 0
   Priority: 128
   DopplerLevel: 0
   MinDistance: 7

@@ -166,7 +166,7 @@ GameObject:
   - component: {fileID: 139747965}
   - component: {fileID: 139747964}
   m_Layer: 19
-  m_Name: Audio_ENV_Ocean Wind
+  m_Name: ENV_Ocean Wind
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -223,7 +223,7 @@ AudioSource:
   Loop: 1
   Mute: 0
   Spatialize: 1
-  SpatializePostEffects: 1
+  SpatializePostEffects: 0
   Priority: 128
   DopplerLevel: 0
   MinDistance: 25
@@ -362,7 +362,7 @@ GameObject:
   - component: {fileID: 343233394}
   - component: {fileID: 343233393}
   m_Layer: 19
-  m_Name: Audio_ENV_Ocean Water Lap_REAR
+  m_Name: ENV_Ocean Water Lap_REAR
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1165,7 +1165,7 @@ GameObject:
   - component: {fileID: 977030533}
   - component: {fileID: 977030532}
   m_Layer: 19
-  m_Name: Audio_OBJ_Yacht Engine High
+  m_Name: OBJ_Yacht Engine High
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1222,7 +1222,7 @@ AudioSource:
   Loop: 1
   Mute: 0
   Spatialize: 1
-  SpatializePostEffects: 1
+  SpatializePostEffects: 0
   Priority: 128
   DopplerLevel: 0
   MinDistance: 6
@@ -1932,7 +1932,7 @@ GameObject:
   - component: {fileID: 1266356508}
   - component: {fileID: 1266356507}
   m_Layer: 19
-  m_Name: Audio_OBJ_Yacht Engine Low
+  m_Name: OBJ_Yacht Engine Low
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1989,7 +1989,7 @@ AudioSource:
   Loop: 1
   Mute: 0
   Spatialize: 1
-  SpatializePostEffects: 1
+  SpatializePostEffects: 0
   Priority: 128
   DopplerLevel: 0
   MinDistance: 6
@@ -3027,7 +3027,7 @@ GameObject:
   - component: {fileID: 2002983792}
   - component: {fileID: 2002983791}
   m_Layer: 19
-  m_Name: Audio_ENV_Ocean Water Lap_FRONT
+  m_Name: ENV_Ocean Water Lap_FRONT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3239,7 +3239,7 @@ GameObject:
   - component: {fileID: 2095863236}
   - component: {fileID: 2095863235}
   m_Layer: 19
-  m_Name: Audio_ENV_Ocean Birds
+  m_Name: ENV_Ocean Birds
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3296,7 +3296,7 @@ AudioSource:
   Loop: 1
   Mute: 0
   Spatialize: 1
-  SpatializePostEffects: 1
+  SpatializePostEffects: 0
   Priority: 128
   DopplerLevel: 0
   MinDistance: 10
