@@ -7,6 +7,8 @@
       <e p="Assets" t="Include">
         <e p="__Scenes" t="Include">
           <e p="Pershing Lower Deck" t="Include">
+            <e p="MaterialChanger.cs" t="Include" />
+            <e p="MaterialChangerEditor.cs" t="Include" />
             <e p="Materials" t="Include">
               <e p="NewComputeShader.compute" t="Include" />
             </e>
@@ -307,7 +309,6 @@
         <e p="AutoNavigateToTutorial.cs" t="Include" />
         <e p="Credits.txt" t="Include" />
         <e p="HandMenuManager.cs" t="Include" />
-        <e p="MaterialChanger.cs" t="Include" />
         <e p="Modern Homes" t="Include">
           <e p="Home 1" t="Include">
             <e p="Textures" t="Include">
@@ -1667,7 +1668,6 @@
           <e p="PlayerMovement.cs" t="Include" />
           <e p="SimpleCameraController.cs" t="Include" />
         </e>
-        <e p="SoMaterialChanger.cs" t="Include" />
         <e p="TextMesh Pro" t="Include">
           <e p="Fonts" t="Include">
             <e p="LiberationSans - OFL.txt" t="Include" />

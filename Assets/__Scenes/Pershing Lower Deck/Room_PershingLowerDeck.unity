@@ -4815,7 +4815,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   woodObjects: []
-  woodMaterials: []
+  woodMaterials:
+  - {fileID: 2100000, guid: 0233b9f784c6fbf43b825293122b52c1, type: 2}
+  - {fileID: 2100000, guid: c48c0374672a32e41aff3edac95915eb, type: 2}
+  - {fileID: 2100000, guid: 73f1c4ad135a834438e3e0da1983f47e, type: 2}
+  bedSheetObjects: []
+  bedSheetMaterials:
+  - {fileID: 2100000, guid: bd73b4d59922d31438e97f6a8cd4113e, type: 2}
+  - {fileID: 2100000, guid: 9d41ea295e1b4d24d9107223b663ae8e, type: 2}
+  - {fileID: 2100000, guid: 5f83ccd54ac74aa42a77f1de945985b8, type: 2}
 --- !u!4 &769552968
 Transform:
   m_ObjectHideFlags: 0
@@ -6052,6 +6060,36 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: f9136b86cbbab834e911541ffc57e88f, type: 3}
   m_PrefabInstance: {fileID: 959150209}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &967248061
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 967248062}
+  m_Layer: 0
+  m_Name: ChangeWood
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &967248062
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 967248061}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1841202734}
+  m_RootOrder: 146
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &971733446
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12265,6 +12303,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -8610317585998163382, guid: c6f58fa396388e74bb6a6d717d3b1542, type: 3}
+      propertyPath: m_TagString
+      value: ChangeWood
+      objectReference: {fileID: 0}
+    - target: {fileID: -8513424388201257645, guid: c6f58fa396388e74bb6a6d717d3b1542, type: 3}
+      propertyPath: m_TagString
+      value: ChangeWood
+      objectReference: {fileID: 0}
     - target: {fileID: -8502869117859646030, guid: c6f58fa396388e74bb6a6d717d3b1542, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -12289,6 +12335,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 83392c6c667acee409972c082dfc0858, type: 2}
+    - target: {fileID: -7982084261128317420, guid: c6f58fa396388e74bb6a6d717d3b1542, type: 3}
+      propertyPath: m_TagString
+      value: ChangeWood
+      objectReference: {fileID: 0}
     - target: {fileID: -7979627631985165217, guid: c6f58fa396388e74bb6a6d717d3b1542, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -12365,6 +12415,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 83392c6c667acee409972c082dfc0858, type: 2}
+    - target: {fileID: -5935696407899524878, guid: c6f58fa396388e74bb6a6d717d3b1542, type: 3}
+      propertyPath: m_TagString
+      value: ChangeWood
+      objectReference: {fileID: 0}
     - target: {fileID: -5898464018806145732, guid: c6f58fa396388e74bb6a6d717d3b1542, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -12413,6 +12467,10 @@ PrefabInstance:
       propertyPath: m_AllowMSAA
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -4950441532496484727, guid: c6f58fa396388e74bb6a6d717d3b1542, type: 3}
+      propertyPath: m_TagString
+      value: ChangeWood
+      objectReference: {fileID: 0}
     - target: {fileID: -4833409387987771920, guid: c6f58fa396388e74bb6a6d717d3b1542, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -12445,6 +12503,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 83392c6c667acee409972c082dfc0858, type: 2}
+    - target: {fileID: -3957782524123411102, guid: c6f58fa396388e74bb6a6d717d3b1542, type: 3}
+      propertyPath: m_TagString
+      value: ChangeWood
+      objectReference: {fileID: 0}
     - target: {fileID: -3706676969832470641, guid: c6f58fa396388e74bb6a6d717d3b1542, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -12493,6 +12555,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 327142d73bfa74141b8616d7e16161a1, type: 2}
+    - target: {fileID: -2990037769406701160, guid: c6f58fa396388e74bb6a6d717d3b1542, type: 3}
+      propertyPath: m_TagString
+      value: ChangeWood
+      objectReference: {fileID: 0}
     - target: {fileID: -2982619973115183977, guid: c6f58fa396388e74bb6a6d717d3b1542, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -12513,6 +12579,14 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 829724765edebda4fa549af1a3686648, type: 2}
+    - target: {fileID: -2401133635051858936, guid: c6f58fa396388e74bb6a6d717d3b1542, type: 3}
+      propertyPath: m_TagString
+      value: ChangeWood
+      objectReference: {fileID: 0}
+    - target: {fileID: -2227289714742654627, guid: c6f58fa396388e74bb6a6d717d3b1542, type: 3}
+      propertyPath: m_TagString
+      value: ChangeWood
+      objectReference: {fileID: 0}
     - target: {fileID: -2134059782274056987, guid: c6f58fa396388e74bb6a6d717d3b1542, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -12553,6 +12627,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 7d6a24858b2322f40b488bc617b020c0, type: 2}
+    - target: {fileID: -1091716093604641277, guid: c6f58fa396388e74bb6a6d717d3b1542, type: 3}
+      propertyPath: m_TagString
+      value: BedSheet
+      objectReference: {fileID: 0}
     - target: {fileID: -1021950027759549473, guid: c6f58fa396388e74bb6a6d717d3b1542, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -12597,10 +12675,22 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 7d6a24858b2322f40b488bc617b020c0, type: 2}
+    - target: {fileID: 242931125468186036, guid: c6f58fa396388e74bb6a6d717d3b1542, type: 3}
+      propertyPath: m_TagString
+      value: BedSheet
+      objectReference: {fileID: 0}
     - target: {fileID: 386569887385874671, guid: c6f58fa396388e74bb6a6d717d3b1542, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 0233b9f784c6fbf43b825293122b52c1, type: 2}
+    - target: {fileID: 387881055682684418, guid: c6f58fa396388e74bb6a6d717d3b1542, type: 3}
+      propertyPath: m_TagString
+      value: ChangeWood
+      objectReference: {fileID: 0}
+    - target: {fileID: 535322872349210920, guid: c6f58fa396388e74bb6a6d717d3b1542, type: 3}
+      propertyPath: m_TagString
+      value: ChangeWood
+      objectReference: {fileID: 0}
     - target: {fileID: 720491850873078569, guid: c6f58fa396388e74bb6a6d717d3b1542, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -12677,6 +12767,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 0d842d7ad65b9214590b5b316ca14c4e, type: 2}
+    - target: {fileID: 2305611551656725180, guid: c6f58fa396388e74bb6a6d717d3b1542, type: 3}
+      propertyPath: m_TagString
+      value: ChangeWood
+      objectReference: {fileID: 0}
     - target: {fileID: 2368183195465297676, guid: c6f58fa396388e74bb6a6d717d3b1542, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -12753,6 +12847,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 9fa74ca09d22cc34e9a9e2f9fdd0da1a, type: 2}
+    - target: {fileID: 3192696487573124730, guid: c6f58fa396388e74bb6a6d717d3b1542, type: 3}
+      propertyPath: m_TagString
+      value: ChangeWood
+      objectReference: {fileID: 0}
     - target: {fileID: 3313405525490757961, guid: c6f58fa396388e74bb6a6d717d3b1542, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -12809,6 +12907,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 83392c6c667acee409972c082dfc0858, type: 2}
+    - target: {fileID: 5093105653662504632, guid: c6f58fa396388e74bb6a6d717d3b1542, type: 3}
+      propertyPath: m_TagString
+      value: BedSheet
+      objectReference: {fileID: 0}
     - target: {fileID: 5156461443874638314, guid: c6f58fa396388e74bb6a6d717d3b1542, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -12821,6 +12923,14 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 061764ba1294a614d977e8d4095790ac, type: 2}
+    - target: {fileID: 5432598460007377472, guid: c6f58fa396388e74bb6a6d717d3b1542, type: 3}
+      propertyPath: m_TagString
+      value: ChangeWood
+      objectReference: {fileID: 0}
+    - target: {fileID: 5527489949535862802, guid: c6f58fa396388e74bb6a6d717d3b1542, type: 3}
+      propertyPath: m_TagString
+      value: ChangeWood
+      objectReference: {fileID: 0}
     - target: {fileID: 5589877358125883659, guid: c6f58fa396388e74bb6a6d717d3b1542, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -12873,6 +12983,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 061764ba1294a614d977e8d4095790ac, type: 2}
+    - target: {fileID: 6983058123284189214, guid: c6f58fa396388e74bb6a6d717d3b1542, type: 3}
+      propertyPath: m_TagString
+      value: BedSheet
+      objectReference: {fileID: 0}
     - target: {fileID: 7034964442242128280, guid: c6f58fa396388e74bb6a6d717d3b1542, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -12929,6 +13043,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 7d6a24858b2322f40b488bc617b020c0, type: 2}
+    - target: {fileID: 8285174396121423542, guid: c6f58fa396388e74bb6a6d717d3b1542, type: 3}
+      propertyPath: m_TagString
+      value: ChangeWood
+      objectReference: {fileID: 0}
     - target: {fileID: 8302568745630553852, guid: c6f58fa396388e74bb6a6d717d3b1542, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -12941,6 +13059,14 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 829724765edebda4fa549af1a3686648, type: 2}
+    - target: {fileID: 8634446788607227851, guid: c6f58fa396388e74bb6a6d717d3b1542, type: 3}
+      propertyPath: m_TagString
+      value: ChangeWood
+      objectReference: {fileID: 0}
+    - target: {fileID: 8826318849750302380, guid: c6f58fa396388e74bb6a6d717d3b1542, type: 3}
+      propertyPath: m_TagString
+      value: ChangeWood
+      objectReference: {fileID: 0}
     - target: {fileID: 9147974596567302815, guid: c6f58fa396388e74bb6a6d717d3b1542, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -13070,6 +13196,11 @@ MonoBehaviour:
       data1: 0
       data2: 0
   defaultFrameSettings: 0
+--- !u!4 &1841202734 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: c6f58fa396388e74bb6a6d717d3b1542, type: 3}
+  m_PrefabInstance: {fileID: 1841202731}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1843580690
 PrefabInstance:
   m_ObjectHideFlags: 0
