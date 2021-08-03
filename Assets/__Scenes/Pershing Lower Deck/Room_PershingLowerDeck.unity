@@ -186,6 +186,14 @@ PrefabInstance:
       propertyPath: m_Intensity
       value: 1.5915494
       objectReference: {fileID: 0}
+    - target: {fileID: 5485638196958948130, guid: 81e2d0c1323b67642a5beec869a1c9e0, type: 3}
+      propertyPath: m_Lightmapping
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5485638196958948130, guid: 81e2d0c1323b67642a5beec869a1c9e0, type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 81e2d0c1323b67642a5beec869a1c9e0, type: 3}
 --- !u!4 &5068155 stripped
@@ -614,7 +622,7 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 4
+  m_Lightmapping: 2
   m_LightShadowCasterMode: 2
   m_AreaSize: {x: 0.5, y: 0.5}
   m_BounceIntensity: 1
@@ -1111,6 +1119,14 @@ PrefabInstance:
       propertyPath: m_Intensity
       value: 1.5915494
       objectReference: {fileID: 0}
+    - target: {fileID: 5485638196958948130, guid: 81e2d0c1323b67642a5beec869a1c9e0, type: 3}
+      propertyPath: m_Lightmapping
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5485638196958948130, guid: 81e2d0c1323b67642a5beec869a1c9e0, type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 81e2d0c1323b67642a5beec869a1c9e0, type: 3}
 --- !u!4 &94290221 stripped
@@ -1172,6 +1188,14 @@ PrefabInstance:
     - target: {fileID: 4987286164080481533, guid: 13cf06a1a03caac48ac2995a5d155a1e, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5485638196958948130, guid: 13cf06a1a03caac48ac2995a5d155a1e, type: 3}
+      propertyPath: m_Lightmapping
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5485638196958948130, guid: 13cf06a1a03caac48ac2995a5d155a1e, type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 13cf06a1a03caac48ac2995a5d155a1e, type: 3}
@@ -1524,6 +1548,14 @@ PrefabInstance:
     - target: {fileID: 4987286164080481533, guid: 13cf06a1a03caac48ac2995a5d155a1e, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5485638196958948130, guid: 13cf06a1a03caac48ac2995a5d155a1e, type: 3}
+      propertyPath: m_Lightmapping
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5485638196958948130, guid: 13cf06a1a03caac48ac2995a5d155a1e, type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 13cf06a1a03caac48ac2995a5d155a1e, type: 3}
@@ -1917,6 +1949,14 @@ PrefabInstance:
       propertyPath: m_Intensity
       value: 2.387324
       objectReference: {fileID: 0}
+    - target: {fileID: 5485638196958948130, guid: 81e2d0c1323b67642a5beec869a1c9e0, type: 3}
+      propertyPath: m_Lightmapping
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5485638196958948130, guid: 81e2d0c1323b67642a5beec869a1c9e0, type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 81e2d0c1323b67642a5beec869a1c9e0, type: 3}
 --- !u!4 &141563126 stripped
@@ -2125,6 +2165,14 @@ PrefabInstance:
       propertyPath: m_Intensity
       value: 1.9894367
       objectReference: {fileID: 0}
+    - target: {fileID: 5485638196958948130, guid: 81e2d0c1323b67642a5beec869a1c9e0, type: 3}
+      propertyPath: m_Lightmapping
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5485638196958948130, guid: 81e2d0c1323b67642a5beec869a1c9e0, type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 81e2d0c1323b67642a5beec869a1c9e0, type: 3}
 --- !u!4 &199194129 stripped
@@ -2186,6 +2234,14 @@ PrefabInstance:
     - target: {fileID: 4987286164080481533, guid: 13cf06a1a03caac48ac2995a5d155a1e, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5485638196958948130, guid: 13cf06a1a03caac48ac2995a5d155a1e, type: 3}
+      propertyPath: m_Lightmapping
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5485638196958948130, guid: 13cf06a1a03caac48ac2995a5d155a1e, type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 13cf06a1a03caac48ac2995a5d155a1e, type: 3}
@@ -2351,6 +2407,14 @@ PrefabInstance:
     - target: {fileID: 5485638196958948130, guid: 81e2d0c1323b67642a5beec869a1c9e0, type: 3}
       propertyPath: m_Intensity
       value: 1.9894367
+      objectReference: {fileID: 0}
+    - target: {fileID: 5485638196958948130, guid: 81e2d0c1323b67642a5beec869a1c9e0, type: 3}
+      propertyPath: m_Lightmapping
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5485638196958948130, guid: 81e2d0c1323b67642a5beec869a1c9e0, type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 81e2d0c1323b67642a5beec869a1c9e0, type: 3}
@@ -2675,6 +2739,14 @@ PrefabInstance:
     - target: {fileID: 5485638196958948130, guid: 81e2d0c1323b67642a5beec869a1c9e0, type: 3}
       propertyPath: m_Intensity
       value: 2.387324
+      objectReference: {fileID: 0}
+    - target: {fileID: 5485638196958948130, guid: 81e2d0c1323b67642a5beec869a1c9e0, type: 3}
+      propertyPath: m_Lightmapping
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5485638196958948130, guid: 81e2d0c1323b67642a5beec869a1c9e0, type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 81e2d0c1323b67642a5beec869a1c9e0, type: 3}
@@ -3242,6 +3314,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5485638196958948130, guid: 64c61390683d84049a59627b86b1186a, type: 3}
+      propertyPath: m_Lightmapping
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5485638196958948130, guid: 64c61390683d84049a59627b86b1186a, type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 64c61390683d84049a59627b86b1186a, type: 3}
 --- !u!4 &326435593 stripped
@@ -3303,6 +3383,14 @@ PrefabInstance:
     - target: {fileID: 4987286164080481533, guid: 13cf06a1a03caac48ac2995a5d155a1e, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5485638196958948130, guid: 13cf06a1a03caac48ac2995a5d155a1e, type: 3}
+      propertyPath: m_Lightmapping
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5485638196958948130, guid: 13cf06a1a03caac48ac2995a5d155a1e, type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 13cf06a1a03caac48ac2995a5d155a1e, type: 3}
@@ -3459,6 +3547,14 @@ PrefabInstance:
     - target: {fileID: 5485638196958948130, guid: 81e2d0c1323b67642a5beec869a1c9e0, type: 3}
       propertyPath: m_Intensity
       value: 0.39788735
+      objectReference: {fileID: 0}
+    - target: {fileID: 5485638196958948130, guid: 81e2d0c1323b67642a5beec869a1c9e0, type: 3}
+      propertyPath: m_Lightmapping
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5485638196958948130, guid: 81e2d0c1323b67642a5beec869a1c9e0, type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 81e2d0c1323b67642a5beec869a1c9e0, type: 3}
@@ -4548,6 +4644,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5485638196958948130, guid: 13cf06a1a03caac48ac2995a5d155a1e, type: 3}
+      propertyPath: m_Lightmapping
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5485638196958948130, guid: 13cf06a1a03caac48ac2995a5d155a1e, type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 13cf06a1a03caac48ac2995a5d155a1e, type: 3}
 --- !u!4 &448912262 stripped
@@ -5104,6 +5208,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8266199603430621592, guid: e91407d4a98b6ee498c5d1f5edd130da, type: 3}
+      propertyPath: m_Lightmapping
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8266199603430621592, guid: e91407d4a98b6ee498c5d1f5edd130da, type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e91407d4a98b6ee498c5d1f5edd130da, type: 3}
 --- !u!4 &500373403 stripped
@@ -5165,6 +5277,14 @@ PrefabInstance:
     - target: {fileID: 4987286164080481533, guid: 64c61390683d84049a59627b86b1186a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5485638196958948130, guid: 64c61390683d84049a59627b86b1186a, type: 3}
+      propertyPath: m_Lightmapping
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5485638196958948130, guid: 64c61390683d84049a59627b86b1186a, type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 64c61390683d84049a59627b86b1186a, type: 3}
@@ -5306,6 +5426,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5485638196958948130, guid: 64c61390683d84049a59627b86b1186a, type: 3}
+      propertyPath: m_Lightmapping
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5485638196958948130, guid: 64c61390683d84049a59627b86b1186a, type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 64c61390683d84049a59627b86b1186a, type: 3}
 --- !u!4 &542921533 stripped
@@ -5367,6 +5495,14 @@ PrefabInstance:
     - target: {fileID: 4987286164080481533, guid: 13cf06a1a03caac48ac2995a5d155a1e, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5485638196958948130, guid: 13cf06a1a03caac48ac2995a5d155a1e, type: 3}
+      propertyPath: m_Lightmapping
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5485638196958948130, guid: 13cf06a1a03caac48ac2995a5d155a1e, type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 13cf06a1a03caac48ac2995a5d155a1e, type: 3}
@@ -5674,6 +5810,14 @@ PrefabInstance:
     - target: {fileID: 4987286164080481533, guid: 13cf06a1a03caac48ac2995a5d155a1e, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5485638196958948130, guid: 13cf06a1a03caac48ac2995a5d155a1e, type: 3}
+      propertyPath: m_Lightmapping
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5485638196958948130, guid: 13cf06a1a03caac48ac2995a5d155a1e, type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 13cf06a1a03caac48ac2995a5d155a1e, type: 3}
@@ -6527,6 +6671,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5485638196958948130, guid: 64c61390683d84049a59627b86b1186a, type: 3}
+      propertyPath: m_Lightmapping
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5485638196958948130, guid: 64c61390683d84049a59627b86b1186a, type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 64c61390683d84049a59627b86b1186a, type: 3}
 --- !u!4 &742877968 stripped
@@ -6588,6 +6740,14 @@ PrefabInstance:
     - target: {fileID: 4987286164080481533, guid: 13cf06a1a03caac48ac2995a5d155a1e, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5485638196958948130, guid: 13cf06a1a03caac48ac2995a5d155a1e, type: 3}
+      propertyPath: m_Lightmapping
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5485638196958948130, guid: 13cf06a1a03caac48ac2995a5d155a1e, type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 13cf06a1a03caac48ac2995a5d155a1e, type: 3}
@@ -8003,6 +8163,14 @@ PrefabInstance:
       propertyPath: m_Intensity
       value: 1.9894367
       objectReference: {fileID: 0}
+    - target: {fileID: 5485638196958948130, guid: 81e2d0c1323b67642a5beec869a1c9e0, type: 3}
+      propertyPath: m_Lightmapping
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5485638196958948130, guid: 81e2d0c1323b67642a5beec869a1c9e0, type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 81e2d0c1323b67642a5beec869a1c9e0, type: 3}
 --- !u!4 &914483229 stripped
@@ -8138,6 +8306,14 @@ PrefabInstance:
     - target: {fileID: 4987286164080481533, guid: 64c61390683d84049a59627b86b1186a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5485638196958948130, guid: 64c61390683d84049a59627b86b1186a, type: 3}
+      propertyPath: m_Lightmapping
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5485638196958948130, guid: 64c61390683d84049a59627b86b1186a, type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 64c61390683d84049a59627b86b1186a, type: 3}
@@ -8315,6 +8491,14 @@ PrefabInstance:
     - target: {fileID: 4987286164080481533, guid: 13cf06a1a03caac48ac2995a5d155a1e, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5485638196958948130, guid: 13cf06a1a03caac48ac2995a5d155a1e, type: 3}
+      propertyPath: m_Lightmapping
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5485638196958948130, guid: 13cf06a1a03caac48ac2995a5d155a1e, type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 13cf06a1a03caac48ac2995a5d155a1e, type: 3}
@@ -8851,6 +9035,14 @@ PrefabInstance:
     - target: {fileID: 4987286164080481533, guid: 13cf06a1a03caac48ac2995a5d155a1e, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5485638196958948130, guid: 13cf06a1a03caac48ac2995a5d155a1e, type: 3}
+      propertyPath: m_Lightmapping
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5485638196958948130, guid: 13cf06a1a03caac48ac2995a5d155a1e, type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 13cf06a1a03caac48ac2995a5d155a1e, type: 3}
@@ -9767,6 +9959,14 @@ PrefabInstance:
       propertyPath: m_Intensity
       value: 1.9894367
       objectReference: {fileID: 0}
+    - target: {fileID: 5485638196958948130, guid: 81e2d0c1323b67642a5beec869a1c9e0, type: 3}
+      propertyPath: m_Lightmapping
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5485638196958948130, guid: 81e2d0c1323b67642a5beec869a1c9e0, type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 81e2d0c1323b67642a5beec869a1c9e0, type: 3}
 --- !u!4 &1056506264 stripped
@@ -10326,6 +10526,14 @@ PrefabInstance:
       propertyPath: m_Intensity
       value: 1.5915494
       objectReference: {fileID: 0}
+    - target: {fileID: 5485638196958948130, guid: 81e2d0c1323b67642a5beec869a1c9e0, type: 3}
+      propertyPath: m_Lightmapping
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5485638196958948130, guid: 81e2d0c1323b67642a5beec869a1c9e0, type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 81e2d0c1323b67642a5beec869a1c9e0, type: 3}
 --- !u!4 &1131204160 stripped
@@ -10619,6 +10827,14 @@ PrefabInstance:
     - target: {fileID: 4987286164080481533, guid: 13cf06a1a03caac48ac2995a5d155a1e, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5485638196958948130, guid: 13cf06a1a03caac48ac2995a5d155a1e, type: 3}
+      propertyPath: m_Lightmapping
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5485638196958948130, guid: 13cf06a1a03caac48ac2995a5d155a1e, type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 13cf06a1a03caac48ac2995a5d155a1e, type: 3}
@@ -11224,7 +11440,7 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 4
+  m_Lightmapping: 2
   m_LightShadowCasterMode: 2
   m_AreaSize: {x: 0.5, y: 0.5}
   m_BounceIntensity: 1
@@ -11948,6 +12164,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5485638196958948130, guid: 13cf06a1a03caac48ac2995a5d155a1e, type: 3}
+      propertyPath: m_Lightmapping
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5485638196958948130, guid: 13cf06a1a03caac48ac2995a5d155a1e, type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 13cf06a1a03caac48ac2995a5d155a1e, type: 3}
 --- !u!4 &1248601204 stripped
@@ -12519,6 +12743,14 @@ PrefabInstance:
       propertyPath: m_Intensity
       value: 0.7957747
       objectReference: {fileID: 0}
+    - target: {fileID: 5485638196958948130, guid: 81e2d0c1323b67642a5beec869a1c9e0, type: 3}
+      propertyPath: m_Lightmapping
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5485638196958948130, guid: 81e2d0c1323b67642a5beec869a1c9e0, type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 81e2d0c1323b67642a5beec869a1c9e0, type: 3}
 --- !u!4 &1301510740 stripped
@@ -12779,6 +13011,14 @@ PrefabInstance:
       propertyPath: m_Intensity
       value: 1.5915494
       objectReference: {fileID: 0}
+    - target: {fileID: 5485638196958948130, guid: 81e2d0c1323b67642a5beec869a1c9e0, type: 3}
+      propertyPath: m_Lightmapping
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5485638196958948130, guid: 81e2d0c1323b67642a5beec869a1c9e0, type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 81e2d0c1323b67642a5beec869a1c9e0, type: 3}
 --- !u!4 &1330724013 stripped
@@ -12931,6 +13171,14 @@ PrefabInstance:
     - target: {fileID: 265513671363401277, guid: 161a145a955f46144af4a1640125efc9, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1484963135423076327, guid: 161a145a955f46144af4a1640125efc9, type: 3}
+      propertyPath: m_Lightmapping
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1484963135423076327, guid: 161a145a955f46144af4a1640125efc9, type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2834592844997616236, guid: 161a145a955f46144af4a1640125efc9, type: 3}
       propertyPath: m_Name
@@ -13092,6 +13340,14 @@ PrefabInstance:
     - target: {fileID: 4987286164080481533, guid: 13cf06a1a03caac48ac2995a5d155a1e, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5485638196958948130, guid: 13cf06a1a03caac48ac2995a5d155a1e, type: 3}
+      propertyPath: m_Lightmapping
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5485638196958948130, guid: 13cf06a1a03caac48ac2995a5d155a1e, type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 13cf06a1a03caac48ac2995a5d155a1e, type: 3}
@@ -13689,6 +13945,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5485638196958948130, guid: 64c61390683d84049a59627b86b1186a, type: 3}
+      propertyPath: m_Lightmapping
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5485638196958948130, guid: 64c61390683d84049a59627b86b1186a, type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 64c61390683d84049a59627b86b1186a, type: 3}
 --- !u!4 &1407923659 stripped
@@ -13759,6 +14023,14 @@ PrefabInstance:
       propertyPath: m_Intensity
       value: 1.5915494
       objectReference: {fileID: 0}
+    - target: {fileID: 5485638196958948130, guid: 81e2d0c1323b67642a5beec869a1c9e0, type: 3}
+      propertyPath: m_Lightmapping
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5485638196958948130, guid: 81e2d0c1323b67642a5beec869a1c9e0, type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 81e2d0c1323b67642a5beec869a1c9e0, type: 3}
 --- !u!4 &1413250359 stripped
@@ -13820,6 +14092,14 @@ PrefabInstance:
     - target: {fileID: 4987286164080481533, guid: 13cf06a1a03caac48ac2995a5d155a1e, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5485638196958948130, guid: 13cf06a1a03caac48ac2995a5d155a1e, type: 3}
+      propertyPath: m_Lightmapping
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5485638196958948130, guid: 13cf06a1a03caac48ac2995a5d155a1e, type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 13cf06a1a03caac48ac2995a5d155a1e, type: 3}
@@ -14155,6 +14435,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5485638196958948130, guid: 13cf06a1a03caac48ac2995a5d155a1e, type: 3}
+      propertyPath: m_Lightmapping
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5485638196958948130, guid: 13cf06a1a03caac48ac2995a5d155a1e, type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 13cf06a1a03caac48ac2995a5d155a1e, type: 3}
 --- !u!4 &1459590040 stripped
@@ -14224,6 +14512,14 @@ PrefabInstance:
     - target: {fileID: 5485638196958948130, guid: 81e2d0c1323b67642a5beec869a1c9e0, type: 3}
       propertyPath: m_Intensity
       value: 1.5915494
+      objectReference: {fileID: 0}
+    - target: {fileID: 5485638196958948130, guid: 81e2d0c1323b67642a5beec869a1c9e0, type: 3}
+      propertyPath: m_Lightmapping
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5485638196958948130, guid: 81e2d0c1323b67642a5beec869a1c9e0, type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 81e2d0c1323b67642a5beec869a1c9e0, type: 3}
@@ -14981,6 +15277,14 @@ PrefabInstance:
       propertyPath: m_Intensity
       value: 1.9894367
       objectReference: {fileID: 0}
+    - target: {fileID: 5485638196958948130, guid: 81e2d0c1323b67642a5beec869a1c9e0, type: 3}
+      propertyPath: m_Lightmapping
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5485638196958948130, guid: 81e2d0c1323b67642a5beec869a1c9e0, type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 81e2d0c1323b67642a5beec869a1c9e0, type: 3}
 --- !u!4 &1513197307 stripped
@@ -15394,6 +15698,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5485638196958948130, guid: 13cf06a1a03caac48ac2995a5d155a1e, type: 3}
+      propertyPath: m_Lightmapping
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5485638196958948130, guid: 13cf06a1a03caac48ac2995a5d155a1e, type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 13cf06a1a03caac48ac2995a5d155a1e, type: 3}
 --- !u!4 &1571295901 stripped
@@ -15455,6 +15767,14 @@ PrefabInstance:
     - target: {fileID: 4987286164080481533, guid: 64c61390683d84049a59627b86b1186a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5485638196958948130, guid: 64c61390683d84049a59627b86b1186a, type: 3}
+      propertyPath: m_Lightmapping
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5485638196958948130, guid: 64c61390683d84049a59627b86b1186a, type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 64c61390683d84049a59627b86b1186a, type: 3}
@@ -15750,6 +16070,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5485638196958948130, guid: 64c61390683d84049a59627b86b1186a, type: 3}
+      propertyPath: m_Lightmapping
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5485638196958948130, guid: 64c61390683d84049a59627b86b1186a, type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 64c61390683d84049a59627b86b1186a, type: 3}
 --- !u!4 &1612187411 stripped
@@ -15854,6 +16182,14 @@ PrefabInstance:
     - target: {fileID: 5485638196958948130, guid: 81e2d0c1323b67642a5beec869a1c9e0, type: 3}
       propertyPath: m_Intensity
       value: 1.9894367
+      objectReference: {fileID: 0}
+    - target: {fileID: 5485638196958948130, guid: 81e2d0c1323b67642a5beec869a1c9e0, type: 3}
+      propertyPath: m_Lightmapping
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5485638196958948130, guid: 81e2d0c1323b67642a5beec869a1c9e0, type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 81e2d0c1323b67642a5beec869a1c9e0, type: 3}
@@ -16153,6 +16489,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5485638196958948130, guid: 64c61390683d84049a59627b86b1186a, type: 3}
+      propertyPath: m_Lightmapping
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5485638196958948130, guid: 64c61390683d84049a59627b86b1186a, type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 64c61390683d84049a59627b86b1186a, type: 3}
 --- !u!4 &1639446722 stripped
@@ -16210,6 +16554,14 @@ PrefabInstance:
     - target: {fileID: 265513671363401277, guid: 161a145a955f46144af4a1640125efc9, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1484963135423076327, guid: 161a145a955f46144af4a1640125efc9, type: 3}
+      propertyPath: m_Lightmapping
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1484963135423076327, guid: 161a145a955f46144af4a1640125efc9, type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2834592844997616236, guid: 161a145a955f46144af4a1640125efc9, type: 3}
       propertyPath: m_Name
@@ -16372,6 +16724,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5485638196958948130, guid: 64c61390683d84049a59627b86b1186a, type: 3}
+      propertyPath: m_Lightmapping
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5485638196958948130, guid: 64c61390683d84049a59627b86b1186a, type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 64c61390683d84049a59627b86b1186a, type: 3}
 --- !u!4 &1662632217 stripped
@@ -16467,6 +16827,14 @@ PrefabInstance:
     - target: {fileID: 4987286164080481533, guid: 64c61390683d84049a59627b86b1186a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5485638196958948130, guid: 64c61390683d84049a59627b86b1186a, type: 3}
+      propertyPath: m_Lightmapping
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5485638196958948130, guid: 64c61390683d84049a59627b86b1186a, type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 64c61390683d84049a59627b86b1186a, type: 3}
@@ -16596,6 +16964,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5485638196958948130, guid: 13cf06a1a03caac48ac2995a5d155a1e, type: 3}
+      propertyPath: m_Lightmapping
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5485638196958948130, guid: 13cf06a1a03caac48ac2995a5d155a1e, type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 13cf06a1a03caac48ac2995a5d155a1e, type: 3}
 --- !u!4 &1732751898 stripped
@@ -16692,6 +17068,14 @@ PrefabInstance:
     - target: {fileID: 6453690055235761599, guid: e91407d4a98b6ee498c5d1f5edd130da, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8266199603430621592, guid: e91407d4a98b6ee498c5d1f5edd130da, type: 3}
+      propertyPath: m_Lightmapping
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8266199603430621592, guid: e91407d4a98b6ee498c5d1f5edd130da, type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e91407d4a98b6ee498c5d1f5edd130da, type: 3}
@@ -17032,6 +17416,14 @@ PrefabInstance:
     - target: {fileID: 4987286164080481533, guid: 13cf06a1a03caac48ac2995a5d155a1e, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5485638196958948130, guid: 13cf06a1a03caac48ac2995a5d155a1e, type: 3}
+      propertyPath: m_Lightmapping
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5485638196958948130, guid: 13cf06a1a03caac48ac2995a5d155a1e, type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 13cf06a1a03caac48ac2995a5d155a1e, type: 3}
@@ -18367,6 +18759,14 @@ PrefabInstance:
     - target: {fileID: 5485638196958948130, guid: 81e2d0c1323b67642a5beec869a1c9e0, type: 3}
       propertyPath: m_Intensity
       value: 1.9894367
+      objectReference: {fileID: 0}
+    - target: {fileID: 5485638196958948130, guid: 81e2d0c1323b67642a5beec869a1c9e0, type: 3}
+      propertyPath: m_Lightmapping
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5485638196958948130, guid: 81e2d0c1323b67642a5beec869a1c9e0, type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 81e2d0c1323b67642a5beec869a1c9e0, type: 3}
@@ -19868,6 +20268,14 @@ PrefabInstance:
       propertyPath: m_Intensity
       value: 1.9894367
       objectReference: {fileID: 0}
+    - target: {fileID: 5485638196958948130, guid: 81e2d0c1323b67642a5beec869a1c9e0, type: 3}
+      propertyPath: m_Lightmapping
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5485638196958948130, guid: 81e2d0c1323b67642a5beec869a1c9e0, type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 81e2d0c1323b67642a5beec869a1c9e0, type: 3}
 --- !u!4 &1970508795 stripped
@@ -19929,6 +20337,14 @@ PrefabInstance:
     - target: {fileID: 4987286164080481533, guid: 64c61390683d84049a59627b86b1186a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5485638196958948130, guid: 64c61390683d84049a59627b86b1186a, type: 3}
+      propertyPath: m_Lightmapping
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5485638196958948130, guid: 64c61390683d84049a59627b86b1186a, type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 64c61390683d84049a59627b86b1186a, type: 3}
@@ -20065,6 +20481,14 @@ PrefabInstance:
     - target: {fileID: 4987286164080481533, guid: 13cf06a1a03caac48ac2995a5d155a1e, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5485638196958948130, guid: 13cf06a1a03caac48ac2995a5d155a1e, type: 3}
+      propertyPath: m_Lightmapping
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5485638196958948130, guid: 13cf06a1a03caac48ac2995a5d155a1e, type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 13cf06a1a03caac48ac2995a5d155a1e, type: 3}
@@ -20779,6 +21203,14 @@ PrefabInstance:
     - target: {fileID: 5485638196958948130, guid: 81e2d0c1323b67642a5beec869a1c9e0, type: 3}
       propertyPath: m_Intensity
       value: 1.9894367
+      objectReference: {fileID: 0}
+    - target: {fileID: 5485638196958948130, guid: 81e2d0c1323b67642a5beec869a1c9e0, type: 3}
+      propertyPath: m_Lightmapping
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5485638196958948130, guid: 81e2d0c1323b67642a5beec869a1c9e0, type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 81e2d0c1323b67642a5beec869a1c9e0, type: 3}
@@ -21653,6 +22085,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5485638196958948130, guid: 13cf06a1a03caac48ac2995a5d155a1e, type: 3}
+      propertyPath: m_Lightmapping
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5485638196958948130, guid: 13cf06a1a03caac48ac2995a5d155a1e, type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 13cf06a1a03caac48ac2995a5d155a1e, type: 3}
 --- !u!4 &2081248593 stripped
@@ -22036,6 +22476,14 @@ PrefabInstance:
       propertyPath: m_Intensity
       value: 1.9894367
       objectReference: {fileID: 0}
+    - target: {fileID: 5485638196958948130, guid: 81e2d0c1323b67642a5beec869a1c9e0, type: 3}
+      propertyPath: m_Lightmapping
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5485638196958948130, guid: 81e2d0c1323b67642a5beec869a1c9e0, type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 81e2d0c1323b67642a5beec869a1c9e0, type: 3}
 --- !u!4 &2130787195 stripped
@@ -22345,6 +22793,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8266199603430621592, guid: e91407d4a98b6ee498c5d1f5edd130da, type: 3}
+      propertyPath: m_Lightmapping
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8266199603430621592, guid: e91407d4a98b6ee498c5d1f5edd130da, type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e91407d4a98b6ee498c5d1f5edd130da, type: 3}
 --- !u!4 &508947956278615708 stripped
@@ -22402,6 +22858,14 @@ PrefabInstance:
     - target: {fileID: 265513671363401277, guid: 161a145a955f46144af4a1640125efc9, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1484963135423076327, guid: 161a145a955f46144af4a1640125efc9, type: 3}
+      propertyPath: m_Lightmapping
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1484963135423076327, guid: 161a145a955f46144af4a1640125efc9, type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2834592844997616236, guid: 161a145a955f46144af4a1640125efc9, type: 3}
       propertyPath: m_Name
