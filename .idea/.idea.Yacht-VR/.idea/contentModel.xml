@@ -7,8 +7,6 @@
       <e p="Assets" t="Include">
         <e p="__Scenes" t="Include">
           <e p="Pershing Lower Deck" t="Include">
-            <e p="MaterialChanger.cs" t="Include" />
-            <e p="MaterialChangerEditor.cs" t="Include" />
             <e p="Materials" t="Include">
               <e p="NewComputeShader.compute" t="Include" />
             </e>
@@ -1661,10 +1659,11 @@
           </e>
         </e>
         <e p="Scripts" t="Include">
-          <e p="Day Night" t="Include">
-            <e p="DayNightController.cs" t="Include" />
-          </e>
+          <e p="DayNightController.cs" t="Include" />
+          <e p="DayNightControllerEditor.cs" t="Include" />
           <e p="LookWithMouse.cs" t="Include" />
+          <e p="MaterialChanger.cs" t="Include" />
+          <e p="MaterialChangerEditor.cs" t="Include" />
           <e p="PlayerMovement.cs" t="Include" />
           <e p="SimpleCameraController.cs" t="Include" />
         </e>

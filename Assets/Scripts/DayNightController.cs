@@ -20,6 +20,11 @@ public class DayNightController : MonoBehaviour
     public Color sunFilterDay;
     public Color sunFilterNight;
 
+    // Audio
+    public GameObject[] daySounds;
+    public GameObject[] nightSounds;
+    public GameObject[] engineSounds;
+    public bool engineSoundsActive = false;
 
     // Fill Light
     public Light fillLight;
@@ -28,7 +33,7 @@ public class DayNightController : MonoBehaviour
     public float fillLightIntensityNight;
     public float fillLightTempNight;
 
-    
+
     //variable where we will store the HD lighting data
     private HDAdditionalLightData sunLightData;
     private HDAdditionalLightData fillLightData;
@@ -39,28 +44,37 @@ public class DayNightController : MonoBehaviour
         sunLightData = sun.GetComponent<HDAdditionalLightData>();
         fillLightData = fillLight.GetComponent<HDAdditionalLightData>();
         
-        // StartCoroutine(ExampleCoroutine());
-        
-        EnableDayLighting();
-        //EnableNightLighting();
-
+        EnableDay();
     }
-    
+
+    // Called by hand menu
+    public void EnableDay()
+    {
+        EnableDayLighting();
+        EnableDaySounds();
+    }
+
+    // Called by hand menu
+    public void EnableNight()
+    {
+        EnableNightLighting();
+        EnableNightSounds();
+    }
 
     public void EnableDayLighting()
     {
         // Sun
-        
+
         sunLightData.intensity = sunIntensityDay;
         sun.GetComponent<Light>().colorTemperature = sunTempDay;
         sun.GetComponent<Light>().color = sunFilterDay;
         sun.transform.rotation = sunAngleDay.transform.rotation;
-        
+
         //Fill light
         fillLightData.intensity = fillLightIntensityDay;
         fillLight.colorTemperature = fillLightTempDay;
     }
-    
+
     public void EnableNightLighting()
     {
         // Sun
@@ -68,20 +82,43 @@ public class DayNightController : MonoBehaviour
         sun.GetComponent<Light>().colorTemperature = sunTempNight;
         sun.GetComponent<Light>().color = sunFilterNight;
         sun.transform.rotation = sunAngleNight.transform.rotation;
-        
+
         // Fill light
         fillLightData.intensity = fillLightIntensityNight;
         fillLight.colorTemperature = fillLightTempNight;
-        
-    }
-    
 
-    // IEnumerator ExampleCoroutine()
-    // {
-    //     EnableDayLighting();
-    //
-    //     yield return new WaitForSeconds(10);
-    //     
-    //     EnableNightLighting();
-    // }
+    }
+
+    // Called from hand menu
+    public void ToggleEngineSounds()
+    {
+        // Invert engine sounds tracker
+        engineSoundsActive = !engineSoundsActive;
+        
+        // Trigger array items on / off
+        toggleSoundArray(engineSounds, engineSoundsActive);
+    }
+
+    public void EnableDaySounds()
+    {
+        toggleSoundArray(nightSounds, false);
+        toggleSoundArray(daySounds, true);
+    }
+
+    public void EnableNightSounds()
+    {
+        toggleSoundArray(daySounds, false);
+        toggleSoundArray(nightSounds, true);
+    }
+
+    // Turn all items in array on or off
+    public void toggleSoundArray(GameObject[] soundArray, bool active)
+    {
+        foreach (var sound in soundArray)
+        {
+            sound.SetActive(active);
+        }
+    }
 }
+
+    
