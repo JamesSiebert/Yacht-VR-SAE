@@ -20,20 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="efd56fab-5c02-4431-adb6-7cf1a45832dc" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Yacht-VR/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Yacht-VR/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Yacht-VR/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Yacht-VR/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MaterialChanger.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MaterialChanger.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SoMaterialChanger.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SoMaterialChanger.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/__Scenes/Pershing Lower Deck/Materials/Bed_Sheets.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/__Scenes/Pershing Lower Deck/Materials/Bed_Sheets.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/__Scenes/Pershing Lower Deck/Materials/Wood.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/__Scenes/Pershing Lower Deck/Materials/Wood.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/__Scenes/Pershing Lower Deck/New So Material Changer.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/__Scenes/Pershing Lower Deck/New So Material Changer.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Scenes/Pershing Lower Deck/MaterialChanger.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/__Scenes/Pershing Lower Deck/MaterialChanger.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/__Scenes/Pershing Lower Deck/Room_PershingLowerDeck.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/__Scenes/Pershing Lower Deck/Room_PershingLowerDeck.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,8 +93,8 @@
         <option value="$PROJECT_DIR$/Assets/SO_LowerDeck.cs" />
         <option value="$PROJECT_DIR$/Assets/SoMaterialChanger.cs" />
         <option value="$PROJECT_DIR$/Assets/MaterialChanger.cs" />
-        <option value="$PROJECT_DIR$/Assets/__Scenes/Pershing Lower Deck/MaterialChanger.cs" />
         <option value="$PROJECT_DIR$/Assets/__Scenes/Pershing Lower Deck/MaterialChangerEditor.cs" />
+        <option value="$PROJECT_DIR$/Assets/__Scenes/Pershing Lower Deck/MaterialChanger.cs" />
       </list>
     </option>
   </component>
@@ -163,6 +152,7 @@
       <workItem from="1625557310468" duration="4658000" />
       <workItem from="1626324724666" duration="2802000" />
       <workItem from="1627858255774" duration="5988000" />
+      <workItem from="1627941479465" duration="3131000" />
     </task>
     <servers />
   </component>
