@@ -7,6 +7,7 @@ public class HandMenuManager : MonoBehaviour
 
     public GameObject gameManager;
     public bool isReady = false;
+    public DayNightController dayNightController;
     
     // Start is called before the first frame update
     void Start()
@@ -15,26 +16,33 @@ public class HandMenuManager : MonoBehaviour
         if (gameManager != null)
         {
             isReady = true;
+            dayNightController = gameManager.GetComponent<DayNightController>();
         }
     }
     
 
-    public void ActivateDayLighting()
+    public void ActivateDay()
     {
         if (isReady)
-        {
-            gameManager.GetComponent<DayNightController>().EnableDayLighting();
-        }
-        
+            dayNightController.EnableDay();
     }
     
-    public void ActivateNightLighting()
+    public void ActivateNight()
     {
         if (isReady)
-        {
-            gameManager.GetComponent<DayNightController>().EnableNightLighting();
-        }
-        
+            dayNightController.EnableNight();
+    }
+    
+    public void ToggleEngineSounds()
+    {
+        if (isReady)
+            dayNightController.ToggleEngineSounds();
+    }
+    
+    public void ToggleStereoSounds()
+    {
+        if (isReady)
+            dayNightController.ToggleStereoSounds();
     }
     
 }
