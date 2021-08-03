@@ -19,10 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="efd56fab-5c02-4431-adb6-7cf1a45832dc" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/HDRPProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/HDRPProjectSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
-    </list>
+    <list default="true" id="efd56fab-5c02-4431-adb6-7cf1a45832dc" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -151,7 +148,7 @@
       <workItem from="1625557310468" duration="4658000" />
       <workItem from="1626324724666" duration="2802000" />
       <workItem from="1627858255774" duration="5988000" />
-      <workItem from="1627941479465" duration="3696000" />
+      <workItem from="1627941479465" duration="4298000" />
     </task>
     <servers />
   </component>
