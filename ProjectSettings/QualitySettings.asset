@@ -4,7 +4,7 @@
 QualitySettings:
   m_ObjectHideFlags: 0
   serializedVersion: 5
-  m_CurrentQuality: 2
+  m_CurrentQuality: 1
   m_QualitySettings:
   - serializedVersion: 2
     name: High Quality
@@ -42,9 +42,9 @@ QualitySettings:
     resolutionScalingFixedDPIFactor: 1
     customRenderPipeline: {fileID: 11400000, guid: 36dd385e759c96147b6463dcd1149c11, type: 2}
     excludedTargetPlatforms:
-    - WebGL
-    - Android
     - Standalone
+    - Android
+    - WebGL
   - serializedVersion: 2
     name: Medium Quality
     pixelLightCount: 2
@@ -58,8 +58,8 @@ QualitySettings:
     shadowCascade4Split: {x: 0.06666667, y: 0.2, z: 0.46666667}
     shadowmaskMode: 1
     skinWeights: 255
-    textureQuality: 0
-    anisotropicTextures: 2
+    textureQuality: 1
+    anisotropicTextures: 1
     antiAliasing: 0
     softParticles: 0
     softVegetation: 1
@@ -80,10 +80,7 @@ QualitySettings:
     asyncUploadPersistentBuffer: 1
     resolutionScalingFixedDPIFactor: 1
     customRenderPipeline: {fileID: 11400000, guid: 3e2e6bfc59709614ab90c0cd7d755e48, type: 2}
-    excludedTargetPlatforms:
-    - Standalone
-    - Android
-    - WebGL
+    excludedTargetPlatforms: []
   - serializedVersion: 2
     name: Low Quality
     pixelLightCount: 2
@@ -97,7 +94,7 @@ QualitySettings:
     shadowCascade4Split: {x: 0.06666667, y: 0.2, z: 0.46666667}
     shadowmaskMode: 1
     skinWeights: 255
-    textureQuality: 0
+    textureQuality: 1
     anisotropicTextures: 2
     antiAliasing: 0
     softParticles: 0
