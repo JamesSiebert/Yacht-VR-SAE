@@ -25,6 +25,8 @@ public class DayNightController : MonoBehaviour
     public GameObject[] nightSounds;
     public GameObject[] engineSounds;
     public bool engineSoundsActive = false;
+    public GameObject[] stereoSounds;
+    public bool stereoSoundsActive = false;
 
     // Fill Light
     public Light fillLight;
@@ -97,6 +99,16 @@ public class DayNightController : MonoBehaviour
         
         // Trigger array items on / off
         toggleSoundArray(engineSounds, engineSoundsActive);
+    }
+    
+    // Called from hand menu
+    public void ToggleStereoSounds()
+    {
+        // Invert engine sounds tracker
+        stereoSoundsActive = !stereoSoundsActive;
+        
+        // Trigger array items on / off
+        toggleSoundArray(stereoSounds, stereoSoundsActive);
     }
 
     public void EnableDaySounds()

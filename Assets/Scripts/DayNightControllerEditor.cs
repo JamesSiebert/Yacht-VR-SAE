@@ -24,5 +24,10 @@ public class DayNightControllerEditor : Editor
         {
             dayNightController.ToggleEngineSounds();
         }
+        
+        if(GUILayout.Button("Toggle Stereo Sounds"))
+        {
+            dayNightController.ToggleStereoSounds();
+        }
     }
 }
