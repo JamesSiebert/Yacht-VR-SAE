@@ -1202,7 +1202,7 @@ MonoBehaviour:
   useInvSqr: 0
   near: 5
   far: 25
-  volumetricRadius: 8
+  volumetricRadius: 5
   reverbSend: 0
   enableRfl: 0
 --- !u!82 &977030533
