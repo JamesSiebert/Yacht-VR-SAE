@@ -50,7 +50,6 @@
           </e>
         </e>
         <e p="AllSkyFree" t="Include">
-          <e p="AllSkyFree_Menu.cs" t="Include" />
           <e p="AllSkyFree_Readme.txt" t="Include" />
         </e>
         <e p="Asset Store" t="Include">
