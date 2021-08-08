@@ -20,12 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="efd56fab-5c02-4431-adb6-7cf1a45832dc" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/__Scenes/Pershing Lower Deck/Room_PershingLowerDeck.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/__Scenes/Pershing Lower Deck/Room_PershingLowerDeck.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/__Scenes/Pershing Lower Deck/Room_PershingLowerDeck/LightingData.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/__Scenes/Pershing Lower Deck/Room_PershingLowerDeck/LightingData.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/__Scenes/Pershing Lower Deck/Room_PershingLowerDeck/Lightmap-0_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/__Scenes/Pershing Lower Deck/Room_PershingLowerDeck/Lightmap-0_comp_dir.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/__Scenes/Pershing Lower Deck/Room_PershingLowerDeck/Lightmap-0_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/__Scenes/Pershing Lower Deck/Room_PershingLowerDeck/Lightmap-0_comp_light.exr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/__Scenes/Pershing Lower Deck/Room_PershingLowerDeck/Lightmap-1_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/__Scenes/Pershing Lower Deck/Room_PershingLowerDeck/Lightmap-1_comp_dir.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/__Scenes/Pershing Lower Deck/Room_PershingLowerDeck/Lightmap-1_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/__Scenes/Pershing Lower Deck/Room_PershingLowerDeck/Lightmap-1_comp_light.exr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_JS_XR_CoreComponents/VR Player/Resources/Network VR Player - Login Variant.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_JS_XR_CoreComponents/VR Player/Resources/Network VR Player - Login Variant.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_JS_XR_CoreComponents/VR Player/Resources/Network VR Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_JS_XR_CoreComponents/VR Player/Resources/Network VR Player.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Scenes/LoginScene/LoginScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/__Scenes/LoginScene/LoginScene.unity" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -158,6 +155,7 @@
       <workItem from="1627941479465" duration="8795000" />
       <workItem from="1627972411096" duration="904000" />
       <workItem from="1628035258635" duration="698000" />
+      <workItem from="1628403453897" duration="6000" />
     </task>
     <servers />
   </component>

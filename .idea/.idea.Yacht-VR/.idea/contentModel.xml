@@ -1080,6 +1080,7 @@
             </e>
           </e>
         </e>
+        <e p="PanoramaCapture.cs" t="Include" />
         <e p="PersistantVariables.cs" t="Include" />
         <e p="Photon" t="Include">
           <e p="PhotonChat" t="Include">
@@ -1659,10 +1660,12 @@
         </e>
         <e p="Scripts" t="Include">
           <e p="DayNightController.cs" t="Include" />
-          <e p="DayNightControllerEditor.cs" t="Include" />
+          <e p="Editor" t="Include">
+            <e p="DayNightControllerEditor.cs" t="Include" />
+            <e p="MaterialChangerEditor.cs" t="Include" />
+          </e>
           <e p="LookWithMouse.cs" t="Include" />
           <e p="MaterialChanger.cs" t="Include" />
-          <e p="MaterialChangerEditor.cs" t="Include" />
           <e p="PlayerMovement.cs" t="Include" />
           <e p="SimpleCameraController.cs" t="Include" />
         </e>
@@ -1721,6 +1724,63 @@
           <e p="Trinitatis Church" t="Include">
             <e p="Info.txt" t="Include" />
           </e>
+        </e>
+        <e p="VRPanorama" t="Include">
+          <e p="Editor" t="Include">
+            <e p="VRPanoramaEditor.cs" t="Include" />
+            <e p="VRPanoramaMenu.cs" t="Include" />
+          </e>
+          <e p="Install_Readme!!!.txt" t="Include" />
+          <e p="New_HQ_Stereo_Mode_Readme.txt" t="Include" />
+          <e p="Scripts" t="Include">
+            <e p="AmbsionicsFilter.cs" t="Include" />
+            <e p="AudioSyncWithVRCapture.cs" t="Include" />
+            <e p="CameraCutSequences.cs" t="Include" />
+            <e p="FFmpegOut" t="Include">
+              <e p="CameraCapture.cs" t="Include" />
+              <e p="Editor" t="Include">
+                <e p="CameraCaptureEditor.cs" t="Include" />
+              </e>
+              <e p="FFmpegConfig.cs" t="Include" />
+              <e p="FFmpegPipe.cs" t="Include" />
+              <e p="Internal" t="Include">
+                <e p="Blitter.cs" t="Include" />
+                <e p="Shader" t="Include">
+                  <e p="CameraCapture.shader" t="Include" />
+                </e>
+              </e>
+            </e>
+            <e p="HalfHelper.cs" t="Include" />
+            <e p="MouseControlVR.cs" t="Include" />
+            <e p="VRBuilderScript.cs" t="Include" />
+            <e p="VRCompositor.cs" t="Include" />
+            <e p="VRPanoInterface.cs" t="Include" />
+            <e p="VRPanoramaAttribute.cs" t="Include" />
+            <e p="VRPanoramaDrawer.cs" t="Include" />
+            <e p="WriteEXR.cs" t="Include" />
+          </e>
+          <e p="Shaders" t="Include">
+            <e p="AASS_Sharp.shader" t="Include" />
+            <e p="FadeVR.shader" t="Include" />
+            <e p="FadeVRtd.shader" t="Include" />
+            <e p="hQScanline.shader" t="Include" />
+            <e p="unwrapShader.shader" t="Include" />
+            <e p="VRAA.shader" t="Include" />
+            <e p="VRAA2.shader" t="Include" />
+            <e p="VRCube.shader" t="Include" />
+          </e>
+          <e p="StereoPanoramaPlayer" t="Include">
+            <e p="Resources" t="Include">
+              <e p="New AmplifyShader.shader" t="Include" />
+              <e p="sphere3d.shader" t="Include" />
+              <e p="StereoPanorama.cs" t="Include" />
+            </e>
+          </e>
+          <e p="Tools" t="Include">
+            <e p="HideRig.cs" t="Include" />
+            <e p="VideoSync.cs" t="Include" />
+          </e>
+          <e p="VRCapture.cs" t="Include" />
         </e>
         <e p="Yacht Model" t="Include">
           <e p="Reference Images" t="Include">
