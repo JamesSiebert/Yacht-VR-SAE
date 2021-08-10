@@ -1,0 +1,2 @@
+To customize the wind effect select any material (bark or foliage) and find 'Wind Settings'. You can set: wind direction, strength, speed, turbulence and bending parameters.
+To install URP or HDRP vegetation shader and materials select '(URP) Installer' or '(HDRP) Installer' package file that you will find in the main folder and import all files.<br><br>

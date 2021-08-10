@@ -304,6 +304,11 @@
         </e>
         <e p="AutoLogin.cs" t="Include" />
         <e p="AutoNavigateToTutorial.cs" t="Include" />
+        <e p="BSP Forest Vegetation" t="Include">
+          <e p="Shaders" t="Include">
+            <e p="Vegetation.shader" t="Include" />
+          </e>
+        </e>
         <e p="Credits.txt" t="Include" />
         <e p="HandMenuManager.cs" t="Include" />
         <e p="Modern Homes" t="Include">
@@ -1081,6 +1086,12 @@
           </e>
         </e>
         <e p="PanoramaCapture.cs" t="Include" />
+        <e p="PBR Ground Materials #1 [Dirt&amp; Grass]" t="Include">
+          <e p="Documentation.txt" t="Include" />
+        </e>
+        <e p="PBR Island Collection" t="Include">
+          <e p="Read Me.txt" t="Include" />
+        </e>
         <e p="PersistantVariables.cs" t="Include" />
         <e p="Photon" t="Include">
           <e p="PhotonChat" t="Include">
