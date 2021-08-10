@@ -43,3 +43,4 @@ Logs/AssetImportWorker1.log
 Logs/AssetImportWorker0.log
 
 *.rar
+*.psd
