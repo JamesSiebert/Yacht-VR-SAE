@@ -68,7 +68,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _NormalMap:
-        m_Texture: {fileID: 2800000, guid: 8765989f1788ae74b85c9bdbed86d46a, type: 3}
+        m_Texture: {fileID: 2800000, guid: 00bfadd1cf175c54bb19c35e93104601, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _OcclusionMap:
@@ -83,12 +83,11 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    m_Ints: []
     m_Floats:
-    - WindSpeedFloat1: 0.5
-    - WindTurbulence: 0.5
+    - WindSpeedFloat1: 0.16
+    - WindTurbulence: 0.44
     - _AddPrecomputedVelocity: 1
-    - _AlphaCutoff: 0.35
+    - _AlphaCutoff: 0.27
     - _AlphaCutoffEnable: 1
     - _AlphaDstBlend: 0
     - _AlphaSrcBlend: 1
@@ -99,8 +98,8 @@ Material:
     - _BumpScale: 1
     - _CullMode: 0
     - _CullModeForward: 0
-    - _Cutoff: 0.35
-    - _DefaultBending: 0
+    - _Cutoff: 0.27
+    - _DefaultBending: 2.54
     - _DetailNormalMapScale: 1
     - _DoubleSidedEnable: 1
     - _DoubleSidedNormalMode: 2
@@ -115,9 +114,9 @@ Material:
     - _Glossiness: 0.5
     - _GlossyReflections: 1
     - _MaxHeight: 10
-    - _Metallic: 0
+    - _Metallic: 1
     - _Mode: 0
-    - _NormalMapStrength: 1
+    - _NormalMapStrength: 3
     - _OcclusionStrength: 1
     - _Parallax: 0.02
     - _Phase: 1
@@ -126,7 +125,7 @@ Material:
     - _RenderQueueType: 1
     - _RequireSplitLighting: 0
     - _ShadowStrength: 0
-    - _Smoothness: 0
+    - _Smoothness: 0.87
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
@@ -150,8 +149,8 @@ Material:
     - _UseShadowThreshold: 0
     - _Wind: 1
     - _WindOffset: 180
-    - _WindStrength: 0.5
-    - _WindStrength1: 0.5
+    - _WindStrength: 1
+    - _WindStrength1: 0
     - _ZTestDepthEqualForOpaque: 3
     - _ZTestGBuffer: 3
     - _ZTestTransparent: 4
@@ -159,11 +158,11 @@ Material:
     - __dirty: 0
     - _float: 230
     m_Colors:
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _Color: {r: 0, g: 0, b: 0, a: 1}
     - _DoubleSidedConstants: {r: 1, g: 1, b: 1, a: 0}
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
-    - _NoisePannerSpeed: {r: 0.05, g: 0.03, b: 0, a: 0}
+    - _NoisePannerSpeed: {r: 1.66, g: 0.03, b: 0, a: 0}
     - _NoiseTextureTilling2: {r: 1, g: 1, b: 1, a: 1}
-    - _Shadowcolor: {r: 0, g: 0, b: 0, a: 0}
+    - _Shadowcolor: {r: 0.6603774, g: 0.6603774, b: 0.6603774, a: 0}
     - _WindDirection: {r: 0.5, g: 0.2, b: 0.5, a: 0}
   m_BuildTextureStacks: []
