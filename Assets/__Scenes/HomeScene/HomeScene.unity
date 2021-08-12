@@ -46920,7 +46920,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enableSpatialization: 1
   gain: 0
-  useInvSqr: 1
+  useInvSqr: 0
   near: 8
   far: 12
   volumetricRadius: 12
