@@ -305,6 +305,7 @@
         <e p="AutoLogin.cs" t="Include" />
         <e p="AutoNavigateToTutorial.cs" t="Include" />
         <e p="BSP Forest Vegetation" t="Include">
+          <e p="readme.txt" t="Include" />
           <e p="Shaders" t="Include">
             <e p="Vegetation.shader" t="Include" />
           </e>
@@ -1669,6 +1670,7 @@
             </e>
           </e>
         </e>
+        <e p="rotateObject.cs" t="Include" />
         <e p="Scripts" t="Include">
           <e p="DayNightController.cs" t="Include" />
           <e p="Editor" t="Include">
