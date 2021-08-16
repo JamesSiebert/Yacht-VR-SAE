@@ -511,8 +511,8 @@ Transform:
   m_Children:
   - {fileID: 793315923}
   - {fileID: 1772553362}
-  - {fileID: 1033674883}
   - {fileID: 1177508028}
+  - {fileID: 1033674883}
   - {fileID: 1450205004}
   - {fileID: 1349870612}
   m_Father: {fileID: 0}
@@ -827,7 +827,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &755304099
 Transform:
   m_ObjectHideFlags: 0
@@ -2101,7 +2101,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 526167781}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 37.118, y: 0, z: 0}
 --- !u!114 &1177508029
 MonoBehaviour:
@@ -3422,6 +3422,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 755304099}
     m_Modifications:
+    - target: {fileID: 1294580977555072325, guid: 6f5d7ace4dcfd044b94b2d385cc8c365, type: 3}
+      propertyPath: antialiasing
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1294580977620530678, guid: 6f5d7ace4dcfd044b94b2d385cc8c365, type: 3}
       propertyPath: m_RootOrder
       value: 0

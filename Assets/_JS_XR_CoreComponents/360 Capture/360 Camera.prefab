@@ -158,7 +158,7 @@ MonoBehaviour:
   captureType: 1
   captureAngle: 0
   RT2Video: 0
-  ImageFormatType: 2
+  ImageFormatType: 1
   Folder: VR_Sequence
   captureKey: 32
   FPS: 25
@@ -180,7 +180,7 @@ MonoBehaviour:
   Mp4Bitrate: 50000
   jpgQuality: 92
   renderQuality: 32
-  formatString: .exr"
+  formatString: .png"
   mailme: 0
   _mailto: name@domain.com
   _pass: 
@@ -364,7 +364,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1294580978053353507
 Transform:
   m_ObjectHideFlags: 0
