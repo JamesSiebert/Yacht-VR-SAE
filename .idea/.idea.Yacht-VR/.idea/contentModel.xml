@@ -326,6 +326,18 @@
             <e p="readme.txt" t="Include" />
           </e>
         </e>
+        <e p="Naps_3D_Screenshot" t="Include">
+          <e p="Materials" t="Include">
+            <e p="New Custom Pass.cs" t="Include" />
+          </e>
+          <e p="Scripts" t="Include">
+            <e p="naps_3d_screen_cam_script.cs" t="Include" />
+            <e p="naps_3d_screenshot_inspector_button.cs" t="Include" />
+          </e>
+          <e p="Shaders" t="Include">
+            <e p="naps_3d_screen_depth.shader" t="Include" />
+          </e>
+        </e>
         <e p="Oculus" t="Include">
           <e p="AudioManager" t="Include">
             <e p="scenes" t="Include">

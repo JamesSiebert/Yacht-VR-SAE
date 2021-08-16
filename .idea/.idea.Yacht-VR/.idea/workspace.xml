@@ -22,10 +22,8 @@
     <list default="true" id="efd56fab-5c02-4431-adb6-7cf1a45832dc" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Yacht-VR/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Yacht-VR/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Yacht-VR/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Yacht-VR/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Yacht Model/Pershing8X_Main_AllScenes.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Yacht Model/Pershing8X_Main_AllScenes.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/__Scenes/LoginScene/LoginScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/__Scenes/LoginScene/LoginScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/__Scenes/Pershing Island/Room_PershingIsland.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/__Scenes/Pershing Island/Room_PershingIsland.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/ApiUpdaterCheck.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/ApiUpdaterCheck.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Scenes/Pershing Lower Deck/Room_PershingLowerDeck.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/__Scenes/Pershing Lower Deck/Room_PershingLowerDeck.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Scenes/Pershing Lower Deck/Room_PershingLowerDeck/Sky and Fog Settings Profile.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/__Scenes/Pershing Lower Deck/Room_PershingLowerDeck/Sky and Fog Settings Profile.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -41,6 +39,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/_JS_XR_CoreComponents/HomeScene/Editor/HomeRoomManagerEditorScript.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_JS_XR_CoreComponents/HomeScene/AvatarSelectionManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_JS_XR_CoreComponents/LoginScene/LoginManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Naps_3D_Screenshot/scripts/naps_3d_screen_cam_script.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_JS_XR_CoreComponents/LoginScene/Editor/LoginManagerEditorScript.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_JS_XR_CoreComponents/VR Player/VoiceDebugUI.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_JS_XR_CoreComponents/Shared/Room/PhotonInWorldManager.cs" root0="FORCE_HIGHLIGHTING" />
@@ -65,6 +64,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/_JS_XR_CoreComponents/VR Player/JS_XRInputEventTrigger.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/PersistantVariables.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/HandMenuManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Naps_3D_Screenshot/scripts/naps_3d_screenshot_inspector_button.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Editor/CrossPlatformInput/CrossPlatformInputInitialize.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Photon/PhotonUnityNetworking/Code/PhotonNetworkPart.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/AutoNavigateToTutorial.cs" root0="FORCE_HIGHLIGHTING" />
@@ -104,6 +104,8 @@
         <option value="$PROJECT_DIR$/Assets/HandMenuManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Editor/CrossPlatformInput/CrossPlatformInputInitialize.cs" />
         <option value="$PROJECT_DIR$/Assets/rotateObject.cs" />
+        <option value="$PROJECT_DIR$/Assets/Naps_3D_Screenshot/scripts/naps_3d_screenshot_inspector_button.cs" />
+        <option value="$PROJECT_DIR$/Assets/Naps_3D_Screenshot/scripts/naps_3d_screen_cam_script.cs" />
       </list>
     </option>
   </component>
@@ -167,7 +169,7 @@
       <workItem from="1628403453897" duration="6000" />
       <workItem from="1628560017208" duration="1208000" />
       <workItem from="1628586037572" duration="25000" />
-      <workItem from="1629058562937" duration="717000" />
+      <workItem from="1629058562937" duration="7092000" />
     </task>
     <servers />
   </component>
