@@ -14759,7 +14759,6 @@ MonoBehaviour:
   sunFilterNight: {r: 0.49685526, g: 0.6938809, b: 1, a: 0}
   daySounds:
   - {fileID: 1756575261}
-  - {fileID: 0}
   nightSounds:
   - {fileID: 1432870792}
   engineSounds:
@@ -14773,6 +14772,7 @@ MonoBehaviour:
   fillLightTempDay: 6000
   fillLightIntensityNight: 0
   fillLightTempNight: 10000
+  changeEnabled: 1
 --- !u!4 &1331275275
 Transform:
   m_ObjectHideFlags: 0
