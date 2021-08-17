@@ -7609,6 +7609,7 @@ GameObject:
   m_Component:
   - component: {fileID: 769552968}
   - component: {fileID: 769552967}
+  - component: {fileID: 769552969}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -7659,6 +7660,39 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &769552969
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 769552966}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7959ae2c94097a8419862fbe985e7c18, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sun: {fileID: 0}
+  sunAngleDay: {fileID: 0}
+  sunAngleNight: {fileID: 0}
+  sunIntensityDay: 0
+  sunTempDay: 0
+  sunIntensityNight: 0
+  sunTempNight: 0
+  sunFilterDay: {r: 0, g: 0, b: 0, a: 0}
+  sunFilterNight: {r: 0, g: 0, b: 0, a: 0}
+  daySounds: []
+  nightSounds: []
+  engineSounds: []
+  engineSoundsActive: 0
+  stereoSounds: []
+  stereoSoundsActive: 0
+  fillLight: {fileID: 0}
+  fillLightIntensityDay: 0
+  fillLightTempDay: 0
+  fillLightIntensityNight: 0
+  fillLightTempNight: 0
+  changeEnabled: 0
 --- !u!1001 &774615973
 PrefabInstance:
   m_ObjectHideFlags: 0

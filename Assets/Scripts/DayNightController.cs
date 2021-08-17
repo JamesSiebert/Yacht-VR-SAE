@@ -40,6 +40,8 @@ public class DayNightController : MonoBehaviour
     private HDAdditionalLightData sunLightData;
     private HDAdditionalLightData fillLightData;
 
+    public bool changeEnabled = true;
+
     // Start is called before the first frame update
     void Start()
     {

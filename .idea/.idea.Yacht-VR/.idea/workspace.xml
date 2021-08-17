@@ -21,9 +21,12 @@
   <component name="ChangeListManager">
     <list default="true" id="efd56fab-5c02-4431-adb6-7cf1a45832dc" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Yacht-VR/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Yacht-VR/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Yacht-VR/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Yacht-VR/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Yacht-VR/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Yacht-VR/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HandMenuManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HandMenuManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DayNightController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/DayNightController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_JS_XR_CoreComponents/VR Player/Resources/Network VR Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_JS_XR_CoreComponents/VR Player/Resources/Network VR Player.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/__Scenes/Pershing Lower Deck/Room_PershingLowerDeck.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/__Scenes/Pershing Lower Deck/Room_PershingLowerDeck.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/__Scenes/Pershing Lower Deck/Room_PershingLowerDeck/Sky and Fog Settings Profile.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/__Scenes/Pershing Lower Deck/Room_PershingLowerDeck/Sky and Fog Settings Profile.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -99,13 +102,13 @@
         <option value="$PROJECT_DIR$/Assets/MaterialChanger.cs" />
         <option value="$PROJECT_DIR$/Assets/__Scenes/Pershing Lower Deck/MaterialChangerEditor.cs" />
         <option value="$PROJECT_DIR$/Assets/__Scenes/Pershing Lower Deck/MaterialChanger.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/DayNightController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/DayNightControllerEditor.cs" />
-        <option value="$PROJECT_DIR$/Assets/HandMenuManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Editor/CrossPlatformInput/CrossPlatformInputInitialize.cs" />
         <option value="$PROJECT_DIR$/Assets/rotateObject.cs" />
         <option value="$PROJECT_DIR$/Assets/Naps_3D_Screenshot/scripts/naps_3d_screenshot_inspector_button.cs" />
         <option value="$PROJECT_DIR$/Assets/Naps_3D_Screenshot/scripts/naps_3d_screen_cam_script.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/DayNightController.cs" />
+        <option value="$PROJECT_DIR$/Assets/HandMenuManager.cs" />
       </list>
     </option>
   </component>
@@ -170,6 +173,7 @@
       <workItem from="1628560017208" duration="1208000" />
       <workItem from="1628586037572" duration="25000" />
       <workItem from="1629058562937" duration="7092000" />
+      <workItem from="1629176058419" duration="1549000" />
     </task>
     <servers />
   </component>

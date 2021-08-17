@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.InputSystem.HID;
+using UnityEngine.UI;
 
 public class HandMenuManager : MonoBehaviour
 {
@@ -8,6 +10,9 @@ public class HandMenuManager : MonoBehaviour
     public GameObject gameManager;
     public bool isReady = false;
     public DayNightController dayNightController;
+
+    public GameObject dayButton;
+    public GameObject nightButton;
     
     // Start is called before the first frame update
     void Start()
@@ -17,6 +22,17 @@ public class HandMenuManager : MonoBehaviour
         {
             isReady = true;
             dayNightController = gameManager.GetComponent<DayNightController>();
+        }
+
+        if (dayNightController.changeEnabled)
+        {
+            dayButton.SetActive(true);
+            nightButton.SetActive(true);
+        }
+        else
+        {
+            dayButton.SetActive(false);
+            nightButton.SetActive(false);
         }
     }
     

@@ -2038,6 +2038,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isReady: 0
   dayNightController: {fileID: 0}
+  dayButton: {fileID: 7459528741670110045}
+  nightButton: {fileID: 298048783005374125}
 --- !u!1 &5960572329631412648
 GameObject:
   m_ObjectHideFlags: 0

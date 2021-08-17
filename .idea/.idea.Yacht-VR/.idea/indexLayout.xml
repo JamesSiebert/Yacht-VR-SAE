@@ -10,6 +10,7 @@
       <Path>Library/PackageCache/com.unity.ide.vscode@1.2.3</Path>
       <Path>Library/PackageCache/com.unity.inputsystem@1.0.2</Path>
       <Path>Library/PackageCache/com.unity.quicksearch@2.0.2</Path>
+      <Path>Library/PackageCache/com.unity.recorder@3.0.1</Path>
       <Path>Library/PackageCache/com.unity.render-pipelines.core@10.2.2</Path>
       <Path>Library/PackageCache/com.unity.render-pipelines.high-definition-config@10.2.2</Path>
       <Path>Library/PackageCache/com.unity.render-pipelines.high-definition@10.2.2</Path>
@@ -33,6 +34,7 @@
       <Path>Build</Path>
       <Path>Library</Path>
       <Path>Logs</Path>
+      <Path>Recordings</Path>
       <Path>Temp</Path>
       <Path>UserSettings</Path>
       <Path>obj</Path>
