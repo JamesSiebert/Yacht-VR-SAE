@@ -2460,8 +2460,7 @@ MonoBehaviour:
   sunFilterNight: {r: 0.49685526, g: 0.6938809, b: 1, a: 0}
   daySounds:
   - {fileID: 2095863233}
-  nightSounds:
-  - {fileID: 0}
+  nightSounds: []
   engineSounds:
   - {fileID: 2029723573}
   engineSoundsActive: 0
