@@ -20,8 +20,16 @@ PrefabInstance:
       value: -0.92387956
       objectReference: {fileID: 0}
     - target: {fileID: 5960572329976189736, guid: 4a5198c01528dee4f8d06b5878365fcf, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5960572329976189736, guid: 4a5198c01528dee4f8d06b5878365fcf, type: 3}
       propertyPath: m_LocalRotation.y
       value: 0.38268343
+      objectReference: {fileID: 0}
+    - target: {fileID: 5960572329976189736, guid: 4a5198c01528dee4f8d06b5878365fcf, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5960572330088677430, guid: 4a5198c01528dee4f8d06b5878365fcf, type: 3}
       propertyPath: trackLeftGripButton
