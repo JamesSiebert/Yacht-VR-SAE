@@ -45,10 +45,13 @@ public class DayNightController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        sunLightData = sun.GetComponent<HDAdditionalLightData>();
-        fillLightData = fillLight.GetComponent<HDAdditionalLightData>();
-        
-        EnableDay();
+        if (changeEnabled)
+        {
+            sunLightData = sun.GetComponent<HDAdditionalLightData>();
+            fillLightData = fillLight.GetComponent<HDAdditionalLightData>();
+                    
+            EnableDay();
+        }
     }
 
     // Called by hand menu
