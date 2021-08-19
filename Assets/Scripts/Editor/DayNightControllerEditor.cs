@@ -29,5 +29,25 @@ public class DayNightControllerEditor : Editor
         {
             dayNightController.ToggleStereoSounds();
         }
+        
+        if(GUILayout.Button("Jetski Down"))
+        {
+            dayNightController.JetskiDown();
+        }
+        
+        if(GUILayout.Button("Jetski Up"))
+        {
+            dayNightController.JetskiUp();
+        }
+        
+        if(GUILayout.Button("Table Down"))
+        {
+            dayNightController.TableDown();
+        }
+        
+        if(GUILayout.Button("Table Up"))
+        {
+            dayNightController.TableUp();
+        }
     }
 }

@@ -52,6 +52,7 @@
         <e p="AllSkyFree" t="Include">
           <e p="AllSkyFree_Readme.txt" t="Include" />
         </e>
+        <e p="AnimationPlaySound.cs" t="Include" />
         <e p="Asset Store" t="Include">
           <e p="Crest" t="Include">
             <e p="Crest" t="Include">

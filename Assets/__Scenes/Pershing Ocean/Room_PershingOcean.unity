@@ -2467,11 +2467,17 @@ MonoBehaviour:
   stereoSounds:
   - {fileID: 1443414240}
   stereoSoundsActive: 0
-  fillLight: {fileID: 762682696}
-  fillLightIntensityDay: 3
-  fillLightTempDay: 6000
-  fillLightIntensityNight: 0
-  fillLightTempNight: 10000
+  jetskiDown: 0
+  jetskiDoor: {fileID: 0}
+  jetskiMove: {fileID: 0}
+  tableDown: 0
+  tabletop: {fileID: 0}
+  tableLeg1: {fileID: 0}
+  tableLeg2: {fileID: 0}
+  audioTableDown: {fileID: 0}
+  audioTableUp: {fileID: 0}
+  audioJetskiDown: {fileID: 0}
+  audioJetskiUp: {fileID: 0}
   changeEnabled: 1
 --- !u!4 &377332596
 Transform:
@@ -5249,7 +5255,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 823458737}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.72, y: 1.91, z: 0}
+  m_LocalPosition: {x: -1.032, y: 1.4688, z: 10.58}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1482488410}
