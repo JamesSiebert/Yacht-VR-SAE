@@ -6813,11 +6813,6 @@ MonoBehaviour:
   depth_brightness: 0.75
   mat: {fileID: 2100000, guid: b2ef09abf33617e4db60d8826004ba01, type: 2}
   rtActive: {fileID: 8400000, guid: 475e59a12b9a00b4d82d2a45ddaf163d, type: 2}
---- !u!95 &643478032 stripped
-Animator:
-  m_CorrespondingSourceObject: {fileID: 643478032, guid: 448f7c7aeae081b439567469e5cb897d, type: 3}
-  m_PrefabInstance: {fileID: 2353123528795077152}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &665686501
 GameObject:
   m_ObjectHideFlags: 0
@@ -13916,11 +13911,6 @@ Transform:
   m_Father: {fileID: 9774347}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!95 &1221149258 stripped
-Animator:
-  m_CorrespondingSourceObject: {fileID: 456269149928215578, guid: 448f7c7aeae081b439567469e5cb897d, type: 3}
-  m_PrefabInstance: {fileID: 2353123528795077152}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1252450139
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14527,12 +14517,6 @@ MonoBehaviour:
   jetskiDown: 0
   jetskiDoor: {fileID: 411002210}
   jetskiMove: {fileID: 732349338}
-  tableDown: 0
-  tabletop: {fileID: 1221149258}
-  tableLeg1: {fileID: 1476292294}
-  tableLeg2: {fileID: 643478032}
-  audioTableDown: {fileID: 2353123528795077154}
-  audioTableUp: {fileID: 2353123528795077154}
   audioJetskiDown: {fileID: 2353123528795077153}
   audioJetskiUp: {fileID: 2353123528795077153}
   changeEnabled: 1
@@ -16395,11 +16379,6 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 1294580977620530678, guid: 6f5d7ace4dcfd044b94b2d385cc8c365, type: 3}
   m_PrefabInstance: {fileID: 1475272262}
-  m_PrefabAsset: {fileID: 0}
---- !u!95 &1476292294 stripped
-Animator:
-  m_CorrespondingSourceObject: {fileID: 1476292294, guid: 448f7c7aeae081b439567469e5cb897d, type: 3}
-  m_PrefabInstance: {fileID: 2353123528795077152}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1477223659
 PrefabInstance:
@@ -23981,10 +23960,6 @@ PrefabInstance:
       propertyPath: m_InteractionManager
       value: 
       objectReference: {fileID: 1953503445}
-    - target: {fileID: 411002213, guid: 448f7c7aeae081b439567469e5cb897d, type: 3}
-      propertyPath: m_SelectEntered.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 1331275274}
     - target: {fileID: 651407146, guid: 448f7c7aeae081b439567469e5cb897d, type: 3}
       propertyPath: m_Controller
       value: 
@@ -23993,10 +23968,6 @@ PrefabInstance:
       propertyPath: m_InteractionManager
       value: 
       objectReference: {fileID: 1953503445}
-    - target: {fileID: 1221149255, guid: 448f7c7aeae081b439567469e5cb897d, type: 3}
-      propertyPath: m_SelectEntered.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 1331275274}
     - target: {fileID: 3716139460935887608, guid: 448f7c7aeae081b439567469e5cb897d, type: 3}
       propertyPath: m_Name
       value: Pershing8X_Main_AllScenes
@@ -24054,11 +24025,6 @@ PrefabInstance:
 --- !u!82 &2353123528795077153 stripped
 AudioSource:
   m_CorrespondingSourceObject: {fileID: 2353123528795077155, guid: 448f7c7aeae081b439567469e5cb897d, type: 3}
-  m_PrefabInstance: {fileID: 2353123528795077152}
-  m_PrefabAsset: {fileID: 0}
---- !u!82 &2353123528795077154 stripped
-AudioSource:
-  m_CorrespondingSourceObject: {fileID: 2353123528795077156, guid: 448f7c7aeae081b439567469e5cb897d, type: 3}
   m_PrefabInstance: {fileID: 2353123528795077152}
   m_PrefabAsset: {fileID: 0}
 --- !u!23 &2588902591656839290

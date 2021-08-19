@@ -5679,7 +5679,7 @@ GameObject:
   - component: {fileID: 5617783662817120628}
   - component: {fileID: 732349338}
   m_Layer: 0
-  m_Name: Hydrospace 1 HSR Benelli S4 09
+  m_Name: Jetski
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -20781,6 +20781,7 @@ GameObject:
   - component: {fileID: 1221149255}
   - component: {fileID: 6136884235744879925}
   - component: {fileID: 2353123528795077156}
+  - component: {fileID: 6617093822488664943}
   m_Layer: 0
   m_Name: Table Top
   m_TagString: Untagged
@@ -20903,8 +20904,8 @@ MonoBehaviour:
   m_SelectEntered:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: DayNightController, Assembly-CSharp
+      - m_Target: {fileID: 6617093822488664943}
+        m_TargetAssemblyTypeName: TableController, Assembly-CSharp
         m_MethodName: TableToggle
         m_Mode: 1
         m_Arguments:
@@ -21060,6 +21061,24 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &6617093822488664943
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7540949196379690095}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe7bcc18b52609a42991ede76e1691e6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tableDown: 0
+  tabletop: {fileID: 456269149928215578}
+  tableLeg1: {fileID: 1476292294}
+  tableLeg2: {fileID: 643478032}
+  audioTableDown: {fileID: 2353123528795077156}
+  audioTableUp: {fileID: 2353123528795077156}
 --- !u!1 &7580279741911651881
 GameObject:
   m_ObjectHideFlags: 0
@@ -26070,6 +26089,7 @@ GameObject:
   - component: {fileID: 411002213}
   - component: {fileID: 2353123528795077154}
   - component: {fileID: 2353123528795077155}
+  - component: {fileID: 8449107611209408863}
   m_Layer: 0
   m_Name: JetskiDoor
   m_TagString: Untagged
@@ -26197,8 +26217,8 @@ MonoBehaviour:
   m_SelectEntered:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: DayNightController, Assembly-CSharp
+      - m_Target: {fileID: 8449107611209408863}
+        m_TargetAssemblyTypeName: JetskiDoorController, Assembly-CSharp
         m_MethodName: JetskiToggle
         m_Mode: 1
         m_Arguments:
@@ -26355,6 +26375,23 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &8449107611209408863
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9059571845198410026}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 541e3bc139077c64ca6b06877f067542, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  jetskiDown: 0
+  jetskiDoor: {fileID: 411002210}
+  jetskiMove: {fileID: 732349338}
+  audioJetskiDown: {fileID: 2353123528795077155}
+  audioJetskiUp: {fileID: 2353123528795077155}
 --- !u!1 &9087303323796364549
 GameObject:
   m_ObjectHideFlags: 0

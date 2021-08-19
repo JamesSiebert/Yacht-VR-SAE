@@ -26,6 +26,7 @@
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Editor/DayNightControllerEditor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Editor/DayNightControllerEditor.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Yacht Model/Pershing8X_Main_AllScenes.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Yacht Model/Pershing8X_Main_AllScenes.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/__Scenes/Pershing Island/Room_PershingIsland.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/__Scenes/Pershing Island/Room_PershingIsland.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Scenes/Pershing Ocean/Room_PershingOcean.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/__Scenes/Pershing Ocean/Room_PershingOcean.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -60,6 +61,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/AutoLogin.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.inputsystem@1.0.2/InputSystem/Actions/InputActionState.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_JS_XR_CoreComponents/VR Player/XR_TeleportControlSwitcher.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/JetskiDoorController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.high-definition@10.2.2/Runtime/Material/Lit/Lit.shader" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/BSP Forest Vegetation/Shaders/Vegetation.shader" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_JS_XR_CoreComponents/VR Player/PlayerNetworkSetup.cs" root0="FORCE_HIGHLIGHTING" />
@@ -69,6 +71,8 @@
     <setting file="file://$PROJECT_DIR$/Assets/_JS_XR_CoreComponents/VR Player/JS_XRInputEventTrigger.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/PersistantVariables.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/HandMenuManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Editor/TableControllerEditor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Editor/JetskiDoorControllerEditor.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Naps_3D_Screenshot/scripts/naps_3d_screenshot_inspector_button.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Editor/CrossPlatformInput/CrossPlatformInputInitialize.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Photon/PhotonUnityNetworking/Code/PhotonNetworkPart.cs" root0="FORCE_HIGHLIGHTING" />
@@ -110,9 +114,13 @@
         <option value="$PROJECT_DIR$/Assets/Naps_3D_Screenshot/scripts/naps_3d_screenshot_inspector_button.cs" />
         <option value="$PROJECT_DIR$/Assets/Naps_3D_Screenshot/scripts/naps_3d_screen_cam_script.cs" />
         <option value="$PROJECT_DIR$/Assets/HandMenuManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Editor/DayNightControllerEditor.cs" />
         <option value="$PROJECT_DIR$/Assets/AnimationPlaySound.cs" />
+        <option value="$PROJECT_DIR$/Assets/TableController.cs" />
+        <option value="$PROJECT_DIR$/Assets/JetskiDoorController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/DayNightController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Editor/DayNightControllerEditor.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Editor/JetskiDoorControllerEditor.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Editor/TableControllerEditor.cs" />
       </list>
     </option>
   </component>
@@ -182,6 +190,8 @@
       <workItem from="1629358936501" duration="735000" />
       <workItem from="1629367937425" duration="1952000" />
       <workItem from="1629375336418" duration="3907000" />
+      <workItem from="1629409250430" duration="766000" />
+      <workItem from="1629410047450" duration="1041000" />
     </task>
     <servers />
   </component>
