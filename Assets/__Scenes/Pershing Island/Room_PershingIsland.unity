@@ -1636,8 +1636,6 @@ GameObject:
   - component: {fileID: 153778186}
   - component: {fileID: 153778190}
   - component: {fileID: 153778189}
-  - component: {fileID: 153778188}
-  - component: {fileID: 153778187}
   m_Layer: 0
   m_Name: Cube (30)
   m_TagString: Untagged
@@ -1659,91 +1657,6 @@ Transform:
   m_Father: {fileID: 1147004215}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &153778187
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 153778185}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 38f6bf3d943ac7945842268c9ef1dca6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_InteractionManager: {fileID: 1953503445}
-  m_Colliders: []
-  m_InteractionLayerMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_CustomReticle: {fileID: 0}
-  m_FirstHoverEntered:
-    m_PersistentCalls:
-      m_Calls: []
-  m_LastHoverExited:
-    m_PersistentCalls:
-      m_Calls: []
-  m_HoverEntered:
-    m_PersistentCalls:
-      m_Calls: []
-  m_HoverExited:
-    m_PersistentCalls:
-      m_Calls: []
-  m_SelectEntered:
-    m_PersistentCalls:
-      m_Calls: []
-  m_SelectExited:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Activated:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Deactivated:
-    m_PersistentCalls:
-      m_Calls: []
-  m_OnFirstHoverEntered:
-    m_PersistentCalls:
-      m_Calls: []
-  m_OnLastHoverExited:
-    m_PersistentCalls:
-      m_Calls: []
-  m_OnHoverEntered:
-    m_PersistentCalls:
-      m_Calls: []
-  m_OnHoverExited:
-    m_PersistentCalls:
-      m_Calls: []
-  m_OnSelectEntered:
-    m_PersistentCalls:
-      m_Calls: []
-  m_OnSelectExited:
-    m_PersistentCalls:
-      m_Calls: []
-  m_OnSelectCanceled:
-    m_PersistentCalls:
-      m_Calls: []
-  m_OnActivate:
-    m_PersistentCalls:
-      m_Calls: []
-  m_OnDeactivate:
-    m_PersistentCalls:
-      m_Calls: []
-  m_TeleportationProvider: {fileID: 0}
-  m_MatchOrientation: 0
-  m_TeleportTrigger: 0
---- !u!65 &153778188
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 153778185}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 0
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &153778189
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -8367,8 +8280,6 @@ GameObject:
   - component: {fileID: 775073652}
   - component: {fileID: 775073656}
   - component: {fileID: 775073655}
-  - component: {fileID: 775073654}
-  - component: {fileID: 775073653}
   m_Layer: 0
   m_Name: Cube (31)
   m_TagString: Untagged
@@ -8390,91 +8301,6 @@ Transform:
   m_Father: {fileID: 1147004215}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &775073653
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 775073651}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 38f6bf3d943ac7945842268c9ef1dca6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_InteractionManager: {fileID: 1953503445}
-  m_Colliders: []
-  m_InteractionLayerMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_CustomReticle: {fileID: 0}
-  m_FirstHoverEntered:
-    m_PersistentCalls:
-      m_Calls: []
-  m_LastHoverExited:
-    m_PersistentCalls:
-      m_Calls: []
-  m_HoverEntered:
-    m_PersistentCalls:
-      m_Calls: []
-  m_HoverExited:
-    m_PersistentCalls:
-      m_Calls: []
-  m_SelectEntered:
-    m_PersistentCalls:
-      m_Calls: []
-  m_SelectExited:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Activated:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Deactivated:
-    m_PersistentCalls:
-      m_Calls: []
-  m_OnFirstHoverEntered:
-    m_PersistentCalls:
-      m_Calls: []
-  m_OnLastHoverExited:
-    m_PersistentCalls:
-      m_Calls: []
-  m_OnHoverEntered:
-    m_PersistentCalls:
-      m_Calls: []
-  m_OnHoverExited:
-    m_PersistentCalls:
-      m_Calls: []
-  m_OnSelectEntered:
-    m_PersistentCalls:
-      m_Calls: []
-  m_OnSelectExited:
-    m_PersistentCalls:
-      m_Calls: []
-  m_OnSelectCanceled:
-    m_PersistentCalls:
-      m_Calls: []
-  m_OnActivate:
-    m_PersistentCalls:
-      m_Calls: []
-  m_OnDeactivate:
-    m_PersistentCalls:
-      m_Calls: []
-  m_TeleportationProvider: {fileID: 0}
-  m_MatchOrientation: 0
-  m_TeleportTrigger: 0
---- !u!65 &775073654
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 775073651}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 0
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &775073655
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -8550,8 +8376,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 778487870}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -20.17, y: 0.46, z: 21.18}
-  m_LocalScale: {x: 5.5, y: 1, z: 0.3}
+  m_LocalPosition: {x: -7.21, y: 0.36, z: 21.18}
+  m_LocalScale: {x: 3.1, y: 1, z: 0.3}
   m_Children: []
   m_Father: {fileID: 962784730}
   m_RootOrder: 1
@@ -8593,7 +8419,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &778791649
 Transform:
   m_ObjectHideFlags: 0
@@ -11724,8 +11550,6 @@ GameObject:
   - component: {fileID: 1053682862}
   - component: {fileID: 1053682866}
   - component: {fileID: 1053682865}
-  - component: {fileID: 1053682864}
-  - component: {fileID: 1053682863}
   m_Layer: 0
   m_Name: Cube (7)
   m_TagString: Untagged
@@ -11747,91 +11571,6 @@ Transform:
   m_Father: {fileID: 1147004215}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
---- !u!114 &1053682863
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1053682861}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 38f6bf3d943ac7945842268c9ef1dca6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_InteractionManager: {fileID: 1953503445}
-  m_Colliders: []
-  m_InteractionLayerMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_CustomReticle: {fileID: 0}
-  m_FirstHoverEntered:
-    m_PersistentCalls:
-      m_Calls: []
-  m_LastHoverExited:
-    m_PersistentCalls:
-      m_Calls: []
-  m_HoverEntered:
-    m_PersistentCalls:
-      m_Calls: []
-  m_HoverExited:
-    m_PersistentCalls:
-      m_Calls: []
-  m_SelectEntered:
-    m_PersistentCalls:
-      m_Calls: []
-  m_SelectExited:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Activated:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Deactivated:
-    m_PersistentCalls:
-      m_Calls: []
-  m_OnFirstHoverEntered:
-    m_PersistentCalls:
-      m_Calls: []
-  m_OnLastHoverExited:
-    m_PersistentCalls:
-      m_Calls: []
-  m_OnHoverEntered:
-    m_PersistentCalls:
-      m_Calls: []
-  m_OnHoverExited:
-    m_PersistentCalls:
-      m_Calls: []
-  m_OnSelectEntered:
-    m_PersistentCalls:
-      m_Calls: []
-  m_OnSelectExited:
-    m_PersistentCalls:
-      m_Calls: []
-  m_OnSelectCanceled:
-    m_PersistentCalls:
-      m_Calls: []
-  m_OnActivate:
-    m_PersistentCalls:
-      m_Calls: []
-  m_OnDeactivate:
-    m_PersistentCalls:
-      m_Calls: []
-  m_TeleportationProvider: {fileID: 0}
-  m_MatchOrientation: 0
-  m_TeleportTrigger: 0
---- !u!65 &1053682864
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1053682861}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 0
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1053682865
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -14765,11 +14504,6 @@ MonoBehaviour:
   stereoSounds:
   - {fileID: 1456846803}
   stereoSoundsActive: 0
-  fillLight: {fileID: 0}
-  fillLightIntensityDay: 3
-  fillLightTempDay: 6000
-  fillLightIntensityNight: 0
-  fillLightTempNight: 10000
   changeEnabled: 1
 --- !u!4 &1331275275
 Transform:
@@ -23098,8 +22832,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2093346328}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 5.87, y: 0.273, z: 17.21}
-  m_LocalScale: {x: 0.3, y: 1, z: 0.5}
+  m_LocalPosition: {x: 7.203, y: 0.418, z: 17.21}
+  m_LocalScale: {x: 0.21, y: 1, z: 0.5}
   m_Children: []
   m_Father: {fileID: 962784730}
   m_RootOrder: 0
@@ -24207,14 +23941,82 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1141491951333106039, guid: 448f7c7aeae081b439567469e5cb897d, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.38
+      objectReference: {fileID: 0}
+    - target: {fileID: 1141491951333106039, guid: 448f7c7aeae081b439567469e5cb897d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -8.581
+      objectReference: {fileID: 0}
+    - target: {fileID: 1141491951333106039, guid: 448f7c7aeae081b439567469e5cb897d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.761
+      objectReference: {fileID: 0}
+    - target: {fileID: 1637623580950263491, guid: 448f7c7aeae081b439567469e5cb897d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.8270006
+      objectReference: {fileID: 0}
+    - target: {fileID: 1637623580950263491, guid: 448f7c7aeae081b439567469e5cb897d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 13.086001
+      objectReference: {fileID: 0}
+    - target: {fileID: 2183524551377210033, guid: 448f7c7aeae081b439567469e5cb897d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.8270006
+      objectReference: {fileID: 0}
+    - target: {fileID: 2183524551377210033, guid: 448f7c7aeae081b439567469e5cb897d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 13.950001
+      objectReference: {fileID: 0}
+    - target: {fileID: 3404702687680360333, guid: 448f7c7aeae081b439567469e5cb897d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.8270011
+      objectReference: {fileID: 0}
+    - target: {fileID: 3404702687680360333, guid: 448f7c7aeae081b439567469e5cb897d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 9.482001
+      objectReference: {fileID: 0}
     - target: {fileID: 3716139460935887608, guid: 448f7c7aeae081b439567469e5cb897d, type: 3}
       propertyPath: m_Name
       value: Pershing8X_Main_AllScenes
+      objectReference: {fileID: 0}
+    - target: {fileID: 4122664192351574995, guid: 448f7c7aeae081b439567469e5cb897d, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5099950541840534705, guid: 448f7c7aeae081b439567469e5cb897d, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.34
+      objectReference: {fileID: 0}
+    - target: {fileID: 5099950541840534705, guid: 448f7c7aeae081b439567469e5cb897d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -8.182
+      objectReference: {fileID: 0}
+    - target: {fileID: 5099950541840534705, guid: 448f7c7aeae081b439567469e5cb897d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.759
+      objectReference: {fileID: 0}
+    - target: {fileID: 5099950541840534705, guid: 448f7c7aeae081b439567469e5cb897d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 14.168
+      objectReference: {fileID: 0}
+    - target: {fileID: 5516134087702252361, guid: 448f7c7aeae081b439567469e5cb897d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.8770008
+      objectReference: {fileID: 0}
+    - target: {fileID: 5516134087702252361, guid: 448f7c7aeae081b439567469e5cb897d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 11.632003
       objectReference: {fileID: 0}
     - target: {fileID: 5726194935296320783, guid: 448f7c7aeae081b439567469e5cb897d, type: 3}
       propertyPath: m_InteractionManager
       value: 
       objectReference: {fileID: 1953503445}
+    - target: {fileID: 7665398230769621714, guid: 448f7c7aeae081b439567469e5cb897d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.827
+      objectReference: {fileID: 0}
     - target: {fileID: 8503948185702898800, guid: 448f7c7aeae081b439567469e5cb897d, type: 3}
       propertyPath: m_RootOrder
       value: 14

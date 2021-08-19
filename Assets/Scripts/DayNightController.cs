@@ -29,16 +29,15 @@ public class DayNightController : MonoBehaviour
     public bool stereoSoundsActive = false;
 
     // Fill Light
-    public Light fillLight;
-    public float fillLightIntensityDay;
-    public float fillLightTempDay;
-    public float fillLightIntensityNight;
-    public float fillLightTempNight;
+    // public float fillLightIntensityDay;
+    // public float fillLightTempDay;
+    // public float fillLightIntensityNight;
+    // public float fillLightTempNight;
 
 
     //variable where we will store the HD lighting data
     private HDAdditionalLightData sunLightData;
-    private HDAdditionalLightData fillLightData;
+    // private HDAdditionalLightData fillLightData;
 
     public bool changeEnabled = true;
 
@@ -48,7 +47,7 @@ public class DayNightController : MonoBehaviour
         if (changeEnabled)
         {
             sunLightData = sun.GetComponent<HDAdditionalLightData>();
-            fillLightData = fillLight.GetComponent<HDAdditionalLightData>();
+            // fillLightData = fillLight.GetComponent<HDAdditionalLightData>();
                     
             EnableDay();
         }
@@ -78,8 +77,8 @@ public class DayNightController : MonoBehaviour
         sun.transform.rotation = sunAngleDay.transform.rotation;
 
         //Fill light
-        fillLightData.intensity = fillLightIntensityDay;
-        fillLight.colorTemperature = fillLightTempDay;
+        // fillLightData.intensity = fillLightIntensityDay;
+        // fillLight.colorTemperature = fillLightTempDay;
     }
 
     public void EnableNightLighting()
@@ -91,8 +90,8 @@ public class DayNightController : MonoBehaviour
         sun.transform.rotation = sunAngleNight.transform.rotation;
 
         // Fill light
-        fillLightData.intensity = fillLightIntensityNight;
-        fillLight.colorTemperature = fillLightTempNight;
+        // fillLightData.intensity = fillLightIntensityNight;
+        // fillLight.colorTemperature = fillLightTempNight;
 
     }
 

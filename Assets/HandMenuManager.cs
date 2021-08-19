@@ -6,7 +6,6 @@ using UnityEngine.UI;
 
 public class HandMenuManager : MonoBehaviour
 {
-
     public GameObject gameManager;
     public bool isReady = false;
     public DayNightController dayNightController;
@@ -22,17 +21,17 @@ public class HandMenuManager : MonoBehaviour
         {
             isReady = true;
             dayNightController = gameManager.GetComponent<DayNightController>();
-        }
-
-        if (dayNightController.changeEnabled)
-        {
-            dayButton.SetActive(true);
-            nightButton.SetActive(true);
-        }
-        else
-        {
-            dayButton.SetActive(false);
-            nightButton.SetActive(false);
+            
+            if (dayNightController.changeEnabled)
+            {
+                dayButton.SetActive(true);
+                nightButton.SetActive(true);
+            }
+            else
+            {
+                dayButton.SetActive(false);
+                nightButton.SetActive(false);
+            }
         }
     }
     
