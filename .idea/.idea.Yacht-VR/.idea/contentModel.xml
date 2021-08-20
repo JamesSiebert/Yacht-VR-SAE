@@ -1692,6 +1692,7 @@
           <e p="JetskiDoorController.cs" t="Include" />
           <e p="LookWithMouse.cs" t="Include" />
           <e p="MaterialChanger.cs" t="Include" />
+          <e p="OffsetBGAudio.cs" t="Include" />
           <e p="PlayerMovement.cs" t="Include" />
           <e p="SimpleCameraController.cs" t="Include" />
           <e p="TableController.cs" t="Include" />

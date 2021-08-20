@@ -22,12 +22,7 @@
     <list default="true" id="efd56fab-5c02-4431-adb6-7cf1a45832dc" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Yacht-VR/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Yacht-VR/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Yacht-VR/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Yacht-VR/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/JetskiDoorController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/JetskiDoorController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TableController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TableController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Yacht Model/Pershing8X_Main_AllScenes.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Yacht Model/Pershing8X_Main_AllScenes.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/__Scenes/Animations/Jetski Door Animation Controller.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/__Scenes/Animations/Jetski Door Animation Controller.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/__Scenes/Animations/Table Top.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/__Scenes/Animations/Table Top.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/__Scenes/Pershing Island/Room_PershingIsland.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/__Scenes/Pershing Island/Room_PershingIsland.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +47,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/_JS_XR_CoreComponents/HomeScene/HomeRoomManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MaterialChanger.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.high-definition@10.2.2/Runtime/Lighting/Shadow/HDShadowManager.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/OffsetBGAudio.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_JS_XR_CoreComponents/Shared/MultiplayerVRConstants.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_JS_XR_CoreComponents/Shared/Room/VRSpawnManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/DayNightController.cs" root0="FORCE_HIGHLIGHTING" />
@@ -125,6 +121,7 @@
         <option value="$PROJECT_DIR$/Assets/HandMenuManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TableController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/JetskiDoorController.cs" />
+        <option value="$PROJECT_DIR$/Assets/OffsetBGAudio.cs" />
       </list>
     </option>
   </component>
@@ -196,7 +193,7 @@
       <workItem from="1629375336418" duration="3907000" />
       <workItem from="1629409250430" duration="766000" />
       <workItem from="1629410047450" duration="1637000" />
-      <workItem from="1629422199337" duration="6070000" />
+      <workItem from="1629422199337" duration="6836000" />
     </task>
     <servers />
   </component>
