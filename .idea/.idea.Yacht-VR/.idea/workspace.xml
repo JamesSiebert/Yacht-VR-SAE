@@ -20,12 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="efd56fab-5c02-4431-adb6-7cf1a45832dc" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Yacht-VR/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Yacht-VR/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Yacht-VR/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Yacht-VR/.idea/indexLayout.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/__Scenes/LoginScene/LoginScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/__Scenes/LoginScene/LoginScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/__Scenes/Pershing Island/Room_PershingIsland.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/__Scenes/Pershing Island/Room_PershingIsland.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/__Scenes/Tutorial/Room_Tutorial.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/__Scenes/Tutorial/Room_Tutorial.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Yacht-VR/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Yacht-VR/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HandMenuManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HandMenuManager.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -119,10 +115,10 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Editor/DayNightControllerEditor.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Editor/JetskiDoorControllerEditor.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Editor/TableControllerEditor.cs" />
-        <option value="$PROJECT_DIR$/Assets/HandMenuManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TableController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/JetskiDoorController.cs" />
         <option value="$PROJECT_DIR$/Assets/OffsetBGAudio.cs" />
+        <option value="$PROJECT_DIR$/Assets/HandMenuManager.cs" />
       </list>
     </option>
   </component>
@@ -195,7 +191,7 @@
       <workItem from="1629409250430" duration="766000" />
       <workItem from="1629410047450" duration="1637000" />
       <workItem from="1629422199337" duration="8210000" />
-      <workItem from="1629447421138" duration="307000" />
+      <workItem from="1629447421138" duration="955000" />
     </task>
     <servers />
   </component>

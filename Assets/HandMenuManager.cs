@@ -23,21 +23,32 @@ public class HandMenuManager : MonoBehaviour
         {
             isReady = true;
             dayNightController = gameManager.GetComponent<DayNightController>();
-            
-            if (dayNightController.changeEnabled)
-            {
-                dayButton.SetActive(true);
-                nightButton.SetActive(true);
-                engineButton.SetActive(true);
-                musicButton.SetActive(true);
-            }
-            else
+
+            if (dayNightController == null)
             {
                 dayButton.SetActive(false);
                 nightButton.SetActive(false);
                 engineButton.SetActive(false);
                 musicButton.SetActive(false);
             }
+            else
+            {
+                if (dayNightController.changeEnabled)
+                {
+                    dayButton.SetActive(true);
+                    nightButton.SetActive(true);
+                    engineButton.SetActive(true);
+                    musicButton.SetActive(true);
+                }
+                else
+                {
+                    dayButton.SetActive(false);
+                    nightButton.SetActive(false);
+                    engineButton.SetActive(false);
+                    musicButton.SetActive(false);
+                }
+            }
+
         }
     }
 
