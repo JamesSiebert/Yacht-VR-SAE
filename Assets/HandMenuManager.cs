@@ -12,6 +12,8 @@ public class HandMenuManager : MonoBehaviour
 
     public GameObject dayButton;
     public GameObject nightButton;
+    public GameObject engineButton;
+    public GameObject musicButton;
     
     // Start is called before the first frame update
     void Start()
@@ -26,15 +28,18 @@ public class HandMenuManager : MonoBehaviour
             {
                 dayButton.SetActive(true);
                 nightButton.SetActive(true);
+                engineButton.SetActive(true);
+                musicButton.SetActive(true);
             }
             else
             {
                 dayButton.SetActive(false);
                 nightButton.SetActive(false);
+                engineButton.SetActive(false);
+                musicButton.SetActive(false);
             }
         }
     }
-    
 
     public void ActivateDay()
     {

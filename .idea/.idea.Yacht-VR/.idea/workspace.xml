@@ -21,9 +21,8 @@
   <component name="ChangeListManager">
     <list default="true" id="efd56fab-5c02-4431-adb6-7cf1a45832dc" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Yacht-VR/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Yacht-VR/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_JS_XR_CoreComponents/VR Player/Resources/Network VR Player - Home Variant.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_JS_XR_CoreComponents/VR Player/Resources/Network VR Player - Home Variant.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_JS_XR_CoreComponents/VR Player/Resources/Network VR Player - Login Variant.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_JS_XR_CoreComponents/VR Player/Resources/Network VR Player - Login Variant.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_JS_XR_CoreComponents/VR Player/Resources/Network VR Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_JS_XR_CoreComponents/VR Player/Resources/Network VR Player.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HandMenuManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HandMenuManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,7 +108,6 @@
         <option value="$PROJECT_DIR$/Assets/rotateObject.cs" />
         <option value="$PROJECT_DIR$/Assets/Naps_3D_Screenshot/scripts/naps_3d_screenshot_inspector_button.cs" />
         <option value="$PROJECT_DIR$/Assets/Naps_3D_Screenshot/scripts/naps_3d_screen_cam_script.cs" />
-        <option value="$PROJECT_DIR$/Assets/HandMenuManager.cs" />
         <option value="$PROJECT_DIR$/Assets/AnimationPlaySound.cs" />
         <option value="$PROJECT_DIR$/Assets/TableController.cs" />
         <option value="$PROJECT_DIR$/Assets/JetskiDoorController.cs" />
@@ -117,6 +115,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Editor/DayNightControllerEditor.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Editor/JetskiDoorControllerEditor.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Editor/TableControllerEditor.cs" />
+        <option value="$PROJECT_DIR$/Assets/HandMenuManager.cs" />
       </list>
     </option>
   </component>
@@ -188,6 +187,7 @@
       <workItem from="1629375336418" duration="3907000" />
       <workItem from="1629409250430" duration="766000" />
       <workItem from="1629410047450" duration="1637000" />
+      <workItem from="1629422199337" duration="806000" />
     </task>
     <servers />
   </component>
@@ -212,9 +212,9 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="4729" y="99" width="1847" height="1387" key="dock-window-1" timestamp="1618555387850">
+    <state x="3933" y="93" width="2375" height="1215" key="VCS.FileHistoryDialog" timestamp="1629423012826">
       <screen x="3840" y="0" width="2560" height="1400" />
     </state>
-    <state x="4729" y="99" width="1847" height="1387" key="dock-window-1/0.0.2560.1400/-1920.406.1920.1040/3840.0.2560.1400@3840.0.2560.1400" timestamp="1618555387850" />
+    <state x="3933" y="93" width="2375" height="1215" key="VCS.FileHistoryDialog/0.0.2560.1400/-1920.668.1920.1040/3840.0.2560.1400@3840.0.2560.1400" timestamp="1629423012826" />
   </component>
 </project>

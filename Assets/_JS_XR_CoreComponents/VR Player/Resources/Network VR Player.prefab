@@ -3380,7 +3380,7 @@ GameObject:
   - component: {fileID: 2558134986397303513}
   - component: {fileID: 4894167354674283710}
   m_Layer: 5
-  m_Name: Button (6)
+  m_Name: EngineButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5098,6 +5098,8 @@ MonoBehaviour:
   dayNightController: {fileID: 0}
   dayButton: {fileID: 7459528741670110045}
   nightButton: {fileID: 298048783005374125}
+  engineButton: {fileID: 1886340901471263652}
+  musicButton: {fileID: 6470002451444896108}
 --- !u!1 &5960572329631412648
 GameObject:
   m_ObjectHideFlags: 0
@@ -8195,7 +8197,7 @@ GameObject:
   - component: {fileID: 8941711992442889537}
   - component: {fileID: 6001431064817332098}
   m_Layer: 5
-  m_Name: Button (7)
+  m_Name: MusicButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
