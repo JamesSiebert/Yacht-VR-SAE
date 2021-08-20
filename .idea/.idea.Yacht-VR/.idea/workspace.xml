@@ -20,8 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="efd56fab-5c02-4431-adb6-7cf1a45832dc" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Yacht-VR/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Yacht-VR/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Yacht-VR/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Yacht-VR/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/__Scenes/Tutorial/Room_Tutorial.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/__Scenes/Tutorial/Room_Tutorial.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -192,7 +192,7 @@
       <workItem from="1629375336418" duration="3907000" />
       <workItem from="1629409250430" duration="766000" />
       <workItem from="1629410047450" duration="1637000" />
-      <workItem from="1629422199337" duration="7613000" />
+      <workItem from="1629422199337" duration="8210000" />
     </task>
     <servers />
   </component>
