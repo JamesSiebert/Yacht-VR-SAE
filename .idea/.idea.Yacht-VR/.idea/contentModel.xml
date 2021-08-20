@@ -1696,6 +1696,7 @@
           <e p="SimpleCameraController.cs" t="Include" />
           <e p="TableController.cs" t="Include" />
         </e>
+        <e p="test.cs" t="Include" />
         <e p="TextMesh Pro" t="Include">
           <e p="Fonts" t="Include">
             <e p="LiberationSans - OFL.txt" t="Include" />

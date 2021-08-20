@@ -9,16 +9,22 @@ public class TableController : MonoBehaviour
     public Animator tabletop;
     public Animator tableLeg1;
     public Animator tableLeg2;
+    public float animationDuration = 5.0f;
 
     public AudioSource audioTableDown;
     public AudioSource audioTableUp;
     
+    public bool inProgress = false;
+    
     public void TableToggle()
     {
-        if (tableDown)
-            TableUp();
-        else
-            TableDown();
+        if (!inProgress)
+        {
+            if (tableDown)
+                TableUp();
+            else
+                TableDown();
+        }
     }
     
     // Animation - open door and move jetski down
@@ -29,6 +35,8 @@ public class TableController : MonoBehaviour
         tableLeg2.SetBool("tableDown", true);
         audioTableDown.PlayOneShot(audioTableDown.clip);
         tableDown = true;
+        // fixes frame skip issues
+        StartCoroutine(AnimationCoroutine());
     }
     
     public void TableUp()
@@ -38,5 +46,15 @@ public class TableController : MonoBehaviour
         tableLeg2.SetBool("tableDown", false);
         audioTableUp.PlayOneShot(audioTableUp.clip);
         tableDown = false;
+        // fixes frame skip issues
+        StartCoroutine(AnimationCoroutine());
+    }
+    
+    
+    IEnumerator AnimationCoroutine()
+    {
+        inProgress = true;
+        yield return new WaitForSeconds(animationDuration);
+        inProgress = false;
     }
 }

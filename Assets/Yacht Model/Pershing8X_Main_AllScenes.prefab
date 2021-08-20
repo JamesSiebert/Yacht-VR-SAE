@@ -21077,8 +21077,10 @@ MonoBehaviour:
   tabletop: {fileID: 456269149928215578}
   tableLeg1: {fileID: 1476292294}
   tableLeg2: {fileID: 643478032}
+  animationDuration: 5
   audioTableDown: {fileID: 2353123528795077156}
   audioTableUp: {fileID: 2353123528795077156}
+  inProgress: 0
 --- !u!1 &7580279741911651881
 GameObject:
   m_ObjectHideFlags: 0
@@ -26388,8 +26390,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   jetskiDown: 0
+  inProgress: 0
   jetskiDoor: {fileID: 411002210}
   jetskiMove: {fileID: 732349338}
+  animationDuration: 18
   audioJetskiDown: {fileID: 2353123528795077155}
   audioJetskiUp: {fileID: 2353123528795077155}
 --- !u!1 &9087303323796364549

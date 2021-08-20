@@ -20,9 +20,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="efd56fab-5c02-4431-adb6-7cf1a45832dc" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Yacht-VR/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Yacht-VR/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Yacht-VR/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Yacht-VR/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HandMenuManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HandMenuManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/JetskiDoorController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/JetskiDoorController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TableController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TableController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Yacht Model/Pershing8X_Main_AllScenes.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Yacht Model/Pershing8X_Main_AllScenes.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Scenes/Animations/Jetski Door Animation Controller.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/__Scenes/Animations/Jetski Door Animation Controller.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Scenes/Animations/Table Top.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/__Scenes/Animations/Table Top.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Scenes/Pershing Island/Room_PershingIsland.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/__Scenes/Pershing Island/Room_PershingIsland.unity" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +45,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Naps_3D_Screenshot/scripts/naps_3d_screen_cam_script.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_JS_XR_CoreComponents/LoginScene/Editor/LoginManagerEditorScript.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_JS_XR_CoreComponents/VR Player/VoiceDebugUI.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/test.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_JS_XR_CoreComponents/Shared/Room/PhotonInWorldManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@1.0.0-pre.3/Runtime/Interaction/Interactables/XRBaseInteractable.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Asset Store/Crest/Crest/Scripts/Helpers/AssignLayer.cs" root0="FORCE_HIGHLIGHTING" />
@@ -64,6 +70,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/_JS_XR_CoreComponents/VR Player/HighlightVoice.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Photon/PhotonRealtime/Code/LoadBalancingClient.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_JS_XR_CoreComponents/VR Player/JS_XRInputEventTrigger.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TableController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/PersistantVariables.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/HandMenuManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Editor/TableControllerEditor.cs" root0="FORCE_HIGHLIGHTING" />
@@ -116,6 +123,8 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Editor/JetskiDoorControllerEditor.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Editor/TableControllerEditor.cs" />
         <option value="$PROJECT_DIR$/Assets/HandMenuManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TableController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/JetskiDoorController.cs" />
       </list>
     </option>
   </component>
@@ -187,7 +196,7 @@
       <workItem from="1629375336418" duration="3907000" />
       <workItem from="1629409250430" duration="766000" />
       <workItem from="1629410047450" duration="1637000" />
-      <workItem from="1629422199337" duration="806000" />
+      <workItem from="1629422199337" duration="6070000" />
     </task>
     <servers />
   </component>
